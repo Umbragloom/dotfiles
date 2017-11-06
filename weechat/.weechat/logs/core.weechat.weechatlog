@@ -1,0 +1,224 @@
+2017-10-03 16:29:03		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-10-03 16:29:03		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-10-03 16:29:03		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-10-03 16:29:03		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-10-03 16:29:04		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2017-10-03 16:30:38		irc: server freenode added
+2017-10-03 16:34:01	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-10-03 17:07:21	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2017-10-03 17:09:26	=!=	You can not write text in this buffer
+2017-10-05 15:25:47		fifo: pipe closed
+2017-10-06 13:36:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2017-10-06 13:44:14		Upgrading WeeChat with binary file: "weechat"...
+2017-10-06 13:44:14		fifo: pipe closed
+2017-10-06 13:44:14		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, script, tcl, trigger, xfer
+2017-10-06 13:44:14		Upgrade done (0.10s)
+2017-10-06 13:44:22	=!=	You can not write text in this buffer
+2017-10-06 13:44:28	=!=	Error: unknown command "/clear" (type /help for help)
+2017-10-06 13:47:41	=!=	Error: unknown command "/update" (type /help for help)
+2017-10-06 13:47:50		Upgrading WeeChat with binary file: "weechat"...
+2017-10-06 13:47:50		fifo: pipe closed
+2017-10-06 13:47:50		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 13:47:50		Upgrade done (0.11s)
+2017-10-06 13:48:00		fifo: pipe closed
+2017-10-06 13:48:03		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 13:48:08		fifo: pipe closed
+2017-10-06 14:10:02		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 14:11:36	=!=	Error: unknown command "/weeget" (type /help for help)
+2017-10-06 14:11:52		script: downloading list of scripts...
+2017-10-06 14:11:53		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 14:11:54		perl: loading script "/home/maggie/.weechat/perl/buffers.pl"
+2017-10-06 14:11:55		perl: registered script "buffers", version 5.6 (Sidebar with list of buffers)
+2017-10-06 14:11:55		New key binding (context "mouse"): @bar(buffers):ctrl-wheeldown => hsignal:buffers_mouse
+2017-10-06 14:11:55		New key binding (context "mouse"): @bar(buffers):ctrl-wheelup => hsignal:buffers_mouse
+2017-10-06 14:11:55		New key binding (context "mouse"): @item(buffers):button2* => hsignal:buffers_mouse
+2017-10-06 14:11:55		New key binding (context "mouse"): @item(buffers):button1* => hsignal:buffers_mouse
+2017-10-06 14:11:55	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 14:12:17	=!=	You can not write text in this buffer
+2017-10-06 14:12:22	=!=	You can not write text in this buffer
+2017-10-06 14:12:26		fifo: pipe closed
+2017-10-06 14:12:29	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 14:12:29		perl scripts loaded: buffers
+2017-10-06 14:12:29		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 14:12:29		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 14:15:16		script: script "buffers.pl" is already installed and up-to-date
+2017-10-06 14:15:17		python: loading script "/home/maggie/.weechat/python/buffer_autoclose.py"
+2017-10-06 14:15:17		python: registered script "buffer_autoclose", version 0.4 (Automatically close inactive private message buffers)
+2017-10-06 14:15:18		perl: loading script "/home/maggie/.weechat/perl/iset.pl"
+2017-10-06 14:15:18		perl: registered script "iset", version 4.3 (Interactive Set for configuration options)
+2017-10-06 14:15:18		New key binding (context "mouse"): @chat(perl.iset):button1 => hsignal:iset_mouse
+2017-10-06 14:15:18		New key binding (context "mouse"): @chat(perl.iset):button2* => hsignal:iset_mouse
+2017-10-06 14:15:18		New key binding (context "mouse"): @chat(perl.iset):wheeldown => /repeat 5 /iset **down
+2017-10-06 14:15:18		New key binding (context "mouse"): @chat(perl.iset):wheelup => /repeat 5 /iset **up
+2017-10-06 14:15:19		python: loading script "/home/maggie/.weechat/python/go.py"
+2017-10-06 14:15:19		python: registered script "go", version 2.5 (Quick jump to buffers)
+2017-10-06 14:15:21		python: loading script "/home/maggie/.weechat/python/colorize_nicks.py"
+2017-10-06 14:15:21		python: registered script "colorize_nicks", version 23 (Use the weechat nick colors in the chat area)
+2017-10-06 14:15:28	=!=	You can not write text in this buffer
+2017-10-06 14:15:32		fifo: pipe closed
+2017-10-06 14:15:32		python: scripts unloaded
+2017-10-06 14:15:35	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 14:15:35		perl scripts loaded: buffers, iset
+2017-10-06 14:15:35		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-06 14:15:35		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 14:15:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 14:16:18		Option changed: weechat.bar.status.color_bg = 0  (default: blue)
+2017-10-06 14:16:18		Option changed: weechat.bar.title.color_bg = 0  (default: blue)
+2017-10-06 14:16:18		Option changed: weechat.color.chat_nick_colors = "1,2,3,4,5,6"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2017-10-06 14:16:18		Option changed: buffers.color.hotlist_message_fg = 7  (default: yellow)
+2017-10-06 14:16:18	=!=	Error: failed to set option "weechat.bar.buffers.position"
+2017-10-06 14:16:32		Option changed: weechat.bar.status.color_bg = 0  (default: blue)
+2017-10-06 14:16:35		Option changed: weechat.bar.title.color_bg = 0  (default: blue)
+2017-10-06 14:16:38		Option changed: weechat.color.chat_nick_colors = "1,2,3,4,5,6"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2017-10-06 14:16:43		Option changed: weechat.color.chat_nick_colors = "1,2,3,4,5,6"  (default: "cyan,magenta,green,brown,lightblue,default,lightcyan,lightmagenta,lightgreen,blue")
+2017-10-06 14:17:04		fifo: pipe closed
+2017-10-06 14:17:04		python: scripts unloaded
+2017-10-06 14:17:07	=!=	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 14:17:07		perl scripts loaded: buffers, iset
+2017-10-06 14:17:07		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-06 14:17:07		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 14:17:07		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 14:17:37		Option changed: weechat.bar.buffers.items = "buffers"  (default: "")
+2017-10-06 14:17:54		Option changed: buffers.color.hotlist_message_fg = 7  (default: yellow)
+2017-10-06 14:18:14		Option changed: weechat.bar.buffers.position = top  (default: left)
+2017-10-06 14:18:40		Option changed: buffers.look.hide_merged_buffers = server  (default: none)
+2017-10-06 14:18:54		Option changed: buffers.look.detach = 600  (default: 0)
+2017-10-06 14:30:44		Notify changed for "core.weechat": "all" to "message"
+2017-10-06 14:30:44		Option changed: weechat.look.buffer_notify_default = message  (default: all)
+2017-10-06 14:30:59		Option changed: weechat.look.buffer_notify_default = message  (default: all)
+2017-10-06 14:31:09		Option changed: irc.look.smart_filter = on
+2017-10-06 14:31:19		Filter "irc_smart" added:
+2017-10-06 14:31:19		  [irc_smart] buffer: * / tags: irc_smart_filter / regex: * 
+2017-10-06 14:31:37		Filter "irc_join_names" added:
+2017-10-06 14:31:37		  [irc_join_names] buffer: * / tags: irc_366,irc_332,irc_333,irc_329,irc_324 / regex: * 
+2017-10-06 14:31:57		Option changed: weechat.look.prefix_same_nick = "⤷"  (default: "")
+2017-10-06 14:32:11		Option changed: weechat.look.prefix_error = "⚠"  (default: "=!=")
+2017-10-06 14:32:24		Option changed: weechat.look.prefix_network = "ℹ "  (default: "--")
+2017-10-06 14:32:34		Option changed: weechat.look.prefix_action = "⚡"  (default: " *")
+2017-10-06 14:32:46		Option changed: weechat.look.bar_more_down = "▼▼"  (default: "++")
+2017-10-06 14:33:10		Option changed: weechat.look.bar_more_left = "◀◀"  (default: "<<")
+2017-10-06 14:33:20		Option changed: weechat.look.bar_more_right = "▶▶"  (default: ">>")
+2017-10-06 14:33:30		Option changed: weechat.look.bar_more_up = "▲▲"  (default: "--")
+2017-10-06 14:33:47		Option changed: weechat.look.prefix_suffix = "╡"  (default: "|")
+2017-10-06 14:34:01		Option changed: weechat.look.prefix_same_nick = "⤷"  (default: "")
+2017-10-06 14:34:29		Option changed: weechat.look.prefix_align_max = 15  (default: 0)
+2017-10-06 14:34:43		Option changed: weechat.look.buffer_time_format = "${253}%H${245}%M"  (default: "%H:%M:%S")
+2017-10-06 14:34:55		Key "meta-n" unbound (context: "default")
+2017-10-06 14:34:55		New key binding (context "default"): meta-n => /bar toggle nicklist
+2017-10-06 14:35:11		New key binding (context "default"): meta-g => /go
+2017-10-06 14:38:29	⚠	irc: command "msg" must be executed on irc buffer (server or channel)
+2017-10-06 14:38:56	⚠	irc: command "msg" must be executed on irc buffer (server or channel)
+2017-10-06 14:43:51		Option changed: irc.server.freenode.autoconnect = on  (default if null: off)
+2017-10-06 14:44:06		Option changed: irc.server.freenode.addresses = "chat.freenode.net/7000"  (default if null: "")
+2017-10-06 14:44:16		Option changed: irc.server.freenode.ssl = on  (default if null: off)
+2017-10-06 14:44:35		Option changed: irc.server.freenode.sasl_username = "Maggie"  (default if null: "")
+2017-10-06 14:44:54		Option changed: irc.server.freenode.sasl_password = "Crm6966!*"  (default if null: "")
+2017-10-06 14:45:13		fifo: pipe closed
+2017-10-06 14:45:13		python: scripts unloaded
+2017-10-06 14:45:15	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 14:45:15		perl scripts loaded: buffers, iset
+2017-10-06 14:45:16		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-06 14:45:16		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 14:45:16		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 14:50:07		Mouse enabled
+2017-10-06 15:01:47		Option changed: weechat.look.prefix_same_nick = "“↳”"  (default: "")
+2017-10-06 15:05:47	⚠	irc: command "join" must be executed on irc buffer (server or channel)
+2017-10-06 15:06:03		fifo: pipe closed
+2017-10-06 15:06:03		python: scripts unloaded
+2017-10-06 15:06:06	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-06 15:06:06		perl scripts loaded: buffers, iset
+2017-10-06 15:06:06		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-06 15:06:06		script: 349 scripts for WeeChat 1.9.1
+2017-10-06 15:06:06		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-06 15:07:45		fifo: pipe closed
+2017-10-06 15:07:45		python: scripts unloaded
+2017-10-15 16:29:19	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-15 16:29:19		perl scripts loaded: buffers, iset
+2017-10-15 16:29:19		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-15 16:29:19		script: downloading list of scripts...
+2017-10-15 16:29:19		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-15 16:29:21		script: 350 scripts for WeeChat 1.9.1
+2017-10-15 19:46:18	⚠	Error with command "/server irc.paganpaths.org 6667" (help on command: /help server)
+2017-10-15 19:46:33	⚠	Error with command "/server irc.paganpaths.org 6667" (help on command: /help server)
+2017-10-15 19:46:51		[irc]  /server  list|listfull [<server>]
+2017-10-15 19:46:51		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-10-15 19:46:51		                copy|rename <server> <new_name>
+2017-10-15 19:46:51		                reorder <server> [<server>...]
+2017-10-15 19:46:51		                open <server>|-all [<server>...]
+2017-10-15 19:46:51		                del|keep <server>
+2017-10-15 19:46:51		                deloutq|jump|raw
+2017-10-15 19:46:51		list, add or remove IRC servers
+2017-10-15 19:46:51		    list: list servers (without argument, this list is displayed)
+2017-10-15 19:46:51		listfull: list servers with detailed info for each server
+2017-10-15 19:46:51		     add: add a new server
+2017-10-15 19:46:51		  server: server name, for internal and display use
+2017-10-15 19:46:51		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-10-15 19:46:51		   -temp: add a temporary server (not saved)
+2017-10-15 19:46:51		  option: set option for server (for boolean option, value can be omitted)
+2017-10-15 19:46:51		nooption: set boolean option to 'off' (for example: -nossl)
+2017-10-15 19:46:51		    copy: duplicate a server
+2017-10-15 19:46:51		  rename: rename a server
+2017-10-15 19:46:51		 reorder: reorder list of servers
+2017-10-15 19:46:51		    open: open the server buffer without connecting
+2017-10-15 19:46:51		    keep: keep server in config file (for temporary servers only)
+2017-10-15 19:46:51		     del: delete a server
+2017-10-15 19:46:51		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-10-15 19:46:51		    jump: jump to server buffer
+2017-10-15 19:46:51		     raw: open buffer with raw IRC data
+2017-10-15 19:46:51		Examples:
+2017-10-15 19:46:51		  /server listfull
+2017-10-15 19:46:51		  /server add freenode chat.freenode.net
+2017-10-15 19:46:51		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-10-15 19:46:51		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-10-15 19:46:51		  /server copy freenode freenode-test
+2017-10-15 19:46:51		  /server rename freenode-test freenode2
+2017-10-15 19:46:51		  /server reorder freenode2 freenode
+2017-10-15 19:46:51		  /server del freenode
+2017-10-15 19:46:51		  /server deloutq
+2017-10-15 19:47:32	⚠	Error with command "/server irc.icq.com 6667" (help on command: /help server)
+2017-10-15 19:47:47		irc: server irc.icq.com added
+2017-10-15 19:47:58	⚠	irc: server "irc.icq.com" already exists, can't add it!
+2017-10-15 19:48:14		irc: server irc.paganpaths.org added
+2017-10-15 19:48:33	⚠	irc: server "irc.icq.com" already exists, can't add it!
+2017-10-15 19:49:46	⚠	Too few arguments for command "/server add" (help on command: /help server)
+2017-10-15 19:49:52	⚠	Too few arguments for command "/server add" (help on command: /help server)
+2017-10-19 16:34:13		fifo: pipe closed
+2017-10-19 16:34:13		python: scripts unloaded
+2017-10-24 16:36:12	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-24 16:36:12		perl scripts loaded: buffers, iset
+2017-10-24 16:36:13		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-24 16:36:13		script: downloading list of scripts...
+2017-10-24 16:36:13		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-24 16:36:16		script: 350 scripts for WeeChat 1.9.1
+2017-10-24 16:47:26	⚠	irc: command "join" must be executed on connected irc server
+2017-10-24 17:12:15		fifo: pipe closed
+2017-10-24 17:12:15		python: scripts unloaded
+2017-10-24 17:12:22	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-24 17:12:22		perl scripts loaded: buffers, iset
+2017-10-24 17:12:22		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-24 17:12:22		script: 350 scripts for WeeChat 1.9.1
+2017-10-24 17:12:22		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-24 17:12:30		fifo: pipe closed
+2017-10-24 17:12:30		python: scripts unloaded
+2017-10-24 17:14:31	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-24 17:14:31		perl scripts loaded: buffers, iset
+2017-10-24 17:14:31		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-24 17:14:31		script: 350 scripts for WeeChat 1.9.1
+2017-10-24 17:14:31		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-26 16:22:30		fifo: pipe closed
+2017-10-26 16:22:30		python: scripts unloaded
+2017-10-26 16:22:32	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-26 16:22:32		perl scripts loaded: buffers, iset
+2017-10-26 16:22:32		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-26 16:22:32		script: downloading list of scripts...
+2017-10-26 16:22:32		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer
+2017-10-26 16:22:35		script: 350 scripts for WeeChat 1.9.1
+2017-10-26 16:44:02	⚠	Error with command "/buffer celar" (help on command: /help buffer)
+2017-10-26 16:44:08	⚠	Error with command "/buffer /clear" (help on command: /help buffer)
+2017-10-26 16:49:43		fifo: pipe closed
+2017-10-26 16:49:43		python: scripts unloaded
+2017-10-26 16:54:34	⚠	buflist: warning: the script buffers.pl is loaded and provides a bar with list of buffers similar to the buflist plugin; you may want to uninstall the script buffers.pl (/script remove buffers.pl) or disable/unload the buflist plugin; see WeeChat release notes for more information
+2017-10-26 16:54:34		perl scripts loaded: buffers, iset
+2017-10-26 16:54:34		python scripts loaded: buffer_autoclose, colorize_nicks, go
+2017-10-26 16:54:34		script: 350 scripts for WeeChat 1.9.1
+2017-10-26 16:54:34		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, lua, perl, python, relay, ruby, script, tcl, trigger, xfer

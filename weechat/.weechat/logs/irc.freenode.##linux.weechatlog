@@ -1,0 +1,2059 @@
+2017-10-06 14:47:48	-->	maggie (~maggie@108.188.209.199) has joined ##linux
+2017-10-06 14:47:48	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-06 14:47:48	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-06 14:47:48	ℹ 	Channel ##linux: 1620 nicks (0 ops, 0 voices, 1620 normals)
+2017-10-06 14:47:48	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-06 14:47:48	ℹ 	URL for ##linux: http://linux.chat
+2017-10-06 14:47:51	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-06 14:47:53	<--	harelu (~haris@cable-77-77-246-97.dynamic.telemach.ba) has quit (Client Quit)
+2017-10-06 14:48:24	<--	qpdb (~qpdb@unaffiliated/qpdb) has quit (Quit: WeeChat 1.9)
+2017-10-06 14:48:37	-->	ntd (~ntd@gateway/tor-sasl/ntd) has joined ##linux
+2017-10-06 14:48:39	-->	markasoftware (~markasoft@164.116.126.150) has joined ##linux
+2017-10-06 14:50:24	-->	xorpad (~xorpad@2604:a880:800:a1::16c0:3001) has joined ##linux
+2017-10-06 14:50:46	xorpad	is there a program line iotop except for network throughput instead of disk I/O?
+2017-10-06 14:51:07	<--	p71 (~chatzilla@75-128-224-180.dhcp.mrqt.mi.charter.com) has quit (Ping timeout: 248 seconds)
+2017-10-06 14:51:18	-->	ecdhe (~quassel@unaffiliated/ecdhe) has joined ##linux
+2017-10-06 14:51:19	<--	sdoherty (sdoherty@nat/redhat/x-ixjrzwnnmaqlqsvg) has quit (Quit: Leaving)
+2017-10-06 14:51:37	flubber	xorpad: iptraf ?
+2017-10-06 14:51:44	xorpad	thank you flubber!
+2017-10-06 14:52:08	-->	vinegret (~vinegret@95.46.215.193) has joined ##linux
+2017-10-06 14:52:30	-->	fstd (~fstd@unaffiliated/fisted) has joined ##linux
+2017-10-06 14:52:58	-->	dancinggrass (~dancinggr@36.72.207.109) has joined ##linux
+2017-10-06 14:54:19	-->	zergut (uid221522@taskhive/translator/zergut) has joined ##linux
+2017-10-06 14:54:38	<--	ToBeCloud (uid51591@wikimedia/ToBeFree) has quit (Quit: Connection closed for inactivity)
+2017-10-06 14:55:03	<--	fstd_ (~fstd@unaffiliated/fisted) has quit (Ping timeout: 255 seconds)
+2017-10-06 14:55:41	-->	ralinux (~ralinux@234.red-80-27-92.dynamicip.rima-tde.net) has joined ##linux
+2017-10-06 14:55:54	<--	tuxed (~Thunderbi@2001:984:44f8:1:7856:4097:b43f:51d7) has quit (Remote host closed the connection)
+2017-10-06 14:56:04	-->	tuxed (~Thunderbi@2001:984:44f8:1:9dba:878a:3f25:b6cd) has joined ##linux
+2017-10-06 14:56:28	jim	something else called trafshow; I don't know how they comnpare
+2017-10-06 14:57:04	<--	malina (~malina@unaffiliated/malina) has quit (Quit: Throwing apples of Montserrat)
+2017-10-06 14:57:31	<--	markasoftware (~markasoft@164.116.126.150) has quit (Ping timeout: 248 seconds)
+2017-10-06 14:57:32	xorpad	Not in my repositories, not gonna bother looking for it now iptraf-ng works fine
+2017-10-06 14:58:01	-->	fstd_ (~fstd@unaffiliated/fisted) has joined ##linux
+2017-10-06 14:58:25	<--	stux|work (stux@endurance.xzibition.com) has quit (Ping timeout: 246 seconds)
+2017-10-06 14:58:40	-->	frankyboy_ (~franky@ppp109-252-73-74.pppoe.spdop.ru) has joined ##linux
+2017-10-06 14:59:06	<--	modlin (~modlin@93.123.41.167) has quit (Ping timeout: 255 seconds)
+2017-10-06 15:00:06	jim	xorpad, last time I saw either trafshow or iptraf was years and years and years ago
+2017-10-06 15:00:16	<--	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 258 seconds)
+2017-10-06 15:00:16	ℹ 	fstd_ is now known as fstd
+2017-10-06 15:00:19	-->	SerialSmile (~SerialSmi@95-27-82-245.broadband.corbina.ru) has joined ##linux
+2017-10-06 15:00:23	xorpad	jim: well iptraf does the trick
+2017-10-06 15:00:32	jim	perfect
+2017-10-06 15:00:44	xorpad	I confirmed the box is using almost 100% of my ISP proved bandwith limit
+2017-10-06 15:01:06	-->	SpikeHeron (~DutchIngr@static-97-66-214-165.earthlinkbusiness.net) has joined ##linux
+2017-10-06 15:01:12	jim	receiving or sending?
+2017-10-06 15:01:47	<--	widp (~widp@49.207.59.210) has quit (Quit: WeeChat 1.4)
+2017-10-06 15:01:48	xorpad	receiving
+2017-10-06 15:01:53	-->	modlin (~modlin@93.123.41.167) has joined ##linux
+2017-10-06 15:02:11	xorpad	I'm getting jsut shy of 40mbit, which is what I pay for
+2017-10-06 15:02:20	jim	is it a machine you have full control over?
+2017-10-06 15:02:23	-->	crendel (~crendel@ip184-189-239-204.sb.sd.cox.net) has joined ##linux
+2017-10-06 15:02:24	xorpad	yes
+2017-10-06 15:02:28	<--	never_been (~neverbeen@gateway/vpn/privateinternetaccess/neverbeen/x-85390630) has quit (Quit: Out!)
+2017-10-06 15:02:29	xorpad	It's next to me
+2017-10-06 15:02:33	<--	section1 (~section1@190.195.93.86) has quit (Quit: Leaving)
+2017-10-06 15:02:43	<--	gwg300 (~gwg300@static-100-40-34-157.prvdri.fios.verizon.net) has quit (Quit: Leaving)
+2017-10-06 15:03:00	<--	dah85 (~dah85@103.217.166.245) has quit (Read error: Connection reset by peer)
+2017-10-06 15:03:09	<--	EriC^^ (~Eric@178.135.197.48) has quit (Quit: Leaving)
+2017-10-06 15:03:12	<--	maggie (~maggie@108.188.209.199) has left ##linux ("WeeChat 1.9.1")
+2017-10-15 16:33:34	-->	maggie (~maggie@184-90-62-99.res.bhn.net) has joined ##linux
+2017-10-15 16:33:34	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-15 16:33:34	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-15 16:33:34	ℹ 	Channel ##linux: 1573 nicks (0 ops, 0 voices, 1573 normals)
+2017-10-15 16:33:34	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-15 16:33:34	ℹ 	URL for ##linux: http://linux.chat
+2017-10-15 16:33:37	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-15 16:33:37	kurahaupo	ragnus: if you start vim without any filenames it will suggest some help functions.
+2017-10-15 16:33:55	<--	stefan__ (~stefan@188.195.205.40) has quit (Quit: stefan__)
+2017-10-15 16:33:58	kamura	https://vim.rtorr.com/
+2017-10-15 16:33:59	Jarcode	ragnus: emacs has a much better, interactive help though.
+2017-10-15 16:34:07	-->	SevenTwenty (~SevenTwen@gateway/tor-sasl/seventwenty) has joined ##linux
+2017-10-15 16:34:12	kurahaupo	Jarcode: use the One True Editor: cat>
+2017-10-15 16:34:13	-->	Jonwel (~Jonwel@541971C3.cm-5-2b.dynamic.ziggo.nl) has joined ##linux
+2017-10-15 16:34:27	teh_masterer	kurahaupo: If I am at my real server, how am I suppose to download something if its not in the cache and the Lynx browser download buttons dont work?
+2017-10-15 16:34:34	Jarcode	kurahaupo: C-x M-c butterfly
+2017-10-15 16:35:31	kurahaupo	teh_masterer: use curl or wget, with the URL you found using your desktop browser. Or use scp to copy it from your desktop to the server
+2017-10-15 16:36:43	kurahaupo	teh_masterer: the reason the buttons don't work is because the site is somewhat broken, assuming the client will run JavaScript
+2017-10-15 16:37:00	<--	SevenTwenty (~SevenTwen@gateway/tor-sasl/seventwenty) has quit (Client Quit)
+2017-10-15 16:37:08	kurahaupo	downloading should not need any JavaScript
+2017-10-15 16:37:13	<--	pajpax (~pajpax@bband-dyn200.178-41-156.t-com.sk) has quit (Quit: pajpax)
+2017-10-15 16:37:24	TRS-80_mobile	StraightIntoTheTrash.jpg
+2017-10-15 16:37:56	<--	cemotyz09 (~cemotyz09@cpe-70-121-157-202.satx.res.rr.com) has quit (Quit: cemotyz09)
+2017-10-15 16:38:17	teh_masterer	kurahaupo: k i think using Lynx is another pointless step and making me more confused.
+2017-10-15 16:38:45	kurahaupo	teh_masterer: I have you other alternatives before lynx
+2017-10-15 16:38:54	kurahaupo	gave*
+2017-10-15 16:38:54	TRS-80_mobile	well, if you want to live up to that name one day though...
+2017-10-15 16:38:58	-->	mmars (~mmars@pool-96-230-153-235.prvdri.fios.verizon.net) has joined ##linux
+2017-10-15 16:39:08	-->	daegontaven (uid252891@greycadet/staff/daegontaven) has joined ##linux
+2017-10-15 16:39:15	-->	e14 (~e14@2601:184:4180:da74:fd33:a447:9ec8:ee78) has joined ##linux
+2017-10-15 16:39:21	-->	NoirX (~NoirX@ip-213-127-4-19.ip.prioritytelecom.net) has joined ##linux
+2017-10-15 16:39:50	<--	NoirX (~NoirX@ip-213-127-4-19.ip.prioritytelecom.net) has left ##linux
+2017-10-15 16:39:55	-->	NoirX (~NoirX@ip-213-127-4-19.ip.prioritytelecom.net) has joined ##linux
+2017-10-15 16:40:15	-->	Amanas (~Amanas@2606:a000:43c6:c900:1b8:2212:7395:7436) has joined ##linux
+2017-10-15 16:40:19	NoirX	Hello all, how are you
+2017-10-15 16:40:20	ayecee	that's a lot of pressure
+2017-10-15 16:40:32	teh_masterer	kurahaupo: i just want to download it from there site. There is no direct link.https://www.plex.tv/downloads/
+2017-10-15 16:40:51	TRS-80_mobile	hello NoirX
+2017-10-15 16:41:15	<--	gugah_ (~gugah@181.229.107.78) has quit (Remote host closed the connection)
+2017-10-15 16:41:26	Jarcode	kurahaupo: you would be surprised what requires javascript on some sites
+2017-10-15 16:41:30	-->	Munsterberg (~Munsterbe@ip-24-50-189-138.user.start.ca) has joined ##linux
+2017-10-15 16:41:41	-->	gugah_ (~gugah@181.229.107.78) has joined ##linux
+2017-10-15 16:41:42	kurahaupo	teh_masterer: and when you go through the steps on the site, eventually you start a download. At that point you have the download URL
+2017-10-15 16:42:23	TRS-80_mobile	Jarcode it's getting more and more ridiculous all the time
+2017-10-15 16:42:23	kurahaupo	Jarcode: I ceased to be surprised by stupidity many years ago
+2017-10-15 16:42:23	<--	Munsterberg (~Munsterbe@ip-24-50-189-138.user.start.ca) has quit (Client Quit)
+2017-10-15 16:42:25	teh_masterer	kurahaupo: no there is no download URL or ability to "copy link location". once i choose ubuntu distro it starts downloading on my windows machine
+2017-10-15 16:42:26	NoirX	can i run debian installed in another partition from this xp
+2017-10-15 16:43:03	kurahaupo	teh_masterer: right. so look in your recent downloads for the URL it's fetching
+2017-10-15 16:43:09	<--	kupi (uid212005@gateway/web/irccloud.com/x-lkaencxnyiewzklv) has quit (Quit: Connection closed for inactivity)
+2017-10-15 16:43:12	TRS-80_mobile	NoirX as long as there is enough room; but what you would likely do is dual boot
+2017-10-15 16:43:19	-->	gardotjar (~gardotjar@45.72.219.155) has joined ##linux
+2017-10-15 16:43:20	kamura	https://downloads.plex.tv/plex-media-server/1.9.4.4325-1bf240a65/plexmediaserver_1.9.4.4325-1bf240a65_i386.deb
+2017-10-15 16:43:25	-->	pulsar12 (~invalid@a95-93-201-215.cpe.netcabo.pt) has joined ##linux
+2017-10-15 16:43:39	<--	mmars (~mmars@pool-96-230-153-235.prvdri.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2017-10-15 16:43:43	Jarcode	what I wish is for a way to browse the web without using my mouse
+2017-10-15 16:43:52	kurahaupo	teh_masterer: (I did NOT say "the URL would appear in the address bar of your browser")
+2017-10-15 19:42:06	ℹ 	irc: disconnected from server
+2017-10-15 19:42:34	-->	maggie (~maggie@184-90-62-99.res.bhn.net) has joined ##linux
+2017-10-15 19:42:34	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-15 19:42:34	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-15 19:42:34	ℹ 	Channel ##linux: 1560 nicks (0 ops, 0 voices, 1560 normals)
+2017-10-15 19:42:34	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-15 19:42:34	ℹ 	URL for ##linux: http://linux.chat
+2017-10-15 19:42:34	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-15 19:42:46	n35xdxb0_	pnbeast: there's a difference between shell-globing wildcard * and the regex symbol *. which is why ppl are usually careful to specify which they're refering to
+2017-10-15 19:43:10	m1n	mundus: what happens when you go to clean shell and type `read` then hit <LEFT> & <RIGHT> do you see raw escape codes?
+2017-10-15 19:43:55	<--	thiras (~thiras@unaffiliated/thiras) has quit (Ping timeout: 248 seconds)
+2017-10-15 19:43:59	mundus	No, nothing m1n
+2017-10-15 19:44:28	<--	jcarpenter2 (~rofl@c-73-65-112-208.hsd1.mn.comcast.net) has quit (Quit: Leaving)
+2017-10-15 19:44:52	pnbeast	n35xdxb0_, so your argument is *still* that two different programs handle a "*" differently so one of them isn't a regular expression?  What??
+2017-10-15 19:45:32	m1n	mundus: what's your setup? tmux in putty? tmux on linux machine?
+2017-10-15 19:45:36	gardotjar	pnbeast: He's just saying be careful that you use the right # of *s for the program you're using
+2017-10-15 19:45:43	mundus	m1n, tmux in putty
+2017-10-15 19:45:53	<--	_|x|_ (~a@unaffiliated/x/x-4181518) has left ##linux
+2017-10-15 19:46:00	mundus	Putty Keyboard Config: https://i.mundus.xyz/6vE4ap.png
+2017-10-15 19:46:00	m1n	mundus: https://github.com/tmux/tmux/issues/708
+2017-10-15 19:46:18	mundus	I tried everything in that thread to no avail
+2017-10-15 19:46:39	pnbeast	gardotjar, no, he didn't say that.  He said that giving a shell an "*" for a global expansion isn't giving the shell a regular expression, IIUC.
+2017-10-15 19:48:39	gardotjar	pnbeast: Why is it that people on the internet always wanna argue
+2017-10-15 19:48:56	gardotjar	pnbeast: Different programs use astrids in variouse ways :. they are not a constant standard
+2017-10-15 19:49:00	<--	mmars (~mmars@pool-96-230-153-235.prvdri.fios.verizon.net) has quit (Ping timeout: 255 seconds)
+2017-10-15 19:49:07	gardotjar	pnbeast: So just be careful that you don't mess something up
+2017-10-15 19:49:07	mundus	m1n, also when I turn on xterm keys I get `2D` for left and `2C` for right
+2017-10-15 19:49:08	<--	ferdna (~ferdna@cpe-69-23-129-162.elp.res.rr.com) has quit (Quit: Leaving)
+2017-10-15 19:49:10	-->	redrabbit (~nick@unaffiliated/redrabbit) has joined ##linux
+2017-10-15 19:49:18	m1n	mundus: did you perhaps try setting TERM to xterm-256color
+2017-10-15 19:49:27	gardotjar	pnbeast:  at the end of the day it's all based on how you classify things, so don't let that get your panties in a twist
+2017-10-15 19:49:28	-->	livingstn (~livingstn@c-73-161-47-163.hsd1.mi.comcast.net) has joined ##linux
+2017-10-15 19:49:29	<--	bashfr3ak (~inascime@unaffiliated/bashfr3ak) has quit (Quit: Leaving)
+2017-10-15 19:49:59	pnbeast	gardotjar, my panties aren't in a twist, but I do know what a regex is.  You seem not to know, also.
+2017-10-15 19:50:05	-->	AntiSpamMeta (asm@AntiSpamMeta/.) has joined ##linux
+2017-10-15 19:50:37	m1n	I still feel like   set -ag terminal-overrides ',putty*:kLFT@:kRIT@'   should work mundus .. huh that's bizarre because it's almost certainly the issue you're having
+2017-10-15 19:50:40	mundus	m1n, how do I set that? `TERM=xterm-256color` in bashrc?
+2017-10-15 19:50:52	-->	gerrard00 (~gerrard@cpe-24-102-107-24.nyc.res.rr.com) has joined ##linux
+2017-10-15 19:50:54	m1n	mundus: export TERM=xterm-256color  would be better
+2017-10-15 19:51:14	gardotjar	pnbeast:  Like I said it's all based on how you classify things. Yes wildcards are on the list of regular expression as far as most people will go
+2017-10-15 19:51:34	mundus	m1n, still not working
+2017-10-15 19:51:46	<--	notmike (uid209547@gateway/web/irccloud.com/x-zvmznevdunwqxmbu) has quit (Quit: Connection closed for inactivity)
+2017-10-15 19:51:50	gardotjar	pnbeast: I mean I just checked the first google search and it's there, and yes you're right I have no idea what im talking about. I usually don't
+2017-10-15 19:51:58	m1n	figured, but someone said it helped, so worth a shot. I don't know mundus. Looks like that thread is your best bet
+2017-10-15 19:52:03	gardotjar	pnbeast: But I do know that repeating the same thing at eachother over and over again isn't going to help
+2017-10-15 19:53:06	gardotjar	pnbeast: it's like one of you is running UTF-8 and the other ASCII, just work with the common parts until you can settle on a global system
+2017-10-15 19:53:57	m1n	mundus: heh you could enable vi-keys in your shell and then you wouldn't "need" arrow keys xD (half-joking)
+2017-10-15 19:54:03	pnbeast	gardotjar, continuing to claim that something used all over Linux isn't what it is is just wrong.  Don't read that too fast, BTW.
+2017-10-15 19:54:06	-->	JeffATL (~FYRD@99-157-54-155.lightspeed.tukrga.sbcglobal.net) has joined ##linux
+2017-10-15 19:54:54	-->	winter (~winter@unaffiliated/winter) has joined ##linux
+2017-10-15 20:13:36	ℹ 	irc: disconnected from server
+2017-10-15 20:14:03	-->	maggie (~maggie@184-90-62-99.res.bhn.net) has joined ##linux
+2017-10-15 20:14:03	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-15 20:14:03	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-15 20:14:03	ℹ 	Channel ##linux: 1558 nicks (0 ops, 0 voices, 1558 normals)
+2017-10-15 20:14:03	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-15 20:14:03	ℹ 	URL for ##linux: http://linux.chat
+2017-10-15 20:14:03	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-15 20:15:03	<--	Cabanossi (~Cabanossi@p5B10E082.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-10-15 20:15:36	⚡	m1n nods nods (tl;dr)
+2017-10-15 20:15:52	gardotjar	Too many times do I come in here looking to ask a question, just to forget that question and go on to give mediocre responses to other peoples
+2017-10-15 20:15:58	-->	Condor (~condor@unaffiliated/condor) has joined ##linux
+2017-10-15 20:16:05	gardotjar	this is one of those times
+2017-10-15 20:16:09	gardotjar	:/
+2017-10-15 20:16:18	-->	Sekreta (~user@2606:a000:fa40:9700:253a:ab22:29c7:6e85) has joined ##linux
+2017-10-15 20:17:23	-->	Cabanossi (~Cabanossi@p5B10E082.dip0.t-ipconnect.de) has joined ##linux
+2017-10-15 20:17:43	<--	slackjeff (~slackjeff@2804:14c:5f80:30b3:44e6:e82:6a3a:3d42) has quit (Ping timeout: 255 seconds)
+2017-10-15 20:19:10	JeffATL	Ben64: converting to ps, then "ps2pdf -r600 ctc.ps ctc.pdf" gives me a file that indentify says is still 720dpi
+2017-10-15 20:19:17	JeffATL	oops, identify
+2017-10-15 20:19:31	<--	dreamcat4 (uid157427@gateway/web/irccloud.com/x-iauapbaiowivinoq) has quit (Quit: Connection closed for inactivity)
+2017-10-15 20:19:58	gardotjar	JeffATL: this is the computer techie equivlent of running things through google translate too many tims
+2017-10-15 20:20:05	-->	hipp (~hipp@65.sub-174-221-132.myvzw.com) has joined ##linux
+2017-10-15 20:20:05	gardotjar	times*
+2017-10-15 20:21:06	-->	Stanley00 (7645d214@gateway/web/freenode/ip.118.69.210.20) has joined ##linux
+2017-10-15 20:21:15	<--	Dan_au (~Dan@znc.danscomp.net) has quit (Ping timeout: 240 seconds)
+2017-10-15 20:21:51	-->	rasengan (~rasengan@pdpc/corporate-sponsor/privateinternetaccess.com/rasengan) has joined ##linux
+2017-10-15 20:24:06	-->	Dan_au (~Dan@znc.danscomp.net) has joined ##linux
+2017-10-15 20:24:55	phogg	jim: you're far too polite
+2017-10-16 16:40:14	ℹ 	irc: disconnected from server
+2017-10-16 16:40:40	-->	maggie (~maggie@184-90-62-99.res.bhn.net) has joined ##linux
+2017-10-16 16:40:40	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-16 16:40:40	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-16 16:40:40	ℹ 	Channel ##linux: 1601 nicks (0 ops, 0 voices, 1601 normals)
+2017-10-16 16:40:40	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-16 16:40:40	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-16 16:40:40	ℹ 	URL for ##linux: http://linux.chat
+2017-10-16 16:40:49	<--	f0rks (~f0rks@li120-195.members.linode.com) has quit (Quit: Ping timeout (120 seconds))
+2017-10-16 16:41:07	<--	ntd (~ntd@gateway/tor-sasl/ntd) has quit (Quit: ntd)
+2017-10-16 16:42:12	BoggGod	Hey, is there anything in kde or bash that limits default modifiers in xmodmap?
+2017-10-16 16:42:28	Psi-Jack	What?
+2017-10-16 16:43:02	-->	baxx (~user@2a02:c7f:7a11:4700:65a4:3f69:9810:8af6) has joined ##linux
+2017-10-16 16:43:06	BoggGod	I can't use ctrl + q for example, or any other ctrl + variation that I have set in modmap
+2017-10-16 16:43:10	FrostyBytes	I have a problem with font hinting on a buildroot system (of all things). I can enable hinting but hintfull seems only to have the effect equivalent to hightslight on a ubuntu system and I can't get more hinting no matter what I try. any ideas?
+2017-10-16 16:43:23	<--	spooky_fox (~spooky@i577B86C0.versanet.de) has quit (Ping timeout: 260 seconds)
+2017-10-16 16:43:24	<--	jjulian (~jjulian@i5DB502EA.pool.tripleplugandplay.com) has quit (Remote host closed the connection)
+2017-10-16 16:43:34	-->	swift110 (~swift110@unaffiliated/swift110) has joined ##linux
+2017-10-16 16:43:36	<--	GrapeApe (~grapeape@cpe-174-109-15-44.nc.res.rr.com) has quit (Ping timeout: 255 seconds)
+2017-10-16 16:44:04	BoggGod	Psi-Jack: I just want to bind a key to print '#' when I press it with ctrl. xev, and xmodmap are happy, but it's not happening
+2017-10-16 16:44:21	Psi-Jack	Still making no sense.
+2017-10-16 16:44:49	<--	luisehk (~luisehk@187-162-134-1.static.axtel.net) has quit (Remote host closed the connection)
+2017-10-16 16:45:11	<--	crayon (~crayon@unaffiliated/crayon) has quit (Quit: Quit)
+2017-10-16 16:45:24	twainwek	BoggGod: i believe control+q is assigned by default to closing windows in kde
+2017-10-16 16:46:31	<--	vaejm (~vaejm@gateway/tor-sasl/vaejm) has quit (Ping timeout: 248 seconds)
+2017-10-16 16:46:44	-->	f0rks (~f0rks@li120-195.members.linode.com) has joined ##linux
+2017-10-16 16:46:48	BoggGod	twainwek, yes. But, but if I were to set control + q to '#' in xmodmap, it wouldn't work. I can overwrite shift + q, and just q, but not ctrl + q.
+2017-10-16 16:47:11	<--	barnabas (~barnabas@unaffiliated/barnabas) has quit (Quit: Leaving)
+2017-10-16 16:47:14	BoggGod	Whatever I bind to the ctrl modifier version doesn't seem to take any effect
+2017-10-16 16:47:26	BoggGod	eycode 135 = numbersign asciitilde numbersign asciitilde numbersign asciitilde
+2017-10-16 16:47:46	-->	jeffreylevesque_ (~chatzilla@129.6.45.20) has joined ##linux
+2017-10-16 16:48:00	BoggGod	the first two work (normal, and with shift pressed) the fourth is supposed to be for 'ctrl + keycode 135' but dosn't work
+2017-10-16 16:48:18	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-10-16 16:48:23	<--	Conder (~Conder@109-230-55-79.dynamic.orange.sk) has quit (Ping timeout: 246 seconds)
+2017-10-16 16:48:28	jeffreylevesque_	how can i make sure files in a directory is always 640, regardless if i winscp, or scp files into that directory, from another remote server?
+2017-10-16 16:50:23	twainwek	BoggGod: don't know, i'd try removing whatever binding kde has assigned to control+q and seeing if that would have any effect
+2017-10-16 16:50:52	BoggGod	it doesn't twainwek, windows still close, but thanks
+2017-10-19 16:34:12	ℹ 	irc: disconnected from server
+2017-10-24 16:36:41	-->	maggie (~maggie@162.254.92.103) has joined ##linux
+2017-10-24 16:36:41	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-24 16:36:41	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-24 16:36:42	ℹ 	Channel ##linux: 1589 nicks (0 ops, 0 voices, 1589 normals)
+2017-10-24 16:36:42	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-24 16:36:42	ℹ 	URL for ##linux: http://linux.chat
+2017-10-24 16:36:43	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-24 16:36:59	thothcastel	how does linux handle ntfs in addition to reading
+2017-10-24 16:36:59	<--	sec^nd (~second@gateway/tor-sasl/sec0nd) has quit (Ping timeout: 248 seconds)
+2017-10-24 16:37:04	thothcastel	like copy, past, etc
+2017-10-24 16:37:07	thothcastel	paste
+2017-10-24 16:37:28	-->	sec^nd (~second@gateway/tor-sasl/sec0nd) has joined ##linux
+2017-10-24 16:38:03	<--	aloy (~Luna@trivialand/student/luna-moonfang) has quit (Ping timeout: 240 seconds)
+2017-10-24 16:38:40	-->	shantorn (~shantorn@c-71-59-220-108.hsd1.wa.comcast.net) has joined ##linux
+2017-10-24 16:38:41	<--	kmey (aw98ziz12w@going.ninja) has quit (Ping timeout: 252 seconds)
+2017-10-24 16:38:42	<--	pepee (~p@unaffiliated/pepee) has quit (Ping timeout: 240 seconds)
+2017-10-24 16:38:45	FRWB	mawk, the server is in house yes, the mail server is a 3rd party
+2017-10-24 16:38:49	-->	epergny (~user@2a01:c50e:d235:b900:3697:f6ff:fe25:99ec) has joined ##linux
+2017-10-24 16:39:02	FRWB	mawk, the local network is on 192.168.1.1/24
+2017-10-24 16:39:05	<--	iv3ct (~iv3c@unaffiliated/iv3c) has quit (Read error: Connection reset by peer)
+2017-10-24 16:39:24	-->	iv3ct (~iv3c@unaffiliated/iv3c) has joined ##linux
+2017-10-24 16:39:32	-->	kmey (rz2rmmux97@going.ninja) has joined ##linux
+2017-10-24 16:40:16	MrElendig	thothcastel: tuxera ntfs-3g
+2017-10-24 16:40:26	epergny	I've got a silly question but: what does CONFIG_DRM_I915=n passed as a kernel parameter actually do? (I've seen it recommended as a workaround for some X freezes/crashes in some cases with integrated Intel GPUs)
+2017-10-24 16:40:49	ayecee	i don't think that's a kernel parameter. that looks more like a kernel compile option.
+2017-10-24 16:41:01	MrElendig	thothcastel: sounds like you had some unclean disconnect of teh drives though
+2017-10-24 16:41:07	-->	aloy (~Luna@trivialand/student/luna-moonfang) has joined ##linux
+2017-10-24 16:41:18	MrElendig	thothcastel: checkdisk them from windows and they should work again
+2017-10-24 16:47:16	ℹ 	irc: disconnected from server
+2017-10-24 16:47:38	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-24 16:47:38	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-24 16:47:38	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-24 16:47:38	ℹ 	Channel ##linux: 1589 nicks (0 ops, 0 voices, 1589 normals)
+2017-10-24 16:47:38	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-24 16:47:39	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-24 16:47:39	ℹ 	URL for ##linux: http://linux.chat
+2017-10-24 16:47:42	mawk	uh what's that virbr0
+2017-10-24 16:47:51	epergny	ayecee: yes I understand that this is probably what this is about : )  But it means like "turning Digital Right Managements" off?  Would there be sites / videos I couldn't see anymore or something like that?
+2017-10-24 16:48:00	mawk	oh nevermind, it doesn't take that route
+2017-10-24 16:48:01	-->	Gencade (~ck@50-82-74-178.client.mchsi.com) has joined ##linux
+2017-10-24 16:48:07	nothos	FRWB  https://paste.linux.community  :)
+2017-10-24 16:48:08	ayecee	epergny: yeah, could be.
+2017-10-24 16:48:21	-->	PCChris (~PCChris@204.11.129.240) has joined ##linux
+2017-10-24 16:48:22	FRWB	nothos, ayy thanks
+2017-10-24 16:48:55	-->	davr0s (~textual@host86-157-68-96.range86-157.btcentralplus.com) has joined ##linux
+2017-10-24 16:49:20	<--	well_laid_lawn (~Jean-luc@58.84.104.193) has quit (Ping timeout: 240 seconds)
+2017-10-24 16:49:25	nothos	np :)
+2017-10-24 16:49:44	ℹ 	OhGodATroll is now known as notmike
+2017-10-24 16:49:46	mawk	odd problem
+2017-10-24 16:49:53	mawk	try reboot the box maybe
+2017-10-24 16:50:02	triceratux	epergny: in linux video drm is direct rendering module
+2017-10-24 16:50:14	mawk	and yeah as I said don't use it as your caching resolver but rather directly the server
+2017-10-24 16:50:43	mawk	set a static ip address for the server in the router's settings, and in the router's dhcp settings set the server as dns
+2017-10-24 16:51:19	mawk	also set the dhcp as authoritative if there's the option, and put a unbound server on your server; set it as non-recursive to avoid flooding and stuff from the internet
+2017-10-24 16:51:38	FRWB	the server already has a static
+2017-10-24 16:51:52	mawk	alright
+2017-10-24 16:51:54	FRWB	the problem serfaced after a reboot
+2017-10-24 16:51:58	FRWB	surfaced*
+2017-10-24 16:52:06	mawk	that's odd
+2017-10-24 16:52:11	-->	Symmetria (Symmetria@unaffiliated/symmetria) has joined ##linux
+2017-10-24 16:52:24	FRWB	indeed...
+2017-10-24 16:52:28	<--	nullcone (uid11626@gateway/web/irccloud.com/x-ypwydoppaysprtqm) has quit (Quit: Connection closed for inactivity)
+2017-10-24 16:52:40	<--	TJ- (~root@yes.iam.tj) has quit (Ping timeout: 255 seconds)
+2017-10-24 16:52:47	epergny	triceratux: ooooh gotcha!   I thought DRM was about digital rights : )
+2017-10-24 16:53:05	epergny	triceratux: thanks a lot, had no idea it meant direct rendering
+2017-10-24 16:53:32	-->	ryouma (~user@unaffiliated/ryouma) has joined ##linux
+2017-10-24 16:53:37	triceratux	epergny: yep been there done that. if you dont compile that option into the kernel you wind up patching around it by deleting or blacklisting drivers including kms
+2017-10-24 16:54:16	mawk	maybe the stupid search path is the cause FRWB
+2017-10-24 16:54:22	mawk	remove that from /etc/resolv.conf
+2017-10-24 16:54:27	<--	timlyo (~timlyo@2a00:23c4:a022:4900:3fd5:db2a:9a35:fc74) has quit (Remote host closed the connection)
+2017-10-24 16:54:40	FRWB	when i perform an nslookup using the dns server we use, i get a response. when i perform an nslookup using the gateway(which should forward to the dns server) i get timeouts
+2017-10-24 16:54:41	<--	jimm (~jim@about/linux/staff/jim) has left ##linux ("Leaving")
+2017-10-24 16:54:56	mawk	the "search company-name-site.com;"
+2017-10-24 16:54:57	FRWB	mawk, what does the search path do?
+2017-10-24 16:55:11	mawk	iirc it's used as a secondary dns server
+2017-10-24 16:55:17	mawk	something like that
+2017-10-24 16:55:24	FRWB	because that company-name-site.com is what the hostname is set to in the router config
+2017-10-24 16:55:31	BoggGod	triceratux: but tpm and tpm_tis, tpm_crb, tpm_tis_core etc. are all referring to the Trusted Platform Module right?
+2017-10-24 16:55:32	mawk	oh, ok
+2017-10-24 16:55:37	mawk	if you put it there
+2017-10-24 16:55:38	FRWB	er domain name
+2017-10-24 16:55:48	mawk	actually dig doesn't use it by default, so it's not that
+2017-10-24 16:55:55	FRWB	i didn't setup these boxes, i just work here
+2017-10-24 16:55:58	-->	kp__ (~kp@ip98-169-85-120.dc.dc.cox.net) has joined ##linux
+2017-10-24 16:56:01	FRWB	hrm
+2017-10-24 16:56:38	triceratux	BoggGod: yer way ahead of me. id have to google a bit. tbh im just a vesa user. im lucky if i can get past a black screen with a blinking cursor in the corner
+2017-10-24 16:57:22	BoggGod	triceratux: I just know about it because this and DRM errors show up in my boot errors ;)
+2017-10-24 16:57:38	mawk	FRWB: try: dig all trace @192.168.1.1 google.fr
+2017-10-24 16:57:42	<--	sigsts (~sigsts@unaffiliated/skyroverr) has quit (Ping timeout: 240 seconds)
+2017-10-24 16:57:59	epergny	triceratux: basically I see it as a workaround for some people who have their X session crashing... I come back at the computer in the morning and it's back at a text console and need to relaunch X.
+2017-10-24 16:58:01	-->	Moyst (~moyst@212-149-193-104.bb.dnainternet.fi) has joined ##linux
+2017-10-24 16:58:05	ℹ 	sireeBOO is now known as TalkyTina
+2017-10-24 16:58:05	nothos	I'm planning to get rid of lastpass, just wondering if anyone has recommendations for a self-hosted password manager? Ideally one which has a chrome extension which can replace lastpass's functions?
+2017-10-24 16:58:08	<--	supersixone (~super6one@unaffiliated/supersixone) has quit (Ping timeout: 248 seconds)
+2017-10-24 16:58:11	<--	Jonwel (~Jonwel@541971C3.cm-5-2b.dynamic.ziggo.nl) has quit (Read error: Connection reset by peer)
+2017-10-24 16:58:11	epergny	triceratux: system is fine: didn't reboot... But I need to relaunch X, which pisses me off.
+2017-10-24 16:58:12	FRWB	mawk, timeout no servers could be reached
+2017-10-24 16:58:18	<--	rantic_work (d8bfdc4d@gateway/web/cgi-irc/kiwiirc.com/ip.216.191.220.77) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-10-24 16:58:21	-->	`Cam (~textual@220-244-178-190.tpgi.com.au) has joined ##linux
+2017-10-24 16:58:24	FRWB	so weird, i'm staring at the resolution for the company mail server in the dns cache of the router
+2017-10-24 16:58:26	nothos	And unlike rattic actually properly encrypt its data?
+2017-10-24 16:58:30	FRWB	yet it won't resolve
+2017-10-24 16:58:31	<--	hutch34 (~hutch34@2601:1c2:5101:e170:ecaa:eb52:872e:8f97) has quit (Ping timeout: 255 seconds)
+2017-10-24 16:58:41	epergny	triceratux: I think it's related to some "suspend" mode when I'm away for long enough
+2017-10-24 16:58:47	-->	TheFuzzball (~TheFuzzba@cpc130782-camd17-2-0-cust454.know.cable.virginm.net) has joined ##linux
+2017-10-24 16:58:47	FRWB	for that one machine that is
+2017-10-24 16:59:10	-->	sigsts (~sigsts@unaffiliated/skyroverr) has joined ##linux
+2017-10-24 16:59:15	BoggGod	epergny: are you sure it's X, not just plasmashell, or some other part of your DE? (in the later there are very fast ways to restart)
+2017-10-24 16:59:18	-->	JeanCarloMachado (~jean@186.222.6.65) has joined ##linux
+2017-10-24 16:59:24	triceratux	epergny: thats the sense im getting by googling it. one of the weird effects of suspend being improperly supported, & highly platform specific
+2017-10-24 16:59:24	<--	shantorn (~shantorn@c-71-59-220-108.hsd1.wa.comcast.net) has quit (Quit: Leaving)
+2017-10-24 16:59:25	mawk	for other machine on the local network it works you mean FRWB ?
+2017-10-24 16:59:31	mawk	reboot the router maybe
+2017-10-24 16:59:32	FRWB	mawk, correct
+2017-10-24 16:59:38	mawk	it could be some arp cache mess
+2017-10-24 16:59:41	FRWB	that would probably help...
+2017-10-24 16:59:43	mawk	but I can't see how
+2017-10-24 16:59:47	<--	NotSecwitter (~NonSecwit@unaffiliated/nonsecwitter) has quit (Ping timeout: 255 seconds)
+2017-10-24 16:59:51	FRWB	it's a big juniper router gah
+2017-10-24 16:59:52	epergny	BoggGod: I don't think so: I'm using a very minimal WM (the tiling Awesome WM) and no Gnome / no KDE / no icons etc.
+2017-10-24 16:59:55	FRWB	hasn't been restarted in ages
+2017-10-24 16:59:59	mawk	yeah
+2017-10-24 17:00:09	epergny	BoggGod: also I see error message using dmesg related to i915 DRM
+2017-10-24 17:00:19	mawk	I've put an edgerouter lite at my workplace
+2017-10-24 17:00:25	mawk	a 100€ stuff, with hardware acceleration
+2017-10-24 17:00:53	-->	joebobjoe (~joebobjoe@unaffiliated/joebobjoe) has joined ##linux
+2017-10-24 17:00:56	<--	thiras (~thiras@unaffiliated/thiras) has quit (Quit: Leaving)
+2017-10-24 17:01:07	BoggGod	epergny: yeah, I have dmesg errors relating to DRM from my graphics (almost certain that it's officially a bug for me at this point) but I only get plasma freezes (and some screen tearing)
+2017-10-24 17:01:08	<--	infinisil (~infinisil@139.59.149.43) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-10-24 17:01:18	mawk	I've got two 1 Gbps fiber links, both directly put into my switch and routed to the router, I got rid of the internet provider boxes
+2017-10-24 17:01:23	-->	Tramp (~mt@46-126-140-160.dynamic.hispeed.ch) has joined ##linux
+2017-10-24 17:02:17	triceratux	epergny: seems like the abortive suspend processing could preempt the i915 drm & that would crash x11, yeah. so you could keep it from suspending, or stop using i915, or pursue the kernel rebuild that would make it tolerate the situation
+2017-10-24 17:02:29	-->	infinisil (~infinisil@139.59.149.43) has joined ##linux
+2017-10-24 17:02:49	<--	perrier-jouet (~perrier-j@modemcable234.166-226-192.mc.videotron.ca) has quit (Quit: WeeChat 1.9.1)
+2017-10-24 17:03:42	<--	mub (~jub@unaffiliated/mub) has quit (Ping timeout: 240 seconds)
+2017-10-24 17:04:15	<--	infinisil (~infinisil@139.59.149.43) has quit (Client Quit)
+2017-10-24 17:04:27	<--	TReK (~UnFaQ@unaffiliated/trek) has quit (Ping timeout: 246 seconds)
+2017-10-24 17:04:46	mawk	for one fiber I just needed to do VLAN untagging, for the other one it requires active equipment that outputs RJ45 because of the GPON fiber, and that ones then needs to be authenticated on PPPoE
+2017-10-24 17:05:01	-->	infinisil (~infinisil@139.59.149.43) has joined ##linux
+2017-10-24 17:05:13	<--	sec^nd (~second@gateway/tor-sasl/sec0nd) has quit (Remote host closed the connection)
+2017-10-24 17:05:38	-->	norkle (~norkle@unaffiliated/norkle) has joined ##linux
+2017-10-24 17:05:46	-->	hoopertr0n (~chris@host86-182-153-221.range86-182.btcentralplus.com) has joined ##linux
+2017-10-24 17:05:56	-->	Zillolo (~Zillolo@2001:4c50:49a:fa00:8ad7:f6ff:fe7f:8ae7) has joined ##linux
+2017-10-24 17:06:10	-->	saptech (~saptech@unaffiliated/saptech) has joined ##linux
+2017-10-24 17:08:10	<--	ramses (~ramses@nat-35.starnet.cz) has quit (Quit: ramses)
+2017-10-24 17:08:25	<--	musicnate (~Thunderbi@CPEac202e24c153-CMac202e24c150.cpe.net.fido.ca) has quit (Ping timeout: 255 seconds)
+2017-10-24 17:08:33	<--	infinisil (~infinisil@139.59.149.43) has quit (Client Quit)
+2017-10-24 17:09:21	-->	infinisil (~infinisil@139.59.149.43) has joined ##linux
+2017-10-24 17:09:44	<--	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Quit: jancoow)
+2017-10-24 17:09:54	-->	Neo2 (~mint@216.164.8.83) has joined ##linux
+2017-10-24 17:10:03	-->	TReK (~UnFaQ@unaffiliated/trek) has joined ##linux
+2017-10-24 17:10:20	<--	Condor (~condor@unaffiliated/condor) has quit (Ping timeout: 240 seconds)
+2017-10-24 17:10:32	<--	Neo2 (~mint@216.164.8.83) has left ##linux
+2017-10-24 17:12:05	<--	Rawriful (~orin@host86-163-222-75.range86-163.btcentralplus.com) has quit (Quit: WeeChat 1.4)
+2017-10-26 16:24:12	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-26 16:24:12	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-26 16:24:12	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-26 16:24:13	ℹ 	Channel ##linux: 1631 nicks (0 ops, 0 voices, 1631 normals)
+2017-10-26 16:24:13	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-26 16:24:13	ℹ 	URL for ##linux: http://linux.chat
+2017-10-26 16:24:14	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-26 16:24:29	Bunk1	Bashing-om: Can you see something suspicious here ? https://hastebin.com/ebijekuluf.erl
+2017-10-26 16:24:31	kurahaupo	hexnewbie: random snippet: ip allows abbreviations for keywords, based on "first match" in a linear scan of the applicable keyword table(s). So guess what's the shortest abbreviation for each keyword in: ip address list
+2017-10-26 16:24:32	pppingme	the very first example on my versin of the man page gives that..
+2017-10-26 16:24:40	Bunk1	OR others
+2017-10-26 16:24:44	Bunk1	of course
+2017-10-26 16:24:45	pppingme	tcpdump -i eth0 host 1.1.1.1
+2017-10-26 16:24:47	Bashing-om	Bunk1: I will look and see what I see .
+2017-10-26 16:25:00	-->	mmazing (~mmazing@unaffiliated/mmazing) has joined ##linux
+2017-10-26 16:25:05	-->	jab416171 (~jab416171@c-67-172-234-125.hsd1.ut.comcast.net) has joined ##linux
+2017-10-26 16:25:07	-->	winter (~winter@unaffiliated/winter) has joined ##linux
+2017-10-26 16:25:19	kurahaupo	hexnewbie: hint: don't count shell metacharacters
+2017-10-26 16:30:36	ℹ 	irc: disconnected from server
+2017-10-26 16:30:54	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-26 16:30:54	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-26 16:30:54	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-26 16:30:55	ℹ 	Channel ##linux: 1632 nicks (0 ops, 0 voices, 1632 normals)
+2017-10-26 16:30:55	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-26 16:30:55	ℹ 	URL for ##linux: http://linux.chat
+2017-10-26 16:30:55	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-26 16:30:57	-->	nanodrone (~nanodrone@unaffiliated/nanodrone) has joined ##linux
+2017-10-26 16:31:10	Bunk1	It is Mageia 6 OS
+2017-10-26 16:31:11	MrElendig	dpkg-query -l ...
+2017-10-26 16:31:12	<--	ryouma (~user@unaffiliated/ryouma) has left ##linux ("Killed buffer")
+2017-10-26 16:31:20	-->	galaxer (~galaxer@105.207.46.197) has joined ##linux
+2017-10-26 16:31:30	-->	swift110_ (~swift110@unaffiliated/swift110) has joined ##linux
+2017-10-26 16:31:44	-->	user123irc (~user@217.23.3.91) has joined ##linux
+2017-10-26 16:32:08	triceratux	so use urpmi or dnf
+2017-10-26 16:32:10	Bashing-om	Bunk1: verify ! with no status file . we have a problem ! .. does the backup exist ' ls -al /var/lib/dpkg/status-old  ' ?
+2017-10-26 16:32:50	<--	Squidder (~Squidder@204.188.215.214) has quit (Ping timeout: 240 seconds)
+2017-10-26 16:32:55	<--	Apophasis (~Apophasis@2001:4643:1b07:0:9d11:99f0:47af:da33) has quit (Quit: Apophasis)
+2017-10-26 16:32:56	<--	winter (~winter@unaffiliated/winter) has quit (Remote host closed the connection)
+2017-10-26 16:33:09	Bunk1	No, it can not be found
+2017-10-26 16:33:51	Bunk1	the file messages is 9,4 GB
+2017-10-26 16:34:01	Bunk1	in var/log
+2017-10-26 16:34:01	-->	aw1 (~aw1@unaffiliated/aw1) has joined ##linux
+2017-10-26 16:34:23	MrElendig	set up logrotate
+2017-10-26 16:35:02	-->	kamura (~kamura@cpc76628-john5-2-0-cust324.14-1.cable.virginm.net) has joined ##linux
+2017-10-26 16:35:16	Bunk1	MrElendig: use urpmi or dnf ... on what exactly ?
+2017-10-26 16:35:16	Bashing-om	Bunk1: If both files no longer exists .. the only thing I know to do at this time is save your personal data and RE-install the operating system . I would be glad to learn the better .
+2017-10-26 16:35:17	-->	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined ##linux
+2017-10-26 16:35:19	-->	tieinv (~tieinv@S0106bcee7b6f7560.vf.shawcable.net) has joined ##linux
+2017-10-26 16:35:23	<--	niq84 (~niq84@3x0.eu) has quit (Remote host closed the connection)
+2017-10-26 16:35:31	MrElendig	Bunk1: I did not mention those
+2017-10-26 16:35:40	MrElendig	Bunk1: but isn't mageia rpm based?
+2017-10-26 16:35:43	<--	well_laid_lawn (~Jean-luc@203.185.203.131) has quit (Ping timeout: 248 seconds)
+2017-10-26 16:35:48	MrElendig	why are you messing around with dpkg then?
+2017-10-26 16:36:00	Bunk1	Sry triceratux  mentiones it. Mageia is rpm , yes
+2017-10-26 16:36:08	<--	^elf^ (~elf@unaffiliated/elf) has quit (Ping timeout: 248 seconds)
+2017-10-26 16:36:12	<--	rayvtirx (~rayvtirx@unaffiliated/rayvtirx) has quit (Quit: bye)
+2017-10-26 16:36:15	<--	Munsterberg (~Munsterbe@ip-45-3-18-147.user.start.ca) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-26 16:37:04	<--	tavish (~tavish@unaffiliated/tavish) has quit (Remote host closed the connection)
+2017-10-26 16:37:53	<--	rulezzz (~zzz@201.151.138.33) has quit (Ping timeout: 248 seconds)
+2017-10-26 16:37:53	<--	renatogeh (~renatogeh@unaffiliated/renatogeh) has quit (Ping timeout: 258 seconds)
+2017-10-26 16:38:08	<--	goodafternoon (~goodafter@ppp141237169176.access.hol.gr) has quit (Read error: Connection reset by peer)
+2017-10-26 16:38:15	-->	bertman (~bert@unaffiliated/bertman) has joined ##linux
+2017-10-26 16:38:23	<--	cloudowind (~timerirq@c110-20-131-85.rivrw9.nsw.optusnet.com.au) has quit (Ping timeout: 240 seconds)
+2017-10-26 16:39:13	<--	electrostatic (~electrost@50.35.69.131) has quit (Quit: Leaving)
+2017-10-26 16:42:17	-->	drumguy1384 (~will@2a00:23c4:9789:5500:f916:f144:9ce7:ecca) has joined ##linux
+2017-10-26 16:42:17	-->	endeebee (~endeebee@135.0.34.207) has joined ##linux
+2017-10-26 16:42:17	Bunk1	I saw another astonighing thing. Normally, i run shorewall, but it showed the DarkX Firewall, but all ports, which i has specified, were gone
+2017-10-26 16:42:17	<--	ramses (~ramses@nat-35.starnet.cz) has quit (Quit: ramses)
+2017-10-26 16:42:17	-->	e14 (~e14@2601:184:4180:da74:7849:acc2:dc64:dc07) has joined ##linux
+2017-10-26 16:42:17	-->	pensil (~textual@unaffiliated/pensil) has joined ##linux
+2017-10-26 16:42:17	-->	nehal3m (~nehalem@5ED4F19D.cm-7-5d.dynamic.ziggo.nl) has joined ##linux
+2017-10-26 16:42:17	-->	renatogeh (~renatogeh@unaffiliated/renatogeh) has joined ##linux
+2017-10-26 16:42:17	<--	maggie (~maggie@162.254.92.102) has quit (Ping timeout: 246 seconds)
+2017-10-26 16:42:17	ℹ 	irc: disconnected from server
+2017-10-26 16:42:36	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-26 16:42:36	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-26 16:42:36	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-26 16:42:36	ℹ 	Channel ##linux: 1631 nicks (0 ops, 0 voices, 1631 normals)
+2017-10-26 16:42:36	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-26 16:42:36	ℹ 	URL for ##linux: http://linux.chat
+2017-10-26 16:42:36	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-26 16:42:51	-->	lord| (~solenodic@unaffiliated/solenodic) has joined ##linux
+2017-10-26 16:42:55	<--	luminohelix (~luminohel@c-73-26-224-98.hsd1.nm.comcast.net) has quit (Quit: Be back soon!)
+2017-10-26 16:43:26	<--	azx (~nick@2600:8801:b302:8180:73ab:ef91:429c:7296) has quit (Ping timeout: 252 seconds)
+2017-10-26 16:43:36	-->	chrisccoulson (~chr1s@ubuntu/member/chrisccoulson) has joined ##linux
+2017-10-26 16:43:42	Bunk1	I´m going to reboot
+2017-10-26 16:44:11	<--	Bunk1 (~0@unaffiliated/bunk) has quit (Quit: WeeChat 1.7.1)
+2017-10-26 16:44:24	-->	s2s2s (~s@cpc68333-cdif16-2-0-cust193.5-1.cable.virginm.net) has joined ##linux
+2017-10-26 16:44:44	<--	peetaur (~peter@pD953EF24.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2017-10-26 16:45:26	-->	EriC^^ (~Eric@178.135.90.181) has joined ##linux
+2017-10-26 16:55:49	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-26 16:55:49	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-26 16:55:49	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-26 16:55:49	ℹ 	Channel ##linux: 1618 nicks (0 ops, 0 voices, 1618 normals)
+2017-10-26 16:55:49	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-26 16:55:49	ℹ 	URL for ##linux: http://linux.chat
+2017-10-26 16:55:51	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-26 16:55:51	-->	drumguy1384 (~will@2a00:23c4:9789:5500:f916:f144:9ce7:ecca) has joined ##linux
+2017-10-26 16:56:45	-->	Bunk (~0@unaffiliated/bunk) has joined ##linux
+2017-10-26 16:57:00	Bunk	♠ One good sign. Alsa has started ♠
+2017-10-26 16:57:02	<--	sp1r17 (~Thunderbi@66.228.118.67) has quit (Quit: sp1r17)
+2017-10-26 16:57:06	<--	Rawriful (~orin@host86-163-222-75.range86-163.btcentralplus.com) has quit (Ping timeout: 255 seconds)
+2017-10-26 16:57:08	-->	Spice_Boy (~spicy@163.207.214.218.sta.wbroadband.net.au) has joined ##linux
+2017-10-26 16:57:11	<--	luckman212 (~luckman21@unaffiliated/luckman212) has quit (Ping timeout: 255 seconds)
+2017-10-26 16:57:14	<--	sasheto (~sasheto@94.26.13.180) has quit (Quit: WeeChat 1.9.1)
+2017-10-26 16:57:19	-->	matlock (~matlock@24.96.238.87) has joined ##linux
+2017-10-26 16:58:13	<--	Cabanossi (~Cabanossi@pC19F2428.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2017-10-26 16:58:19	-->	cemotyz09 (~cemotyz09@cpe-70-121-157-202.satx.res.rr.com) has joined ##linux
+2017-10-26 16:58:21	<--	kfrench (~kfrench@2601:142:4200:8280:89e4:92c1:75d6:13b1) has left ##linux
+2017-10-26 16:58:22	-->	wamph (~w@cpc102212-ely08-2-0-cust151.5-1.cable.virginm.net) has joined ##linux
+2017-10-26 16:58:30	Bunk	/ has 17 GB free.
+2017-10-26 16:58:36	-->	Cabanossi (~Cabanossi@pC19F2428.dip0.t-ipconnect.de) has joined ##linux
+2017-10-26 16:58:42	Bunk	Now i need to find what caused all the messages
+2017-10-26 16:59:36	<--	Conder (~Conder@109-230-55-79.dynamic.orange.sk) has quit (Ping timeout: 240 seconds)
+2017-10-26 16:59:53	<--	dersand (~dersand@c-5015e655.027-96-73746f43.cust.bredbandsbolaget.se) has quit (Ping timeout: 255 seconds)
+2017-10-26 17:00:00	<--	elim_garak (~Elim_gara@unaffiliated/janof) has quit (Remote host closed the connection)
+2017-10-26 17:00:12	<--	gopar (~gopar@2603:3024:1828:b3e1:6c85:d388:bf81:220b) has quit (Read error: Connection reset by peer)
+2017-10-26 17:00:20	<--	LucaTM (~LucaTM@unaffiliated/lucatm) has quit (Quit: To infinity and beyond...)
+2017-10-26 17:00:29	<--	robink (~quassel@unaffilated/robink) has quit (Ping timeout: 252 seconds)
+2017-10-26 17:00:30	<--	joltmode (2e6dc640@gateway/web/freenode/ip.46.109.198.64) has quit (Quit: Page closed)
+2017-10-26 17:00:52	-->	gopar (~gopar@2603:3024:1828:b3e1:6c85:d388:bf81:220b) has joined ##linux
+2017-10-26 17:01:06	<--	[Brain] (~brain@cpc4-mfld16-2-0-cust466.13-1.cable.virginm.net) has quit (Read error: Connection reset by peer)
+2017-10-26 17:01:17	<--	murdoc` (~murdoc`@gateway/vpn/privateinternetaccess/murdoc/x-48760953) has quit (Remote host closed the connection)
+2017-10-26 17:01:17	<--	doodadjs (~doodadjs@23-91-250-36.cpe.distributel.net) has quit (Read error: Connection reset by peer)
+2017-10-26 17:01:20	<--	jcbitter (~jcbitter@181.49.87.209) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:01:23	-->	[Brain] (~brain@cpc4-mfld16-2-0-cust466.13-1.cable.virginm.net) has joined ##linux
+2017-10-26 17:01:26	-->	ukyrgf (~ukyrgf@c-73-35-92-99.hsd1.fl.comcast.net) has joined ##linux
+2017-10-26 17:01:35	-->	murdoc` (~murdoc`@gateway/vpn/privateinternetaccess/murdoc/x-48760953) has joined ##linux
+2017-10-26 17:01:42	-->	doodadjs (~doodadjs@23-91-250-36.cpe.distributel.net) has joined ##linux
+2017-10-26 17:01:50	<--	e14 (~e14@2601:184:4180:da74:7849:acc2:dc64:dc07) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-26 17:02:05	-->	robinak (~quassel@unaffilated/robink) has joined ##linux
+2017-10-26 17:02:06	<--	djkoolaide (~djkoolaid@cpe-97-98-174-112.neb.res.rr.com) has quit (Quit: Leaving)
+2017-10-26 17:03:07	<--	wamph (~w@cpc102212-ely08-2-0-cust151.5-1.cable.virginm.net) has quit (Quit: leaving)
+2017-10-26 17:03:14	-->	luckman212 (~luckman21@unaffiliated/luckman212) has joined ##linux
+2017-10-26 17:03:19	-->	nogic (~nogic@96-18-65-226.cpe.cableone.net) has joined ##linux
+2017-10-26 17:03:43	-->	wamph (~w@cpc102212-ely08-2-0-cust151.5-1.cable.virginm.net) has joined ##linux
+2017-10-26 17:04:00	-->	neachdainn (~neachdain@unaffiliated/neachdainn) has joined ##linux
+2017-10-26 17:04:14	<--	hipp (~hipp@c-71-201-26-16.hsd1.in.comcast.net) has quit (Quit: Leaving)
+2017-10-26 17:04:20	<--	pajpax (~pajpax@bband-dyn65.95-103-205.t-com.sk) has quit (Quit: pajpax)
+2017-10-26 17:04:23	pensil	Hi guys, I'm on an EC2 ubuntu instance. But I'd like to have some window functionality (like chromium and multiple terminal windows). Should I be good with only a window manager?  Or would a full desktop enviornment be more suitable?
+2017-10-26 17:04:24	neachdainn	The first two characters output from the crypt (3) function are the salt, right?
+2017-10-26 17:04:37	<--	TReK (~UnFaQ@unaffiliated/trek) has quit (Ping timeout: 260 seconds)
+2017-10-26 17:04:41	<--	zergut (uid221522@taskhive/translator/zergut) has quit (Quit: Connection closed for inactivity)
+2017-10-26 17:04:42	<--	The_Machine (~Nunya@99-129-89-27.lightspeed.livnmi.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:04:51	Bashing-om	Bunk: ' ls -al /boot/ ' . Do you have a lot of old kernels still installed ?
+2017-10-26 17:05:12	-->	TheWild (~Thunderbi@apn-31-1-79-118.dynamic.gprs.plus.pl) has joined ##linux
+2017-10-26 17:05:17	<--	TheWild (~Thunderbi@apn-31-1-79-118.dynamic.gprs.plus.pl) has left ##linux
+2017-10-26 17:05:36	<--	supersixone (~super6one@unaffiliated/supersixone) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:05:37	Bunk	There are 4 at the moment
+2017-10-26 17:05:45	Bunk	Going to purge one
+2017-10-26 17:06:16	-->	cloudowind (~timerirq@c110-20-131-85.rivrw9.nsw.optusnet.com.au) has joined ##linux
+2017-10-26 17:06:20	-->	Hydrastra (~lulkek@240f:2:780a:1:6548:2c5e:b1af:ccd4) has joined ##linux
+2017-10-26 17:07:04	-->	TReK (~UnFaQ@unaffiliated/trek) has joined ##linux
+2017-10-26 17:07:33	Bashing-om	Bunk: Not too bad .. what shows ' cd / ; sudo du -sx * | sort -n ' ??
+2017-10-26 17:07:43	<--	AarKnos (~AarKnos@182.64.151.108) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:07:45	-->	tdk3fe (~tdk2fe@97-92-247-151.dhcp.stls.mo.charter.com) has joined ##linux
+2017-10-26 17:07:55	<--	PCChris (~PCChris@204.11.129.240) has quit (Remote host closed the connection)
+2017-10-26 17:08:30	-->	PCChris (~PCChris@204.11.129.240) has joined ##linux
+2017-10-26 17:09:08	-->	MasterPiece (~MasterPie@unaffiliated/masterpiece) has joined ##linux
+2017-10-26 17:09:20	neachdainn	Yes, the first two are the salt.
+2017-10-26 17:09:48	<--	wreed (~wreed@129.10.9.25) has quit (Quit: Goodbye)
+2017-10-26 17:09:48	<--	gopar (~gopar@2603:3024:1828:b3e1:6c85:d388:bf81:220b) has quit (Read error: Connection reset by peer)
+2017-10-26 17:09:52	<--	Combined2857 (~alpha@unaffiliated/combined2857) has quit (Ping timeout: 260 seconds)
+2017-10-26 17:10:05	Bunk	Bashing-om: Is is in calculating
+2017-10-26 17:10:27	-->	gopar (~gopar@2603:3024:1828:b3e1:6c85:d388:bf81:220b) has joined ##linux
+2017-10-26 17:11:00	-->	Condor (~condor@unaffiliated/condor) has joined ##linux
+2017-10-26 17:11:05	-->	wreed (~wreed@129.10.9.25) has joined ##linux
+2017-10-26 17:11:50	<--	enterprisey (~enterpris@wikipedia/enterprisey) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:12:36	Bunk	That is the output https://hastebin.com/xeruwekide.pl
+2017-10-26 17:14:08	<--	Anatzum (~michael@gateway/vpn/privateinternetaccess/anatzum) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:14:25	<--	k3rn31 (~k3rn31@93-40-195-79.ip40.fastwebnet.it) has quit (Ping timeout: 264 seconds)
+2017-10-26 17:14:27	<--	gffa (~unknown@unaffiliated/gffa) has quit (Quit: sleep)
+2017-10-26 17:14:40	-->	orion44 (~orion44@gateway/vpn/privateinternetaccess/orion44) has joined ##linux
+2017-10-26 17:14:54	drumguy1384	pensil: it all depends on what you want to do. DEs are made for desktop use and thus are more robust in their graphical interface at the cost of system resources. If all you need is a few terminal windows and maybe a browser I would suggest a WM.
+2017-10-26 17:15:04	Bunk	Still much var there
+2017-10-26 17:15:11	-->	Anatzum (~michael@ip70-177-117-79.ok.ok.cox.net) has joined ##linux
+2017-10-26 17:15:20	<--	lickalott (~lickalott@adsl-75-5-251-67.dsl.scrm01.sbcglobal.net) has quit (Ping timeout: 252 seconds)
+2017-10-26 17:15:30	pensil	drumguy1384: thanks, I'll give i3 a try
+2017-10-26 17:15:34	qman__	shell question - I want to take one variable which has a newline delimited list of objects, and remove from it, each item which exists in another variable which is also a list of newline delimited objects
+2017-10-26 17:16:05	qman__	what's the best way to do this? pure shell and basic tools are ideal
+2017-10-26 17:16:49	<--	eigenstate (~eigenstat@unaffiliated/eigenstate) has quit (Remote host closed the connection)
+2017-10-26 17:17:04	drumguy1384	pensil: I am a big fan of i3, it will do all of the things you mentioned easily
+2017-10-26 17:17:08	-->	eigenstate (~eigenstat@unaffiliated/eigenstate) has joined ##linux
+2017-10-26 17:17:22	<--	eigenstate (~eigenstat@unaffiliated/eigenstate) has quit (Max SendQ exceeded)
+2017-10-26 17:17:41	qman__	I know that comm does this if the lists are files, but my lists are variables
+2017-10-26 17:17:44	-->	eigenstate (~eigenstat@unaffiliated/eigenstate) has joined ##linux
+2017-10-26 17:18:11	indrora	qman__, Sounds like a use case for a little python or perl. Alternately, some sed used carefully.
+2017-10-26 17:18:17	kurahaupo	qman__: sounds like a shell programming question; #bash might help. Also why are they in variables rather than files?
+2017-10-26 17:18:30	qman__	they are in variables because the data is pulled via APIs
+2017-10-26 17:23:39	ℹ 	irc: disconnected from server
+2017-10-26 17:24:11	-->	maggie (~maggie@162.254.92.102) has joined ##linux
+2017-10-26 17:24:11	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-26 17:24:11	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-26 17:24:11	ℹ 	Channel ##linux: 1606 nicks (0 ops, 0 voices, 1606 normals)
+2017-10-26 17:24:11	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-26 17:24:11	ℹ 	URL for ##linux: http://linux.chat
+2017-10-26 17:24:11	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-26 17:24:13	<--	energizer (~energizer@unaffiliated/energizer) has quit (Disconnected by services)
+2017-10-26 17:24:26	-->	energizer (~energizer@unaffiliated/energizer) has joined ##linux
+2017-10-26 17:24:42	kurahaupo	qman__: consider using a different language; perl or python come to mind
+2017-10-26 17:24:43	qman__	google suggests not
+2017-10-26 17:25:14	Bashing-om	Bunk: But, not making a lot if sense Yet . as it "was" / on sdb1 at 100% capacity . but the 'du' points to /home on sdb3 .
+2017-10-26 17:25:18	<--	S4ren (~mrrobot@2a00:23c5:a887:1100:f1b2:7865:16b4:1a62) has quit (Quit: WeeChat 1.7)
+2017-10-26 17:25:37	MrElendig	qman__: not doing this in shellscripts will probably make your life better
+2017-10-26 17:25:38	qman__	nah, I'd sooner write to files or create a custom loop
+2017-10-26 17:25:40	-->	`Cam (~textual@203-219-142-249.static.tpgi.com.au) has joined ##linux
+2017-10-26 17:25:42	<--	galaxer (~galaxer@105.207.46.197) has quit (Remote host closed the connection)
+2017-10-26 17:25:52	qman__	my goal is minimal external dependencies
+2017-10-26 17:25:52	<--	mn3m (~mn3m@unaffiliated/mn3m) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:26:03	kurahaupo	qman__: ok that's worrhy
+2017-10-26 17:26:08	kurahaupo	worthy
+2017-10-26 17:26:16	MrElendig	qman__: a binary would solve that
+2017-10-26 17:26:38	-->	A-Dawg (~A-Dawg@59-100-174-130.cust.static-ipl.aapt.com.au) has joined ##linux
+2017-10-26 17:26:56	-->	oterrivel (~capum321@unaffiliated/capum321) has joined ##linux
+2017-10-26 17:27:17	kurahaupo	qman__: you'd still be better off asking in #bash, as they know POSIX well enough to know what bashisms to avoid
+2017-10-26 17:27:27	qman__	ok, thanks
+2017-10-26 17:27:58	Bunk	Bashing-om: Correct, i have / and /home on different partitions
+2017-10-26 17:28:18	-->	rocktop (~rocktop@i19-les01-ntr-176-186-57-231.sfr.lns.abo.bbox.fr) has joined ##linux
+2017-10-26 17:28:52	<--	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has quit (Quit: ¯\_(ツ)_/¯Yᵒᵘ Oᶰˡʸ Lᶤᵛᵉ Oᶰᶜᵉ  Live for today, gone tomorrow, that's me. Ha-ha-ha-a-a-a-a-a!)
+2017-10-26 17:28:53	-->	rocktop_ (~rocktop@i19-les01-ntr-176-186-57-231.sfr.lns.abo.bbox.fr) has joined ##linux
+2017-10-26 17:29:04	<--	pbek (~quassel@gateway/vpn/privateinternetaccess/omegaq) has quit (Ping timeout: 248 seconds)
+2017-10-26 17:29:36	-->	pbek (~quassel@gateway/vpn/privateinternetaccess/omegaq) has joined ##linux
+2017-10-26 17:29:53	<--	manuelschneid3r (~manuelsch@p200300E243D50D00C96BE19D0577732D.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-10-26 17:29:54	-->	TReK (~UnFaQ@unaffiliated/trek) has joined ##linux
+2017-10-26 17:30:00	oterrivel	whats wrong with this rsync command? Its is skipping inadvertently see https://paste.linux.community/view/e87d6f6a
+2017-10-26 17:30:07	-->	Irrelevant (~Irrelevan@54184E23.cm-5-1b.dynamic.ziggo.nl) has joined ##linux
+2017-10-26 17:31:03	<--	udni (~Thunderbi@ip-178-200-237-163.hsi07.unitymediagroup.de) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:31:12	<--	oncall-pokemon (uid134758@gateway/web/irccloud.com/x-zwgqtbswwnkdjftp) has quit (Quit: Connection closed for inactivity)
+2017-10-26 17:31:28	Bunk	I must leave for a while
+2017-10-26 17:31:47	-->	doublehp (~DoubleHP@2a01:e35:8ba8:e140::52) has joined ##linux
+2017-10-26 17:31:53	Bunk	thanks for helping me and the nice commands !
+2017-10-26 17:31:56	<--	Oatmeal (~Suzeanne@gateway/vpn/privateinternetaccess/suzeanne) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:32:00	doublehp	can usbgadget emulate a keyboard ?
+2017-10-26 17:32:13	<--	patarr (~patarr@unaffiliated/patarr) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:32:20	<--	Galactus (~f5e98ed73@unaffiliated/galactus) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:32:24	Bashing-om	Bunk: K in leaving , Also you have /var/ very large " 11G     var " need to find out why .
+2017-10-26 17:33:20	<--	Condor (~condor@unaffiliated/condor) has quit (Ping timeout: 240 seconds)
+2017-10-26 17:34:13	MrElendig	doublehp: look at uhid
+2017-10-26 17:34:14	-->	mn3m (~mn3m@unaffiliated/mn3m) has joined ##linux
+2017-10-26 17:34:25	<--	PCChris (~PCChris@204.11.129.240) has quit (Quit: Leaving)
+2017-10-26 17:34:44	Bunk	Yes, Bashing-om  - in journal, there were tens of k lines
+2017-10-26 17:34:53	MrElendig	doublehp: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/hid/uhid.txt
+2017-10-26 17:34:58	<--	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has quit (Read error: Connection reset by peer)
+2017-10-26 17:35:16	Bunk	It is all in log
+2017-10-26 17:35:26	MrElendig	doublehp: also https://www.kernel.org/doc/Documentation/usb/gadget_hid.txt
+2017-10-26 17:36:07	-->	Winter_ (~a.w1nter@modemcable109.128-57-74.mc.videotron.ca) has joined ##linux
+2017-10-26 17:36:57	doublehp	MrElendig: thank you
+2017-10-26 17:37:25	-->	saptech (~saptech@unaffiliated/saptech) has joined ##linux
+2017-10-26 17:37:59	-->	Condor (~condor@unaffiliated/condor) has joined ##linux
+2017-10-26 17:37:59	<--	ginsul (~gin@213.205.251.240) has quit (Remote host closed the connection)
+2017-10-26 17:38:02	<--	Munsterberg (~Munsterbe@ip-45-3-18-147.user.start.ca) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-26 17:38:06	-->	DaemonFC (~daemonfc@gateway/vpn/privateinternetaccess/daemonfc) has joined ##linux
+2017-10-26 17:38:35	<--	Evol (~Cof@2804:14c:4383:83b9:60ec:146b:6e0a:6f94) has quit (Ping timeout: 255 seconds)
+2017-10-26 17:39:05	<--	GenteelBen (~GenteelBe@cpc111801-lutn14-2-0-cust55.9-3.cable.virginm.net) has quit
+2017-10-26 17:39:47	-->	krabador (~krabador@unaffiliated/krabador) has joined ##linux
+2017-10-26 17:39:55	-->	Galactus (~f5e98ed73@unaffiliated/galactus) has joined ##linux
+2017-10-26 17:40:06	-->	tomleb (~tomleb@modemcable227.155-130-66.mc.videotron.ca) has joined ##linux
+2017-10-26 17:40:11	-->	Hawkerz (~Hawkerz@unaffiliated/hawkerz) has joined ##linux
+2017-10-26 17:40:45	<--	Zppix (uid182351@miraheze/Zppix) has quit
+2017-10-26 17:40:46	-->	meschend (~meschend@185.189.112.11) has joined ##linux
+2017-10-26 17:41:06	toothe	I have two network interfaces, wifi and lan. Is there a way to somehow use both at the same time without it creating networking problems?
+2017-10-26 17:41:13	toothe	ie, use whichever is faster at the moment?
+2017-10-26 17:41:34	-->	genericuser123 (~enter@43.225.32.90) has joined ##linux
+2017-10-26 17:41:54	toothe	in the past it seems to have caused problems for me.
+2017-10-26 17:42:33	doublehp	toothe: man brctl
+2017-10-26 17:42:36	toothe	that ws it! thanks!
+2017-10-26 17:42:38	-->	Munsterberg (~Munsterbe@ip-45-3-18-147.user.start.ca) has joined ##linux
+2017-10-26 17:42:42	toothe	err, wrong channel lol
+2017-10-26 17:42:43	<--	anunnaki (~chris@unaffiliated/anunnaki) has quit (Ping timeout: 258 seconds)
+2017-10-26 17:42:49	doublehp	ah no, you want link bonding and ...
+2017-10-26 17:42:54	toothe	oh yes, creatina b ridge.
+2017-10-26 17:43:05	toothe	oh?
+2017-10-26 17:43:06	<--	ok91 (~Thunderbi@unaffiliated/ok91) has quit (Ping timeout: 258 seconds)
+2017-10-26 17:43:14	doublehp	linkg agregation ... and ... let me remember the name
+2017-10-26 17:43:23	toothe	sure. thank you
+2017-10-26 17:43:45	-->	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has joined ##linux
+2017-10-26 17:43:52	<--	unixpro1970 (~unixpro19@unaffiliated/unixpro1970) has quit (Ping timeout: 258 seconds)
+2017-10-26 17:43:57	-->	gbox (~root@149.142.103.148) has joined ##linux
+2017-10-26 17:44:10	<--	happysat (~katpoep@s5594c83f.adsl.online.nl) has left ##linux
+2017-10-26 17:44:15	doublehp	forgot: you don't want to bridge; to use the fastest link, you want bonding , agregation, and load balancing. Its very very very complex
+2017-10-26 17:44:21	doublehp	try #networking
+2017-10-26 17:44:25	-->	anunnaki (~chris@unaffiliated/anunnaki) has joined ##linux
+2017-10-28 14:15:52	ℹ 	irc: disconnected from server
+2017-10-28 14:16:19	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-28 14:16:19	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-28 14:16:19	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-28 14:16:19	ℹ 	Channel ##linux: 1623 nicks (0 ops, 0 voices, 1623 normals)
+2017-10-28 14:16:19	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-28 14:16:19	ℹ 	URL for ##linux: http://linux.chat
+2017-10-28 14:16:19	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-28 14:16:30	<--	gr8 (~gr8@unaffiliated/gr8) has quit (Ping timeout: 246 seconds)
+2017-10-28 14:16:58	pnbeast	jim, you're allowed to say "drop a deuce" in here, right?
+2017-10-28 14:17:00	doodadjs	SevenTwenty: VNC on a command line ??? Do you mean SSH ?
+2017-10-28 14:17:21	<--	Omidr____ (~OmidraX@c-73-228-41-79.hsd1.nm.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:17:27	<--	mpo49 (~quassel@2a02:8109:8cc0:47d0:8961:4770:7919:1669) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:17:48	<--	gknathk (~Gokul@unaffiliated/gknathk) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:17:48	SevenTwenty	doodadjs: No, because I'm talking about command line remote control that does all the work on the remote system.
+2017-10-28 14:17:51	doodadjs	SevenTwenty: ah, sorry
+2017-10-28 14:17:58	SevenTwenty	doodadjs: No worries.
+2017-10-28 14:17:58	-->	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined ##linux
+2017-10-28 14:18:08	Sierr_Gay	hows that different from ssh
+2017-10-28 14:18:51	SevenTwenty	Sierr_Gay: It's different, because SSH tries to run certain things in the SSH window instead of on the remote monitor.
+2017-10-28 14:19:20	c-c	well trolled
+2017-10-28 14:19:39	SevenTwenty	Sierr_Gay: The case in point is today I am trying to make video games with my kids on the TV using a Raspberry Pi and a laptop with SSH client.
+2017-10-28 14:19:39	doodadjs	SevenTwenty: ?
+2017-10-28 14:20:00	flying_sausages	Loshki turns out "slay" was exactly what I needed
+2017-10-28 14:20:02	SevenTwenty	The Raspberry Pi is connected to the TV and runs an SSH server.
+2017-10-28 14:20:06	flying_sausages	just fed it list of my users and it works
+2017-10-28 14:20:28	doodadjs	oh, troll... was sure it was about to remotely control a window
+2017-10-28 14:20:33	<--	Combined2857 (~alpha@unaffiliated/combined2857) has quit (Quit: Konversation terminated!)
+2017-10-28 14:21:06	<--	CyanWalnut22 (67e4df71@gateway/web/cgi-irc/kiwiirc.com/ip.103.228.223.113) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-10-28 14:21:09	SevenTwenty	Maybe "screen" can do this.
+2017-10-28 14:21:34	-->	zergut (uid221522@taskhive/translator/zergut) has joined ##linux
+2017-10-28 14:21:51	<--	supersixone (~super6one@unaffiliated/supersixone) has quit (Ping timeout: 258 seconds)
+2017-10-28 14:21:51	ℹ 	precise is now known as precise|wtf
+2017-10-28 14:21:56	TRS-80	Seven I'm pretty sure x/ssh can, if you can just wait few minutes for Jim he should be able to get you sorted
+2017-10-28 14:21:56	flying_sausages	anyone knows how I can stop a FUSE mount?
+2017-10-28 14:22:14	flying_sausages	set up a quick mergerfs test folder but now I don;t know how to umnount it
+2017-10-28 14:22:14	<--	sp1derjohn (~root@71-88-217-69.dhcp.kgpt.tn.charter.com) has quit (Ping timeout: 258 seconds)
+2017-10-28 14:22:15	-->	Omidra___ (~OmidraX@c-73-228-41-79.hsd1.nm.comcast.net) has joined ##linux
+2017-10-28 14:22:40	<--	Heph_ (~Heph@pool-74-103-158-106.phlapa.fios.verizon.net) has quit (Quit: Leaving)
+2017-10-28 14:23:10	-->	xnbya (~quassel@ec2-54-72-128-94.eu-west-1.compute.amazonaws.com) has joined ##linux
+2017-10-28 14:23:25	<--	halv (~halv@p200300446F084900D5FC6A3DB4F4285A.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-10-28 14:23:29	SevenTwenty	Awesome, yeah. I'm not planning to rush out. Thank you.
+2017-10-28 14:23:32	-->	Irrelium (~Irrelium@cpe-65-24-233-106.insight.res.rr.com) has joined ##linux
+2017-10-28 14:23:50	-->	mven (~adamk@cpe-173-174-112-125.austin.res.rr.com) has joined ##linux
+2017-10-28 14:23:58	-->	mArtale (~mArtale@unaffiliated/martale) has joined ##linux
+2017-10-28 14:24:00	ℹ 	precise|wtf is now known as precise
+2017-10-28 14:24:13	-->	mkoskar_ (~mkoskar@unaffiliated/mkoskar) has joined ##linux
+2017-10-28 14:24:48	-->	SpeakerToMeat (~SpeakerTo@prgmr/customer/SpeakerToMeat) has joined ##linux
+2017-10-28 14:24:51	-->	JeanCarloMachado (~jean@200.18.122.31) has joined ##linux
+2017-10-28 14:25:03	<--	Omidra___ (~OmidraX@c-73-228-41-79.hsd1.nm.comcast.net) has quit (Remote host closed the connection)
+2017-10-28 14:25:27	doodadjs	SevenTwenty: I've used "SSH -X" in the past, but I don't know if it's what you need
+2017-10-28 14:25:44	-->	mpo49 (~quassel@2a02:8109:8cc0:47d0:219:dbff:feee:426f) has joined ##linux
+2017-10-28 14:25:45	<--	OmidraX_ (~OmidraX@2601:8c0:4300:2003:8cab:d8f7:fbca:449b) has quit (Ping timeout: 252 seconds)
+2017-10-28 14:26:27	<--	mkoskar (~mkoskar@unaffiliated/mkoskar) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:26:40	SevenTwenty	doodadjs: That seems to be getting us closer, but it does the opposite and runs the game on the local machine. We want to run the game on the remote hardware including the remote monitor.
+2017-10-28 14:27:20	Sierr_Gay	when u ssh u r logged in on remote pc
+2017-10-28 14:27:24	<--	dino82 (~deeno@unaffiliated/dino82) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:27:27	Sierr_Gay	i dont see whats the problem
+2017-10-28 14:27:36	doodadjs	SevenTwenty: No, it remotely opens the app and bring up the interface to your window manager
+2017-10-28 14:27:48	doodadjs	* though SSH
+2017-10-28 14:27:49	<--	tommaso (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2017-10-28 14:28:03	SevenTwenty	We want the game to launch on the remote system (The Raspberry Pi connected to the TV).
+2017-10-28 14:28:12	-->	azx (~nick@2600:8801:b302:8180:73ab:ef91:429c:7296) has joined ##linux
+2017-10-28 14:28:26	azx	i edited the fstab file and my computer wouldn't boot
+2017-10-28 14:28:29	azx	so i reverted it
+2017-10-28 14:28:35	-->	tommaso (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has joined ##linux
+2017-10-28 14:28:37	<--	suNooBku (~suNooBku@unaffiliated/sunoobku) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:28:38	<--	mArtale (~mArtale@unaffiliated/martale) has quit (Client Quit)
+2017-10-28 14:28:44	mawk	flying_sausages: unmount
+2017-10-28 14:28:46	c-c	SevenTwenty: how about you figure out what it is you need, exactly, first
+2017-10-28 14:28:57	Sierr_Gay	so launch it with ssh and make sure your software outputs to correct display
+2017-10-28 14:29:08	SevenTwenty	We want to use an SSH connected laptop to launch the game on the remote system (The Raspberry Pi connected to the TV).
+2017-10-28 14:29:20	Sierr_Gay	which language is game written on
+2017-10-28 14:29:21	azx	how would i specify a hard drive in the fstab? /dev/sdb1 (mount-path) default
+2017-10-28 14:29:34	azx	do i have to mount sdb instead of sdb1
+2017-10-28 14:29:37	c-c	SevenTwenty: thats not exactly enough
+2017-10-28 14:29:41	mawk	no, you mount a partition azx
+2017-10-28 14:29:45	mawk	so /dev/sdb1 yes
+2017-10-28 14:29:48	SevenTwenty	Sierr_Gay: That sounds like a good lead. How do we make sure the output goes to the remote display and not the local display?
+2017-10-28 14:29:52	c-c	SevenTwenty: other people have no way of telepathically guessing
+2017-10-28 14:29:59	azx	thanks :) that's what i thought but then fstab crashed
+2017-10-28 14:30:05	mawk	look at the syslog
+2017-10-28 14:30:07	-->	J3089TE (~hiuhui@159-169-145-85.ftth.glasoperator.nl) has joined ##linux
+2017-10-28 14:30:09	mawk	or at the dmesg
+2017-10-28 14:30:12	mawk	to see why it crashed
+2017-10-28 14:30:15	azx	it said could not mount device or something
+2017-10-28 14:30:16	J3089TE	hi, what does the command wget do?
+2017-10-28 14:30:19	tomty89	azx: fstab doesn't help unlocking it
+2017-10-28 14:30:33	mawk	azx: do sudo fdisk -l
+2017-10-28 14:30:34	syb0rg	J3089TE, it gets w's
+2017-10-28 14:30:37	syb0rg	all the w's you want
+2017-10-28 14:30:38	mawk	to see partitions and stuff
+2017-10-28 14:30:41	<--	Yiota (~textual@CPE00fc8d8821e3-CM00fc8d8821e0.cpe.net.cable.rogers.com) has quit (Remote host closed the connection)
+2017-10-28 14:30:48	SevenTwenty	J3089TE: wget is web get. It downloads files from URLs.
+2017-10-28 14:30:48	mawk	MrElendig: sudo is required, btw
+2017-10-28 14:30:54	mawk	on my ubuntu box at least
+2017-10-28 14:30:56	<--	mkoskar_ (~mkoskar@unaffiliated/mkoskar) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:31:06	azx	wget is extremely useful when you want to download a file into a directory
+2017-10-28 14:31:13	tomty89	azx: you need crypttab or whatever in your distro that does the auto-unlock part
+2017-10-28 14:31:15	drumguy1384	syb0rg: lol!
+2017-10-28 14:31:15	SevenTwenty	wget is the business.
+2017-10-28 14:31:18	mawk	or to recursively download a website
+2017-10-28 14:31:23	-->	Yiota (~textual@CPE00fc8d8821e3-CM00fc8d8821e0.cpe.net.cable.rogers.com) has joined ##linux
+2017-10-28 14:31:25	Sierr_Gay	maybe xorg settings
+2017-10-28 14:31:38	azx	lmao
+2017-10-28 14:31:47	<--	JanC (~janc@lugwv/member/JanC) has quit (Read error: Connection reset by peer)
+2017-10-28 14:31:52	<--	mpo49 (~quassel@2a02:8109:8cc0:47d0:219:dbff:feee:426f) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2017-10-28 14:32:11	Sierr_Gay	add ur game in xinit and launch xorg
+2017-10-28 14:32:45	-->	JanC (~janc@lugwv/member/JanC) has joined ##linux
+2017-10-28 14:32:56	jim	SevenTwenty, also here's a simple thing to try: unset DISPLAY in the ssh session
+2017-10-28 14:33:30	<--	kp^ (~kp@static-50-53-45-0.bvtn.or.frontiernet.net) has quit (Quit: Leaving)
+2017-10-28 14:33:38	mawk	to launch a game on a remote system you just have to set DISPLAY to the X server you want
+2017-10-28 14:33:43	<--	karolherbst (~karolherb@x2f7fbd4.dyn.telefonica.de) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:33:53	mawk	eg env DISPLAY=:0 game
+2017-10-28 14:33:57	mawk	no more complicated than that
+2017-10-28 14:34:05	<--	CiiC (~NccT@unaffiliated/ncct) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:34:12	<--	JeanCarloMachado (~jean@200.18.122.31) has quit (Remote host closed the connection)
+2017-10-28 14:34:17	mawk	the X server is the remote one here
+2017-10-28 14:35:03	-->	Raed|Laptop (~Raed@2601:18c:8601:c7e9:262:406e:319c:7768) has joined ##linux
+2017-10-28 14:35:21	<--	luisoliv (~luisoliv@unaffiliated/luisoliv) has quit (Quit: switch to MS/Windows for CSGO)
+2017-10-28 14:35:55	azx	what should i put in /etc/crypttab in order to automatically unlock the device upon boot
+2017-10-28 14:36:05	mawk	good question
+2017-10-28 14:36:07	azx	i tried figuring it out but can't find results
+2017-10-28 14:36:12	mawk	did you remove it in the first place ?
+2017-10-28 14:36:18	azx	no
+2017-10-28 14:36:23	mawk	because it's automatically set by the distro installer normally
+2017-10-28 14:36:25	azx	there's nothing in crypttab
+2017-10-28 14:36:28	mawk	unless you're using arch or something
+2017-10-28 14:36:31	azx	fedora
+2017-10-28 14:36:39	mawk	and you set up crypt from installation ?
+2017-10-28 14:36:44	jim	mawk, what we found out, is the pi doesn't have the display var set when he uses the pi kbd
+2017-10-28 14:36:46	azx	no it was already there
+2017-10-28 14:36:58	<--	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has quit (Ping timeout: 260 seconds)
+2017-10-28 14:37:00	azx	ls /etc/crypttab
+2017-10-28 14:37:02	azx	showed up
+2017-10-28 14:37:06	mawk	jim: the DISPLAY var is set by the calling shell, here ssh so it's not set by default, no
+2017-10-28 14:37:11	mawk	you have to export it to the game
+2017-10-28 14:37:17	mawk	so you do: env DISPLAY=:0 game
+2017-10-28 14:37:27	mawk	in the ssh shell
+2017-10-28 14:37:39	mawk	or you can export it to the whole shell for every following command with export DISPLAY=:0
+2017-10-28 14:37:51	<--	nlogex (~nlogex@198-16-168-171.on.cable.ebox.net) has quit (Ping timeout: 252 seconds)
+2017-10-28 14:38:08	<--	qwedfg3 (~adam@83.4.247.161) has quit (Ping timeout: 260 seconds)
+2017-10-28 14:38:21	azx	chttps://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/apcs04s06.html
+2017-10-28 14:38:22	<--	tommaso (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has quit (Read error: Connection reset by peer)
+2017-10-28 14:38:23	azx	interesting
+2017-10-28 14:38:30	jim	mawk, and, the game runs when DISPLAY isn't set (well, apparantly, haven't tested all wrinkles)
+2017-10-28 14:38:32	mawk	sorry I'm wrong about the exported env when it's about ssh, nonetheless you have to do that
+2017-10-28 14:38:43	mawk	well it's up to the program to respect that variable jim
+2017-10-28 14:38:48	-->	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined ##linux
+2017-10-28 14:38:49	mawk	maybe it tries the :0 display by default etc
+2017-10-28 14:39:05	-->	tommaso (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has joined ##linux
+2017-10-28 14:39:08	jim	if so, then it should do so over ssh
+2017-10-28 14:39:19	-->	chud (~serg@unaffiliated/chud) has joined ##linux
+2017-10-28 14:39:20	mawk	well it doesn't, so
+2017-10-28 14:39:21	-->	JeanCarloMachado (~jean@200.18.122.31) has joined ##linux
+2017-10-28 14:39:39	mawk	if I unset DISPLAY, very few programs are running
+2017-10-28 14:39:40	-->	mpo49 (~quassel@2a02:8109:8cc0:47d0:219:dbff:feee:426f) has joined ##linux
+2017-10-28 14:39:44	mawk	on my side
+2017-10-28 14:39:52	mawk	so I doubt your game is running without DISPLAY
+2017-10-28 14:39:58	jim	so OP reported an error after doing unset DISPLAY?
+2017-10-28 14:40:11	-->	nlogex (~nlogex@198-16-168-171.on.cable.ebox.net) has joined ##linux
+2017-10-28 14:40:15	mawk	OP ?
+2017-10-28 14:40:19	-->	gknathk (~Gokul@unaffiliated/gknathk) has joined ##linux
+2017-10-28 14:40:22	jim	original poster
+2017-10-28 14:40:41	mawk	unset don't trigger errors if the variable doesn't exist
+2017-10-28 14:40:45	mawk	doesn't
+2017-10-28 14:40:52	-->	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has joined ##linux
+2017-10-28 14:41:13	mawk	just try exporting DISPLAY then starting your game
+2017-10-28 14:41:27	mawk	on the rpi side, is the X server up and running on that TV ?
+2017-10-28 14:41:33	Sierr_Gay	you can probably check display name in xorg conf
+2017-10-28 14:41:33	-->	nerrollus (~nerrollus@2600:8803:e600:5780:75a5:9b2e:ca8c:e0c4) has joined ##linux
+2017-10-28 14:41:39	mawk	yeah
+2017-10-28 14:41:43	SevenTwenty	I'm really confused now
+2017-10-28 14:41:50	mawk	well don't need a name when you do :0 :1 etc
+2017-10-28 14:41:54	mawk	it's the port number
+2017-10-28 14:41:57	jim	ok, and yes, you're right, normally DISPLAY has to be set, that's how X works...
+2017-10-28 14:41:57	Sierr_Gay	oh
+2017-10-28 14:42:09	mawk	but you can use the name if you have it
+2017-10-28 14:42:11	-->	ryouma (~user@unaffiliated/ryouma) has joined ##linux
+2017-10-28 14:42:12	jim	SevenTwenty, we're arguing :)
+2017-10-28 14:42:15	mawk	instead of the port number
+2017-10-28 14:42:36	mawk	oh you're not the OP
+2017-10-28 14:42:37	mawk	I thought so
+2017-10-28 14:42:39	Sierr_Gay	so display port space is separate from other hardware?
+2017-10-28 14:42:48	mawk	then SevenTwenty , tell me how do you know the connection to TV works in the first place
+2017-10-28 14:43:01	mawk	no it's a socket Sierr_Gay
+2017-10-28 14:43:12	mawk	unix socket or TCP socket, you can set that up
+2017-10-28 14:43:14	Sierr_Gay	i though hw sockets are all in same space
+2017-10-28 14:43:20	mawk	hw sockets ?
+2017-10-28 14:43:25	mawk	I thought it was a plain unix socket
+2017-10-28 14:43:36	mawk	that's a socket that you can find on the file system
+2017-10-28 14:43:41	mawk	or a TCP socket if you give the right options
+2017-10-28 14:43:47	Sierr_Gay	how it supposed to know that you are refering to dispaly socket
+2017-10-28 14:43:54	Sierr_Gay	not a tcp socket for example
+2017-10-28 14:43:55	mawk	the TCP socket thing is useful if you want to launch program on the host, from a VM/container
+2017-10-28 14:44:06	mawk	well X does a calculation
+2017-10-28 14:44:11	Sierr_Gay	oh ok
+2017-10-28 14:44:14	mawk	when you do :0 it's actually 5900 or something
+2017-10-28 14:44:17	mawk	:1 is 5901, etc
+2017-10-28 14:44:21	<--	BluesKaj (~Blues@unaffiliated/blueskaj) has quit (Quit: Konversation terminated!)
+2017-10-28 14:44:25	<--	azx (~nick@2600:8801:b302:8180:73ab:ef91:429c:7296) has quit (Remote host closed the connection)
+2017-10-28 14:44:29	-->	singularity00 (~singulari@236.lan-hi1-2.static.rozabg.com) has joined ##linux
+2017-10-28 14:44:36	mawk	well I guess that's it, you need to verify
+2017-10-28 14:44:37	<--	gknathk (~Gokul@unaffiliated/gknathk) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:44:42	jim	:0, 0 is the display number, not a port
+2017-10-28 14:44:47	mawk	yes
+2017-10-28 14:45:09	mawk	but turned into a port for TCP connection to the X server, if set up that way
+2017-10-28 14:45:13	jim	okok enough :) let's start talking to him now :)
+2017-10-28 14:45:18	-->	OmidraX_ (~OmidraX@67-0-208-188.albq.qwest.net) has joined ##linux
+2017-10-28 14:45:21	<--	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:45:22	mawk	lol
+2017-10-28 14:45:28	mawk	you saw my question SevenTwenty ?
+2017-10-28 14:45:35	mawk	convince me the X server is working in the first place
+2017-10-28 14:46:14	KnightsOfNi	Sierr_Gay, I just re-installed Mint
+2017-10-28 14:46:18	SevenTwenty	Hi, mawk. Thanks for jumping in here. My kids and I are trying out pygam with python3 to do some game development. We have the Raspberry Pi hooked up to the TV to play the game, and we're using a laptop with SSH to write the code from across the room. It's a small TV posted up near the ceiling, and it's too hard to write the code from the floor, because we can't really see it, and it hurts the neck to always look up. The part we
+2017-10-28 14:46:18	SevenTwenty	can't accomplish is getting the game to launch on the TV from SSH-laptop.
+2017-10-28 14:46:38	mawk	so the TV works
+2017-10-28 14:46:38	Sierr_Gay	KnightsOfNi: why
+2017-10-28 14:46:55	SevenTwenty	mawk: Yes. The TV works. Everything works from the TV.
+2017-10-28 14:46:55	KnightsOfNi	I couldn't revert the xorg
+2017-10-28 14:47:05	Sierr_Gay	does it work now?
+2017-10-28 14:47:13	<--	JeanCarloMachado (~jean@200.18.122.31) has quit (Remote host closed the connection)
+2017-10-28 14:47:20	Sierr_Gay	did you update the system already?
+2017-10-28 14:47:21	-->	mandeep (~mandeep@121.sub-174-223-13.myvzw.com) has joined ##linux
+2017-10-28 14:47:22	mawk	SevenTwenty: try that command in ssh: env DISPLAY=:0 xterm
+2017-10-28 14:47:23	SevenTwenty	mawk: What we can't do is launch the game on the TV using SSH from the laptop.
+2017-10-28 14:47:28	-->	arancina (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has joined ##linux
+2017-10-28 14:47:28	-->	karolherbst (~karolherb@pd95cc5f8.dip0.t-ipconnect.de) has joined ##linux
+2017-10-28 14:47:30	<--	Raed|Laptop (~Raed@2601:18c:8601:c7e9:262:406e:319c:7768) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:47:34	mawk	it should open a terminal window on the TV
+2017-10-28 14:47:44	<--	mkoskar (~mkoskar@unaffiliated/mkoskar) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:48:06	-->	mandeep_ (~mandeep@gateway/vpn/privateinternetaccess/mandeepb) has joined ##linux
+2017-10-28 14:48:06	-->	Comstock_ (~Comstock@unaffiliated/comstock) has joined ##linux
+2017-10-28 14:48:15	SevenTwenty	pi@raspberrypi:~ $ env DISPLAY=:0 xterm
+2017-10-28 14:48:15	SevenTwenty	env: xterm: No such file or directory
+2017-10-28 14:48:20	mawk	lol
+2017-10-28 14:48:23	mawk	that wasn't the error I expected
+2017-10-28 14:48:32	mawk	launch any graphical program that's on the box
+2017-10-28 14:48:35	mawk	xeyes maybe ?
+2017-10-28 14:48:47	mawk	or launch the game directly
+2017-10-28 14:48:54	mawk	any the syntax is env DISPLAY=:0 command
+2017-10-28 14:48:56	Sierr_Gay	which game is that anyway
+2017-10-28 14:49:03	<--	d1z (~gt@unaffiliated/gtt) has quit (Ping timeout: 246 seconds)
+2017-10-28 14:49:06	mawk	a homemade one
+2017-10-28 14:49:09	ℹ 	Comstock_ is now known as Comstock
+2017-10-28 14:49:10	-->	pajpax (~pajpax@bband-dyn65.95-103-205.t-com.sk) has joined ##linux
+2017-10-28 14:49:26	Sierr_Gay	just pass it to xinit then
+2017-10-28 14:49:29	jim	SevenTwenty, some games were made in someone's home
+2017-10-28 14:49:37	mawk	SevenTwenty: maybe better, at the start of your ssh session you do the following: export DISPLAY=:0
+2017-10-28 14:49:37	jim	oops ;)
+2017-10-28 14:49:45	mawk	that way graphical programs will run on the TV by default
+2017-10-28 14:49:52	SevenTwenty	We're making games with pygame and python3.
+2017-10-28 14:49:53	mawk	Sierr_Gay: the X server is already running
+2017-10-28 14:49:56	mawk	I guess
+2017-10-28 14:50:02	mawk	xinit is for starting a new one
+2017-10-28 14:50:12	SevenTwenty	pi@raspberrypi:~ $ xeyes
+2017-10-28 14:50:12	SevenTwenty	Error: Can't open display:
+2017-10-28 14:50:19	mawk	with the DISPLAY stuff SevenTwenty
+2017-10-28 14:50:24	mawk	env DISPLAY=:0 xeyes
+2017-10-28 14:50:28	Sierr_Gay	looks like you need to configure xorg
+2017-10-28 14:50:28	mawk	try that
+2017-10-28 14:50:38	mawk	no, he just have to export the DISPLAY variable
+2017-10-28 14:50:46	mawk	which isn't exported in a ssh session
+2017-10-28 14:50:51	<--	tommaso (~tommaso@host244-142-dynamic.4-87-r.retail.telecomitalia.it) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:51:04	SevenTwenty	pi@raspberrypi:~ $ env DISPLAY=:0 xeyes
+2017-10-28 14:51:04	SevenTwenty	Error: Can't open display: :0
+2017-10-28 14:51:06	<--	Comstock- (~Comstock@unaffiliated/comstock) has quit (Ping timeout: 255 seconds)
+2017-10-28 14:51:14	mawk	ok, now we can talk about xinit
+2017-10-28 14:51:25	mawk	the X server isn't running, you have to set up that before trying to open windows
+2017-10-28 14:51:36	SevenTwenty	Okay.
+2017-10-28 14:51:48	mawk	did you reboot since you installed the X server ?
+2017-10-28 14:51:48	SevenTwenty	startx?
+2017-10-28 14:51:51	mawk	did you install it at all ?
+2017-10-28 14:51:53	jim	we've determined the game runs when he runs it from the pi keyboard, and when he runs it from an ssh -X to the pi
+2017-10-28 14:52:05	Sierr_Gay	what's the difference between export and enc?
+2017-10-28 14:52:08	<--	mandeep (~mandeep@121.sub-174-223-13.myvzw.com) has quit (Ping timeout: 260 seconds)
+2017-10-28 14:52:12	Sierr_Gay	env*
+2017-10-28 14:52:13	mawk	well I would install some graphical interface SevenTwenty
+2017-10-28 14:52:28	mawk	it's easier to work with, you can close the windows etc, you have menus, etc
+2017-10-28 14:52:30	-->	Ace__ (54d66253@gateway/web/freenode/ip.84.214.98.83) has joined ##linux
+2017-10-28 14:52:37	<--	markasoftware (~markasoft@2601:601:a100:1164::5bc4) has quit (Quit: Leaving)
+2017-10-28 14:52:37	mawk	bare metal Xorg isn't user friendly
+2017-10-28 14:52:41	Ace__	anyone here had problem with anaconda3 on fedora?
+2017-10-28 14:52:50	Ace__	I cannot seem to install it
+2017-10-28 14:52:55	mawk	Sierr_Gay: export does it for every following command, env only does it for the command following
+2017-10-28 14:53:07	jim	maybe we should determine what the problem actually is :)
+2017-10-28 14:53:11	mawk	SevenTwenty: type sudo tasksel
+2017-10-28 14:53:13	SevenTwenty	Okay. Making progress here.
+2017-10-28 14:53:14	mawk	in the SSH
+2017-10-28 14:53:22	mawk	and you select graphical stuff and XFCE, for instance
+2017-10-28 14:53:24	SevenTwenty	I load the desktop.
+2017-10-28 14:53:39	jim	before we do that,
+2017-10-28 14:53:40	SevenTwenty	Desktop is running now, and I can launch xeyes from SSH.
+2017-10-28 14:53:41	-->	SerialSmile (~SerialSmi@95-27-92-76.broadband.corbina.ru) has joined ##linux
+2017-10-28 14:53:45	jim	the game was running
+2017-10-28 14:53:50	mawk	what did you just do SevenTwenty ?
+2017-10-28 14:54:26	SevenTwenty	I ran startx from the TV.
+2017-10-28 14:54:26	mawk	alright
+2017-10-28 14:54:26	SevenTwenty	That loaded the desktop.
+2017-10-28 14:54:26	mawk	and what desktop is it ?
+2017-10-28 14:54:26	-->	trae32566 (~trae@2607:5300:61:10ad::3) has joined ##linux
+2017-10-28 14:54:26	SevenTwenty	Now xeyes runs on the TV from SSH.
+2017-10-28 14:54:26	-->	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has joined ##linux
+2017-10-28 14:54:28	mawk	you're not supposed to startx, use the desktop manager thingie
+2017-10-28 14:54:32	mawk	but anyway it works
+2017-10-28 14:54:35	SevenTwenty	mawk: I'm not sure. It's the default desktop for Pi 3.
+2017-10-28 14:54:38	mawk	so if you can launch xeyes you can launch your game
+2017-10-28 14:54:40	mawk	oh, ok
+2017-10-28 14:54:48	mawk	why isn't it started by default ?
+2017-10-28 14:54:53	mawk	did you reboot since its installation ?
+2017-10-28 14:55:03	trae32566	anyone know a better way to identify a USB device (say for USB static device mapping) if I have two of the same model (so I can't just use Vendor ID and Model) and the Serial is 0 from 'lsusb -v' ?
+2017-10-28 14:55:06	<--	MBS (~MBS@2601:282:a00:d38:519a:6ea:de86:f9c8) has quit (Read error: Connection reset by peer)
+2017-10-28 14:55:33	trae32566	shouldn't it be against the USB spec to not specify a serial? .-.
+2017-10-28 14:55:34	-->	MBS (~MBS@2601:282:a00:d38:519a:6ea:de86:f9c8) has joined ##linux
+2017-10-28 14:55:38	SevenTwenty	I don't know why it's not running by default.
+2017-10-28 14:55:50	-->	gr8 (~gr8@unaffiliated/gr8) has joined ##linux
+2017-10-28 14:55:53	mawk	is the TV plugged at all times ?
+2017-10-28 14:56:03	jim	BlitzerHound, hi. still here/
+2017-10-28 14:56:04	jim	?
+2017-10-28 14:56:05	Sierr_Gay	i think you need to add startx to you init file
+2017-10-28 14:56:09	<--	karolherbst (~karolherb@pd95cc5f8.dip0.t-ipconnect.de) has quit (Quit: nap time!)
+2017-10-28 14:56:11	SevenTwenty	mawk: Yes.
+2017-10-28 14:56:11	Sierr_Gay	SevenTwenty
+2017-10-28 14:56:15	mawk	nobody needs to do that Sierr_Gay
+2017-10-28 14:56:15	lstanley	rasbian, for the pi, if that's what you're using, doesn't start x by default
+2017-10-28 14:56:20	Sierr_Gay	why not
+2017-10-28 14:56:21	SevenTwenty	mawk: Wait, what? Plugged in?
+2017-10-28 14:56:23	lstanley	raspbian* or whatever
+2017-10-28 14:56:27	mawk	yes SevenTwenty
+2017-10-28 14:56:30	mawk	gdm3/lightdm/sddm/etc. launches it for you, Sierr_Gay
+2017-10-28 14:56:44	c-c	no dm or login manager
+2017-10-28 14:56:45	mawk	by the /etc/init.d script, or by systemd
+2017-10-28 14:56:45	-->	l3archos (~Thunderbi@unaffiliated/l3archos) has joined ##linux
+2017-10-28 14:56:47	lstanley	mawk: see what I said
+2017-10-28 14:56:51	<--	flying_sausages (~flying_sa@ip4da72b45.direct-adsl.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-28 14:56:53	Sierr_Gay	yeah thats what i said
+2017-10-28 14:56:55	mawk	oh, ok lstanley
+2017-10-28 14:57:12	mawk	and isn't there a better way to start the dm than startx ?
+2017-10-28 14:57:15	Sierr_Gay	i said init not xinit
+2017-10-28 14:57:17	<--	beefjoe (~beefjoe@dslb-094-216-079-163.094.216.pools.vodafone-ip.de) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:57:19	mawk	like a provided command
+2017-10-28 14:57:22	mawk	yeah I know
+2017-10-28 14:57:26	Sierr_Gay	oh
+2017-10-28 14:57:36	Sierr_Gay	is there any difference in how to start dm?
+2017-10-28 14:57:44	lstanley	if can be configured to using normal methods like rc and similar. raspbian also has a config option to enable it on boot too iirc.
+2017-10-28 14:57:50	-->	kp^ (~kp@static-50-53-45-0.bvtn.or.frontiernet.net) has joined ##linux
+2017-10-28 14:57:51	mawk	well usually the desktop manager adds tons of parameters to Xorg when starting
+2017-10-28 14:57:51	SevenTwenty	So, there is an example game called "aliens"
+2017-10-28 14:57:55	SevenTwenty	https://0bin.net/paste/88XquwTjE07-kY2F#05jprhPnmsPe7op+PyRl-JkfW+y+cBpG9lZPo5CzsVx
+2017-10-28 14:57:56	<--	plexigras (~plexigras@gateway/vpn/privateinternetaccess/plexigras) has quit (Quit: WeeChat 1.9.1)
+2017-10-28 14:58:04	mawk	that's why I'm reluctant to start it manually
+2017-10-28 14:58:20	mawk	but I guess there are X config files provided by the desktop manager so that's fine
+2017-10-28 14:58:24	<--	abu0 (~abu0@91-189-58-38.riz.pl) has quit (Ping timeout: 240 seconds)
+2017-10-28 14:58:26	<--	kp__ (~kp@ip98-169-85-120.dc.dc.cox.net) has quit (Quit: WeeChat 1.9.1)
+2017-10-28 14:58:40	mawk	let's use that config option then lstanley
+2017-10-28 14:58:54	mawk	add the DISPLAY thing SevenTwenty
+2017-10-28 14:59:22	SevenTwenty	mawk: Add what exactly?
+2017-10-28 14:59:28	mawk	like for xeyes
+2017-10-28 14:59:41	mawk	you do env DISPLAY=:0 python3 -m pygame.example.aliens
+2017-10-28 14:59:44	ℹ 	mandeep_ is now known as mandeep
+2017-10-28 14:59:44	<--	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has quit (Ping timeout: 255 seconds)
+2017-10-28 15:00:14	-->	Changuar (~Toadisatt@gateway/vpn/privateinternetaccess/toadisattva) has joined ##linux
+2017-10-28 15:00:19	BlitzerHound	Okay
+2017-10-28 15:00:22	BlitzerHound	It's finished now
+2017-10-28 15:00:27	BlitzerHound	Finally.
+2017-10-28 15:00:30	mawk	then you can export that variable to every command you launch by doing export DISPLAY=:0 as soon as you enter the ssh session, so that you don't have to add that env thing anymore
+2017-10-28 15:00:31	jim	cool
+2017-10-28 15:00:34	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 258 seconds)
+2017-10-28 15:00:34	<--	Sierr_Gay (~user@5.100.105.177) has quit (Quit: Leaving.)
+2017-10-28 15:00:48	<--	T-Rog (~Tyler@150.216.255.20) has quit (Ping timeout: 248 seconds)
+2017-10-28 15:00:48	BlitzerHound	So do I just straight up use rufus to put it on the thing?
+2017-10-28 15:01:11	mawk	or any tool that works BlitzerHound
+2017-10-28 15:01:11	SevenTwenty	Wooooooooooooooooooooooooooooooooo! We got something here.
+2017-10-28 15:01:17	mawk	like this https://sourceforge.net/projects/win32diskimager/
+2017-10-28 15:01:17	SevenTwenty	This did it: env DISPLAY=:0 python3 -m pygame.examples.aliens
+2017-10-28 15:01:21	SevenTwenty	Wow.
+2017-10-28 15:01:22	mawk	yeah SevenTwenty
+2017-10-28 15:01:23	jim	BlitzerHound, ok, you might want to hang onto that file (don't just write it to the usb and then delete it; could be handy for later)
+2017-10-28 15:01:26	SevenTwenty	What a relief.
+2017-10-28 15:01:26	<--	MrElendig (Urist@archlinux/op/pdpc.supporter.active.mrelendig) has quit (Quit: blood for the blood god)
+2017-10-28 15:01:31	BlitzerHound	Okay.
+2017-10-28 15:01:32	mawk	every command needs to know the display, SevenTwenty
+2017-10-28 15:01:37	<--	nerrollus (~nerrollus@2600:8803:e600:5780:75a5:9b2e:ca8c:e0c4) has quit (Remote host closed the connection)
+2017-10-28 15:01:48	mawk	you can tell it everytime with "env", or you can tell it once for the whole ssh session with "export"
+2017-10-28 15:01:53	SevenTwenty	Much thanks to all who helped.
+2017-10-28 15:02:03	<--	achumapuma (~Toadisatt@gateway/vpn/privateinternetaccess/toadisattva) has quit (Ping timeout: 260 seconds)
+2017-10-28 15:02:20	mawk	if you want to be perfectionnist you can follow lstanley remarks about the config option that enable graphics by default SevenTwenty
+2017-10-28 15:02:22	<--	l3archos (~Thunderbi@unaffiliated/l3archos) has quit (Quit: l3archos)
+2017-10-28 15:02:33	jim	SevenTwenty, so now try your game... env DISPLAY=:0 python3 (yourgame)
+2017-10-28 15:02:37	mawk	and you can add the DISPLAY export to your bashrc so that's it's done automatially
+2017-10-28 15:02:37	-->	dan2wik (~dan2wik@unaffiliated/dan2wik) has joined ##linux
+2017-10-28 15:02:57	lstanley	if SevenTwenty is using Raspbian, I believe it should be, once you startx, under the main menu. Preferences >> Raspberry Pi Configuration
+2017-10-28 15:03:02	<--	murdoc` (~murdoc`@gateway/vpn/privateinternetaccess/murdoc/x-48760953) has quit (Ping timeout: 264 seconds)
+2017-10-28 15:03:14	jim	mawk, you don't necessarily want that all the time :)
+2017-10-28 15:03:17	lstanley	there should be a 'boot to' option which lets one select cli versus graphical
+2017-10-28 15:03:20	<--	penguinguru (~penguingu@110.150.238.234) has quit (Ping timeout: 255 seconds)
+2017-10-28 15:03:36	trae32566	never mind, I used '%e' for the symlink, so I should just get '/dev/foo, /dev/foo1'
+2017-10-28 15:03:36	-->	MrElendig (Urist@archlinux/op/pdpc.supporter.active.mrelendig) has joined ##linux
+2017-10-28 15:03:43	trae32566	stupid steam controllers -_-
+2017-10-28 15:04:14	-->	well_laid_lawn (~Jean-luc@203.185.203.131) has joined ##linux
+2017-10-28 15:04:24	jim	BlitzerHound, rufus it to the usb.. and pause... before we start, do you have multiple machines?
+2017-10-28 15:04:39	-->	flying_s_ (~flying_sa@ip4da72b45.direct-adsl.nl) has joined ##linux
+2017-10-28 15:04:47	<--	Raed|Mobile (~Raed@2601:18c:8601:c7e9:5504:1fdf:2a74:9fa) has quit (Ping timeout: 252 seconds)
+2017-10-28 15:04:55	SevenTwenty	Well, that was a huge breakthrough. I appreciate all of you. Much gratitude.
+2017-10-28 15:04:57	mawk	why not jim ?
+2017-10-28 15:05:16	mawk	there should be only one X server on its box, and if it's not up graphical programs will fail anyway
+2017-10-28 15:05:25	-->	Raed|Mobile (~Raed@2607:fb90:2e26:979:4fd3:35a7:1cf1:95df) has joined ##linux
+2017-10-28 15:06:08	-->	penguinguru (~penguingu@110.150.85.119) has joined ##linux
+2017-10-28 15:06:26	-->	bray90820_ (~bray90820@50-83-217-236.client.mchsi.com) has joined ##linux
+2017-10-28 15:06:45	jim	mawk, for some reason it was working without that... if you do that and then you ssh in, then (until you change it) it will always go to the localhost display
+2017-10-28 15:06:55	<--	BOKALDO (~BOKALDO@87.110.144.60) has quit (Quit: Leaving)
+2017-10-28 15:07:45	<--	bray90820 (~bray90820@50-83-217-236.client.mchsi.com) has quit (Ping timeout: 248 seconds)
+2017-10-28 15:07:46	mawk	??
+2017-10-28 15:07:53	mawk	sorry for the double ?
+2017-10-28 15:07:58	BlitzerHound	So is this a net installer? Because I ran into an unsolvable issue lol.
+2017-10-28 15:07:59	mawk	well it can't go to the localhost display
+2017-10-28 15:08:09	-->	syb0rg (~syb0rg@gateway/vpn/privateinternetaccess/syb0rg) has joined ##linux
+2017-10-28 15:08:11	BlitzerHound	I lost my friend's wifi code.
+2017-10-28 15:08:18	mawk	there is no link between the local X server and the remote X display designed by :0
+2017-10-28 15:08:27	mawk	lol BlitzerHound
+2017-10-28 15:08:33	<--	lostidentity (uid218434@gateway/web/irccloud.com/x-hhuzlxhzrcsurobj) has quit (Quit: Connection closed for inactivity)
+2017-10-28 15:08:33	mawk	if you're on Windows you have tools to recover it
+2017-10-28 15:08:41	jim	mawk, maybe it would be better to do: if [ -z $DISPLAY ]; then export DISPLAY=:0 ; fi
+2017-10-28 15:08:48	mawk	yeah
+2017-10-28 15:09:02	<--	willc (~willc@unaffiliated/willc) has quit (Ping timeout: 264 seconds)
+2017-10-28 15:09:21	SevenTwenty	Ohhhhhhhhhhhhhhhhhhhhhhhhh weird. Weird update here. This works from the command line with the desktop shutdown: sudo python3 -m pygame.examples.aliens
+2017-10-28 15:09:29	BlitzerHound	I have tools to recover the wifi password? o3o
+2017-10-28 15:09:30	SevenTwenty	sudo python3 -m pygame.examples.aliens
+2017-10-28 15:09:30	mawk	BlitzerHound: http://www.nirsoft.net/toolsdownload/wirelesskeyview-x64.zip
+2017-10-28 15:10:01	mawk	yeah well the desktop manager shuts down but not the X server SevenTwenty
+2017-10-28 15:10:01	BlitzerHound	I don't have permission to view this, it says
+2017-10-28 15:10:04	mawk	so apps can still run
+2017-10-28 15:10:12	jim	(aka don't automatically clobber DISPLAY if it's set)
+2017-10-28 15:10:25	-->	JeanCarloMachado (~jean@200.18.122.31) has joined ##linux
+2017-10-28 15:10:29	BlitzerHound	nevermind, my friend brought it to me lol
+2017-10-28 15:10:30	mawk	hotlinking is disabled BlitzerHound so go on that link and click on "download wirelesskeyview for x64": http://www.nirsoft.net/utils/wireless_key.html
+2017-10-28 15:10:33	mawk	oh ok
+2017-10-28 15:10:42	-->	nerrollus (~nerrollus@2600:8803:e600:5780:75a5:9b2e:ca8c:e0c4) has joined ##linux
+2017-10-28 15:10:44	-->	manuelschneid3r (~manuelsch@p200300E243D50D00C96BE19D0577732D.dip0.t-ipconnect.de) has joined ##linux
+2017-10-28 15:10:48	jim	BlitzerHound, hmm/
+2017-10-28 15:10:49	jim	?\
+2017-10-28 15:11:18	-->	TRS-80_mobile (~yaaic@gateway/vpn/privateinternetaccess/trs-80) has joined ##linux
+2017-10-28 15:11:35	<--	lord| (~solenodic@unaffiliated/solenodic) has quit (Quit: WeeChat 1.9.1)
+2017-10-28 15:11:42	SevenTwenty	sudo python3 -m pygame.examples.aliens works every time now. Even after a system reboot.
+2017-10-28 15:11:53	<--	flying_s_ (~flying_sa@ip4da72b45.direct-adsl.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-28 15:12:05	mawk	with the env stuff ?
+2017-10-28 15:12:06	SevenTwenty	Was it a privileges issues all along?
+2017-10-28 15:12:06	-->	lord| (~solenodic@unaffiliated/solenodic) has joined ##linux
+2017-10-28 15:12:14	mawk	no, it shouldn't be
+2017-10-28 15:12:17	SevenTwenty	mawk: I don't have to use an env stuff now.
+2017-10-28 15:12:20	mawk	or maybe I don't know X enough
+2017-10-28 15:12:27	jim	SevenTwenty, so the big test is, does it work with your game?
+2017-10-28 15:12:30	mawk	what's the output of echo $DISPLAY
+2017-10-28 15:12:32	mawk	?
+2017-10-28 15:12:33	-->	donato (~dominique@unaffiliated/donato) has joined ##linux
+2017-10-28 15:12:38	<--	Hydrastra (~lulkek@240f:2:780a:1:14bd:56f5:911b:da65) has quit (Quit: さよなら)
+2017-10-28 15:12:40	SevenTwenty	jim: Yes, everything works exactly as desire now.
+2017-10-28 15:13:00	SevenTwenty	pi@raspberrypi:~ $ echo $DISPLAY
+2017-10-28 15:13:08	SevenTwenty	[NULL]
+2017-10-28 15:13:14	mawk	alright
+2017-10-28 15:13:21	SevenTwenty	Weird.
+2017-10-28 15:13:23	jim	good... glad you got it set up right
+2017-10-28 15:13:25	SevenTwenty	But good.
+2017-10-28 15:13:29	BlitzerHound	See now here's the thing that I didn't understand about the other thing. It lists two things, my wireless thing and the ethernet thing. But I don't see how I'm supposed to connect to wireless
+2017-10-28 15:13:30	mawk	and you're on your computer, ssh'd to the raspberry pi
+2017-10-28 15:13:37	SevenTwenty	Thank you to everyone.
+2017-10-28 15:13:51	SevenTwenty	mawk: Yep.
+2017-10-28 15:13:57	-->	palmtree (~user@unaffiliated/palmtree) has joined ##linux
+2017-10-28 15:13:58	mawk	select Wi-Fi BlitzerHound
+2017-10-28 15:14:01	SevenTwenty	mawk: Doing everything through SSH now.
+2017-10-28 15:14:04	<--	donato (~dominique@unaffiliated/donato) has left ##linux ("WeeChat 1.9.1")
+2017-10-28 15:14:07	SevenTwenty	All is well.
+2017-10-28 15:14:08	mawk	in the next steps it should prompt for password
+2017-10-28 15:14:09	SevenTwenty	Good times.
+2017-10-28 15:14:12	mawk	that's weird
+2017-10-28 15:14:13	<--	sigsts (~sigsts@unaffiliated/skyroverr) has quit (Ping timeout: 240 seconds)
+2017-10-28 15:14:21	<--	ruied (~ruied@po2-84-90-121-174.netvisao.pt) has quit (Ping timeout: 240 seconds)
+2017-10-28 15:14:27	jim	BlitzerHound, it will try by itself to connect
+2017-10-28 15:14:28	<--	gopar (~gopar@2601:647:4700:205d:a152:9035:aab9:f518) has quit (Remote host closed the connection)
+2017-10-28 15:14:31	-->	SwiftMatt (~Objective@2601:282:4300:3e:d882:a21:5fda:848f) has joined ##linux
+2017-10-28 15:14:46	BlitzerHound	Yeah but how do I get it to do that? Because it asks me for essid and the network key
+2017-10-28 15:14:50	BlitzerHound	And it's not an open network
+2017-10-28 15:15:11	jim	do you know those things?
+2017-10-28 15:15:30	-->	sigsts (~sigsts@unaffiliated/skyroverr) has joined ##linux
+2017-10-28 15:15:45	jim	so not an "advertised" net?
+2017-10-28 15:15:55	-->	kliq (~textual@line-20447.dyn.kponet.fi) has joined ##linux
+2017-10-28 15:16:09	BlitzerHound	It is, but it's not like it gives me any option to pick a network
+2017-10-28 15:16:23	BlitzerHound	Only lets me pick one of my network devices, the ethernet or wireless
+2017-10-28 15:16:28	BlitzerHound	And it acts like those are networks
+2017-10-28 15:16:29	<--	SwiftMatt (~Objective@2601:282:4300:3e:d882:a21:5fda:848f) has quit (Client Quit)
+2017-10-28 15:16:49	jim	oh ok... but let's zoom out for just a sec, I have questions?
+2017-10-28 15:17:02	-->	T-Rog (~Tyler@150.216.255.20) has joined ##linux
+2017-10-28 15:17:27	-->	Agiofws (~agiofws@2a02:582:7c9b:cc00:4de0:7a1d:b976:a77f) has joined ##linux
+2017-10-28 15:17:46	jim	first, do you have more than one machine? (each capable of running an irc client)?
+2017-10-28 15:18:09	BlitzerHound	Well I'm on the other machine right now
+2017-10-28 15:18:15	<--	Cthulu201 (~Cthulu201@unaffiliated/cthulu201) has quit (Quit: WeeChat 1.9.1)
+2017-10-28 15:18:16	<--	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Quit: jancoow)
+2017-10-28 15:18:21	jim	so that's a yes?
+2017-10-28 15:18:38	BlitzerHound	Yes. I have the laptop I'm trying to install on and the one I'm using now
+2017-10-28 15:18:46	BlitzerHound	But my other one will not run IRC
+2017-10-28 15:18:52	BlitzerHound	Because I'm trying to install it
+2017-10-28 15:19:01	-->	ZexaronS (~zexpc@cpe-194-152-22-45.static.triera.net) has joined ##linux
+2017-10-28 15:19:07	<--	JeanCarloMachado (~jean@200.18.122.31) has quit (Remote host closed the connection)
+2017-10-28 15:19:13	jim	ok, before starting in,
+2017-10-28 15:19:14	<--	Hexagenic (~Hexagenic@81-237-132-138-no71.tbcn.telia.com) has quit (Quit: Leaving)
+2017-10-28 15:19:34	jim	let's give them names so I can keep em straight...
+2017-10-28 15:19:53	<--	triceratux (~sabayon@71-9-135-55.dhcp.mdfd.or.charter.com) has left ##linux ("linux 4.13.0 xorg 1.19.3 sabayon 17.11 xfce 4.12 icewm 1.3.12")
+2017-10-28 15:19:59	<--	kliq (~textual@line-20447.dyn.kponet.fi) has quit (Client Quit)
+2017-10-28 15:20:02	BlitzerHound	The one I'm on we'll call dino
+2017-10-28 15:20:07	BlitzerHound	The other one is lame
+2017-10-28 15:20:16	jim	dino and lame
+2017-10-28 15:20:33	-->	Sierr_Gay (~user@5.100.105.177) has joined ##linux
+2017-10-28 15:20:33	jim	so lame is the one you want to install onto?
+2017-10-28 15:20:36	BlitzerHound	Yes
+2017-10-28 15:20:51	jim	and dino is the one you're typing on now?
+2017-10-28 15:20:57	BlitzerHound	Yep
+2017-10-28 15:21:16	MrElendig	doesn't the distro come with networkmanager?
+2017-10-28 15:21:37	-->	m3n3chm0 (~XFCE@178.57.143.58) has joined ##linux
+2017-10-28 15:21:38	jim	ok, great... I take it you've already rufused the netinst?
+2017-10-28 15:21:43	BlitzerHound	I'm at the 'debian installer main menu'
+2017-10-28 15:21:59	BlitzerHound	It has a long list of options
+2017-10-28 15:21:59	kp^	BlitzerHound,its raspbian right?
+2017-10-28 15:22:05	jim	so yes, and you've booted the installer
+2017-10-28 15:22:10	BlitzerHound	I dunno. It says Debian 9 at the top
+2017-10-28 15:22:18	-->	JeanCarloMachado (~jean@200.18.122.31) has joined ##linux
+2017-10-28 15:22:23	MrElendig	what hardware is this?
+2017-10-28 15:22:25	<--	matrix_architect (~matrix_ar@unaffiliated/dontknow) has quit (Quit: Leaving)
+2017-10-28 15:22:35	Sierr_Gay	is there open iwlwifi? every time i install debian i have to alter their source list
+2017-10-28 15:22:36	jim	lame is the acer?
+2017-10-28 15:22:39	<--	m3n3chm0 (~XFCE@178.57.143.58) has quit (Client Quit)
+2017-10-28 15:22:40	BlitzerHound	Yeah
+2017-10-28 15:23:34	<--	tomty89 (~user@223.104.1.176) has quit (Quit: ERC (IRC client for Emacs 25.3))
+2017-10-28 15:23:44	jim	Sierr_Gay, there's the nonfree firmware version of the netinstall (which is the link I posted earlier)
+2017-10-28 15:24:10	-->	cemotyz09 (~cemotyz09@cpe-70-121-157-202.satx.res.rr.com) has joined ##linux
+2017-10-28 15:24:20	jim	ok... does lame have any other OSes you want to keep?
+2017-10-28 15:24:25	BlitzerHound	no
+2017-10-28 15:24:30	jim	or, are we wiping the whole thing?
+2017-10-28 15:24:36	BlitzerHound	Total wipe
+2017-10-28 15:24:50	jim	ok...
+2017-10-28 15:24:53	jim	got it.
+2017-10-28 15:25:12	<--	whenisnever (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has quit (Quit: WeeChat 1.9.1)
+2017-10-28 15:25:16	jim	just to make this simple, got a spare eth cable?
+2017-10-28 15:25:32	BlitzerHound	I do not.
+2017-10-28 15:25:33	-->	beefjoe (~beefjoe@dslb-094-216-079-163.094.216.pools.vodafone-ip.de) has joined ##linux
+2017-10-28 15:25:49	MrElendig	should buy a few
+2017-10-28 15:25:53	<--	blip- (~blip-@unaffiliated/blip-) has quit (Ping timeout: 248 seconds)
+2017-10-28 15:26:14	-->	erode (~dowens@in-184-1-139-170.dhcp.embarqhsd.net) has joined ##linux
+2017-10-28 15:26:20	-->	whenisnever (~whenisnev@176-12-28-168.pon.spectrumnet.bg) has joined ##linux
+2017-10-28 15:26:22	BlitzerHound	I'll do that when I go to get my flash drive. But until then I'm stuck with trying to ghetto install this stuff lol
+2017-10-28 15:26:29	-->	SwiftMatt (~Objective@2601:282:4300:3e:d882:a21:5fda:848f) has joined ##linux
+2017-10-28 15:26:30	-->	l3archos (~Thunderbi@unaffiliated/l3archos) has joined ##linux
+2017-10-28 15:26:30	-->	triceratux (~antiX_17@71-9-135-55.dhcp.mdfd.or.charter.com) has joined ##linux
+2017-10-28 15:26:31	jim	ok, wireless it is... do you have the essid and password for the wireless you're at, OR do you see any open ones?
+2017-10-28 15:26:42	mawk	you don't need internet for now if it's not a netinst, but it'd way better
+2017-10-28 15:26:50	mawk	to update and complement the packages
+2017-10-28 15:26:51	-->	halv (~halv@p200300446F084900D5FC6A3DB4F4285A.dip0.t-ipconnect.de) has joined ##linux
+2017-10-28 15:27:06	BlitzerHound	I have the ssid for the one I'm on now, as well as the password yes.
+2017-10-28 15:27:11	mawk	if you've got an ISO DVD you could live without the net during the install, but you've got a CD
+2017-10-28 15:27:14	drumguy1384	If you have an android phone, usb tethering can be an option ... assuming your USB works
+2017-10-28 15:27:21	<--	SwiftMatt (~Objective@2601:282:4300:3e:d882:a21:5fda:848f) has quit (Client Quit)
+2017-10-28 15:27:26	mawk	yeah USB tethering is life saving
+2017-10-28 15:27:35	jim	BlitzerHound, ok, and when you give that to the debian installer, does it work?
+2017-10-28 15:27:44	BlitzerHound	I don't know where to give it
+2017-10-28 15:27:45	Sierr_Gay	i was just building lfs on ssd using live debian running from usb. i ran out of space on root fs, rebooted and everything is gone from the ssd. how is that even possible
+2017-10-28 15:27:45	<--	eigenstate (~eigenstat@unaffiliated/eigenstate) has quit (Remote host closed the connection)
+2017-10-28 15:27:53	mawk	just wait for it to ask you, BlitzerHound
+2017-10-28 15:28:00	-->	eigenstate (~eigenstat@unaffiliated/eigenstate) has joined ##linux
+2017-10-28 15:28:00	mawk	you don't configure network at the start of the installer
+2017-10-28 15:28:03	BlitzerHound	But I'm sitting on a menu
+2017-10-28 15:28:05	mawk	it's a few steps later
+2017-10-28 15:28:09	<--	halv (~halv@p200300446F084900D5FC6A3DB4F4285A.dip0.t-ipconnect.de) has quit (Client Quit)
+2017-10-28 15:28:09	jim	mawk, it's a netinstall, so the base packages are on the image
+2017-10-28 15:28:11	mawk	well give us the listed options
+2017-10-28 15:28:11	mgolisch	Sierr_Gay: you were not on the ssd?
+2017-10-28 15:28:16	-->	Cthulu201 (~Cthulu201@unaffiliated/cthulu201) has joined ##linux
+2017-10-28 15:28:16	mawk	oh it's a netinst, alright
+2017-10-28 15:28:17	Bashing-om	jim: BlitzerHound :: Some Acers one must set trust in bios : http://ubuntuforums.org/showthread.php?t=2330267 .
+2017-10-28 15:28:18	BlitzerHound	There's like 30
+2017-10-28 15:28:18	-->	RingtailedFox (~FoxFoxFox@2001:470:1d:c62:707e:3d1c:9515:5d47) has joined ##linux
+2017-10-28 15:28:21	mawk	I thought he abandoned the netinst
+2017-10-28 15:28:28	Sierr_Gay	i assume os runs in ram, since its live distro
+2017-10-28 15:28:29	mawk	well list the first 3, BlitzerHound
+2017-10-28 15:28:35	Sierr_Gay	but why the fk my files gone frm ssd
+2017-10-28 15:28:50	BlitzerHound	choose language, access software for a blind person using a braille display, configure the speech synthesizer voice
+2017-10-28 15:28:56	frostschutz	Sierr_Gay, how large is the ssd?
+2017-10-28 15:29:03	Sierr_Gay	about 250gb
+2017-10-28 15:29:11	mgolisch	Sierr_Gay: you were not on the ssd and installed stuff onto the composite filesystem of the livecd
+2017-10-28 15:29:13	frostschutz	Sierr_Gay, you ran out of 250gb of space?
+2017-10-28 15:29:23	<--	aawy (~aawu@91.222.163.40) has quit (Quit: Leaving)
+2017-10-28 15:29:25	mgolisch	no but ptobably of whatever ram he had
+2017-10-28 15:29:28	jim	BlitzerHound, zooming out one more time...
+2017-10-28 15:29:34	mawk	ok, chosse the first BlitzerHound
+2017-10-28 15:29:40	Sierr_Gay	but ssd is mounted
+2017-10-28 15:29:43	mawk	then you go down step by step
+2017-10-28 15:29:46	Sierr_Gay	and i downloaded a lot of files
+2017-10-28 15:29:48	BlitzerHound	One second, let me just restart and go back to the main main menu thing
+2017-10-28 15:29:49	jim	are you at your own house? or is this a friend's place?
+2017-10-28 15:29:58	mawk	skipping the very useless like Braille or speech synthetizer
+2017-10-28 15:29:59	BlitzerHound	Friend's
+2017-10-28 15:30:14	Sierr_Gay	i think i ran out of ram space
+2017-10-28 15:30:14	mawk	to be sure, ask us for every option when you're about to select it, if you want
+2017-10-28 15:30:15	jim	ok, shouldn't be a problem
+2017-10-28 15:30:16	Sierr_Gay	not ssd
+2017-10-28 15:30:22	-->	donavan01 (~donavan01@c-76-120-128-13.hsd1.wv.comcast.net) has joined ##linux
+2017-10-28 15:30:24	mgolisch	Sierr_Gay: theres no way you could have filled up a normal 120/250gb ssd with just a lfs abse install
+2017-10-28 15:30:24	palmtree	hi, is it true that installing distros like arch, fedora or ubuntu on a macbook is quite troublesome?
+2017-10-28 15:30:32	BlitzerHound	Okay so I have when I start up the options, Graphical install, install, advanced options, help, or install with speech synthesis
+2017-10-28 15:30:33	Sierr_Gay	i'm curious why files didnt save on ssd
+2017-10-28 15:30:41	mawk	graphical install
+2017-10-28 15:30:46	mawk	chose that
+2017-10-28 15:30:48	Sierr_Gay	it said root fs is full
+2017-10-28 15:30:49	<--	goodafternoon (~goodafter@ppp141237169176.access.hol.gr) has quit (Remote host closed the connection)
+2017-10-28 15:31:02	frostschutz	Sierr_Gay, because you were in the wrong dir and did all in ram instead of SSD, as mgolish says, probably. root fs in a live cd is ram
+2017-10-28 15:31:04	mgolisch	yeah because you put files not on the ssd but on rootfs of the livecd
+2017-10-28 15:31:04	jim	palmtree, those are three very different distributiuons
+2017-10-28 15:31:19	<--	dieggsy (~user@unaffiliated/diegs/x-9438211) has quit (Remote host closed the connection)
+2017-10-28 15:31:21	mawk	then select the very first option which should be choose language, then you select the next one etc (unless it's useless like Braille or speech synthetisis)
+2017-10-28 15:31:22	drumguy1384	palmtree: I wouldn't think so. It's all x86 hardware
+2017-10-28 15:31:24	Sierr_Gay	but my files were on mounted ssd
+2017-10-28 15:31:29	<--	p4cman (uid171740@gateway/web/irccloud.com/x-sxwpptbskmbdkcbe) has quit (Quit: Connection closed for inactivity)
+2017-10-28 15:31:40	Sierr_Gay	i think it didn't write changes to ssd's fs
+2017-10-28 15:31:40	palmtree	jim: I know, but as far as I found on internet many people had problems in all of them
+2017-10-28 15:31:45	frostschutz	Sierr_Gay, another possibility is when you change partitions, but still had the old ones mounted before the reboot. then it would look like all gone after reboot
+2017-10-28 15:31:58	BlitzerHound	Now it shows languages, chose english
+2017-10-28 15:31:58	-->	dieggsy (~user@unaffiliated/diegs/x-9438211) has joined ##linux
+2017-10-28 15:32:00	Sierr_Gay	oh true i didnt unmount
+2017-10-28 15:32:03	jim	mawk, let's slow down; I'll get lost
+2017-10-28 15:32:07	BlitzerHound	Set location to united states
+2017-10-28 15:32:17	BlitzerHound	Then chose keyboard configuration
+2017-10-28 15:32:27	BlitzerHound	Now it says detecting, scanning cd rom
+2017-10-28 15:32:30	palmtree	drumguy1384: true, but often full of bugs for the display, resolution, keyboard...
+2017-10-28 15:32:32	BlitzerHound	loading additional components
+2017-10-28 15:32:36	jim	good
+2017-10-28 15:32:44	frostschutz	Sierr_Gay, that's only if you change the partition table, most likely you still put everything in ram
+2017-10-28 15:32:49	palmtree	drumguy1384: especially the retina ones..
+2017-10-28 15:32:55	jim	it's loading the rest of the installer
+2017-10-28 15:33:03	BlitzerHound	Detecting network hardware
+2017-10-28 15:33:06	jim	how large is lame
+2017-10-28 15:33:12	frostschutz	Sierr_Gay, when you create a file, use 'df thefile' to see what it is located on
+2017-10-28 15:33:13	jim	's hard drife?
+2017-10-28 15:33:17	BlitzerHound	250GB
+2017-10-28 15:33:21	jim	ok
+2017-10-28 15:33:44	BlitzerHound	Now it tells me to pick the primary network interface
+2017-10-28 15:33:49	mawk	alright jim
+2017-10-28 15:33:52	drumguy1384	palmtree: god bless Apple and their strict stranglehold on hardware compatibility ... how else do you become the most profitable company in the world?
+2017-10-28 15:34:15	BlitzerHound	Again, it shows my boradcom limited net link gigabit ethernet pci express or intel corporation pro/wireless network connection
+2017-10-28 15:34:19	mawk	I let you carry on, I have to sustain my body wth food
+2017-10-28 15:34:26	mawk	brb
+2017-10-28 15:34:35	jim	cool, thanks :)
+2017-10-28 15:35:24	jim	BlitzerHound, the wireless, the intel?
+2017-10-28 15:35:25	Sierr_Gay	frostschutz: says it's on ssd
+2017-10-28 15:35:32	-->	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has joined ##linux
+2017-10-28 15:36:07	BlitzerHound	Okay so when I choose the wireless, it says to enter the ssid of the network I'd like it to use. To connect to any network, leave it blank
+2017-10-28 15:36:24	BlitzerHound	I've been through this already. Unless the essid is different from the ssid, I don't know what I could be doing wrong
+2017-10-28 15:36:32	jim	choose your friend's for now
+2017-10-28 15:36:34	<--	notmike (uid209547@gateway/web/irccloud.com/x-kisndrnfabqbmpru) has quit (Quit: Connection closed for inactivity)
+2017-10-28 15:36:36	-->	howlymowly (~tom@x4e37dcfd.dyn.telefonica.de) has joined ##linux
+2017-10-28 15:37:14	jim	oh I see, try your friend's ssid and passwd
+2017-10-28 15:37:19	palmtree	drumguy1384: systems too closed, even worse with the latest macbooks..
+2017-10-28 15:37:20	BlitzerHound	I already did
+2017-10-28 15:37:22	BlitzerHound	Nothing happened
+2017-10-28 15:37:29	-->	TikityTik (~TikityTik@162.223.44.49) has joined ##linux
+2017-10-28 15:37:36	-->	Elronnd (elronnd@slashem.me) has joined ##linux
+2017-10-28 15:37:40	<--	Yiota (~textual@CPE00fc8d8821e3-CM00fc8d8821e0.cpe.net.cable.rogers.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-28 15:37:45	jim	ok, one sec, need to take care of a couple things locally
+2017-10-28 15:37:59	-->	muffindrake (~muffindra@unaffiliated/muffindrake) has joined ##linux
+2017-10-28 15:38:00	palmtree	does anyone here use linux on a retina macbook pro?
+2017-10-28 15:38:08	-->	day__ (~Unknown@unaffiliated/day) has joined ##linux
+2017-10-28 15:38:10	Elronnd	fuck
+2017-10-28 15:38:17	<--	hattkunskapz (~h@unaffiliated/hattkunskapz) has quit (Quit: Leaving)
+2017-10-28 15:38:24	BlitzerHound	I'm trying it again just to make sure
+2017-10-28 15:38:28	-->	kg (~krok@unaffiliated/krok/x-1434802) has joined ##linux
+2017-10-28 15:39:01	<--	Hunterkll (~Hunterkll@2001:470:8b06:100:d8ef:6efd:6d0b:67a7) has quit (Read error: Connection reset by peer)
+2017-10-28 15:39:04	BlitzerHound	.....
+2017-10-28 15:39:06	BlitzerHound	hahahaha
+2017-10-28 15:39:12	BlitzerHound	Okay so I found the problem
+2017-10-28 15:39:35	BlitzerHound	My wireless adapter was off
+2017-10-28 15:39:56	Elronnd	I heard this channel is censored
+2017-10-28 15:39:59	<--	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has quit (Client Quit)
+2017-10-28 15:39:59	Elronnd	which iskinda shitty
+2017-10-28 15:40:03	<--	daey (~Unknown@unaffiliated/day) has quit (Ping timeout: 258 seconds)
+2017-10-28 15:40:06	ℹ 	day__ is now known as daey
+2017-10-28 15:40:19	Sierr_Gay	what do u mean censored
+2017-10-28 15:40:19	<--	eigenstate (~eigenstat@unaffiliated/eigenstate) has quit (Read error: Connection reset by peer)
+2017-10-28 15:40:23	jim	Elronnd, do you mean you need a kitty?
+2017-10-28 15:40:32	LocaMocha	Sierr_Gay, "you", not "u".
+2017-10-28 15:40:33	-->	Cirrus_Minor (~Cirrus_Mi@CAcert/Cirrus-Minor) has joined ##linux
+2017-10-28 15:40:41	drumguy1384	palmtree: I get the curiosity for someone who already owns one ... but if you're buying a MAC to put Linux on you are throwing away money.
+2017-10-28 15:40:46	-->	eigenstate (~eigenstat@unaffiliated/eigenstate) has joined ##linux
+2017-10-28 15:41:02	-->	royal_screwup21 (89de72f2@gateway/web/cgi-irc/kiwiirc.com/ip.137.222.114.242) has joined ##linux
+2017-10-28 15:41:02	Sierr_Gay	is it stated in rules, that i have to type tproperly
+2017-10-28 15:41:02	<--	Jesin (~Jesin@pool-72-83-138-15.washdc.fios.verizon.net) has quit (Quit: Leaving)
+2017-10-28 15:41:11	Sierr_Gay	what's wrong with "u"
+2017-10-28 15:41:18	Sierr_Gay	saves 2 button presses
+2017-10-28 15:41:20	LocaMocha	SMS-style English is not permitted.
+2017-10-28 15:41:23	Sierr_Gay	oke
+2017-10-28 15:41:27	Sierr_Gay	or "okay"
+2017-10-28 15:41:36	Sierr_Gay	sorry
+2017-10-28 15:41:36	LocaMocha	Neither is rules lawyering.
+2017-10-28 15:41:38	<--	dieggsy (~user@unaffiliated/diegs/x-9438211) has quit (Ping timeout: 252 seconds)
+2017-10-28 15:41:52	BlitzerHound	Okay something is wrong
+2017-10-28 15:42:19	palmtree	drumguy1384: true, I agree
+2017-10-28 15:42:20	jim	what?
+2017-10-28 15:42:21	-->	Haudegen (~quassel@178.115.237.87) has joined ##linux
+2017-10-28 15:42:24	BlitzerHound	When I went to do the partition, it said, "Input/output error during write on /dev/sda error"
+2017-10-28 15:42:35	BlitzerHound	actually it was ERROR!!!
+2017-10-28 15:42:47	drumguy1384	palmtree: for what it's worth a friend of mine deeply entrenched in the Apple ecosystem recently bought a macbook pro because he thought he could install Ubuntu on it. Don't think he's actually tried it yet.
+2017-10-28 15:42:49	BlitzerHound	I can retry, ignore, cancel. I already retried
+2017-10-28 15:42:51	jim	not good :)
+2017-10-28 15:43:18	jim	looks like you have a bad drive? or bad sectors on the drive?
+2017-10-28 15:43:20	royal_screwup21	I want to delete all files beginning with the "untitled". What's the easiest way to do that? For example, I have files like untitled10.ipynb, untitled11.ipynb...and so on - I want to delete all of them
+2017-10-28 15:43:25	-->	abu0 (~abu0@dui25.neoplus.adsl.tpnet.pl) has joined ##linux
+2017-10-28 15:43:35	BlitzerHound	Is that something that I can fix or is my thing just screwed?
+2017-10-28 15:43:50	triceratux	BlitzerHound: its not screwed until you try it 2x
+2017-10-28 15:43:59	c-c	$ rm ./untitled*
+2017-10-28 15:44:06	BlitzerHound	Okay it's screwed
+2017-10-28 15:44:22	-->	SwiftMatt (~Objective@2601:282:4300:3e:d882:a21:5fda:848f) has joined ##linux
+2017-10-28 15:44:31	MrElendig	BlitzerHound: again, what hardware is this?
+2017-10-28 15:44:40	jim	acer something
+2017-10-28 15:44:43	<--	howlymowly (~tom@x4e37dcfd.dyn.telefonica.de) has quit (Ping timeout: 240 seconds)
+2017-10-28 15:44:54	BlitzerHound	Acer aspire 5920
+2017-10-28 15:45:17	BlitzerHound	Is there a way to put the hard drive from my other laptop into this one?
+2017-10-28 15:45:19	jim	you -could- grab another hd...
+2017-10-28 15:45:25	Sierr_Gay	why not
+2017-10-28 15:45:33	MrElendig	smartctl the disk first
+2017-10-28 15:45:33	<--	df00z (~dylanetaf@2604:6000:6700:b500:2893:3b09:18f4:66ba) has quit (Ping timeout: 255 seconds)
+2017-10-29 17:00:15	ℹ 	irc: disconnected from server
+2017-10-29 17:00:39	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-29 17:00:39	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-29 17:00:39	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-29 17:00:39	ℹ 	Channel ##linux: 1612 nicks (0 ops, 0 voices, 1612 normals)
+2017-10-29 17:00:39	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-29 17:00:39	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-29 17:00:39	ℹ 	URL for ##linux: http://linux.chat
+2017-10-29 17:00:45	-->	Noldorin (~noldorin@unaffiliated/noldorin) has joined ##linux
+2017-10-29 17:00:55	tomty89	jcelerier: i don't really get why a control value would include some channel ids either, and input/output? maybe i just don't know these pro cards *shrug*
+2017-10-29 17:01:28	<--	ntd (~ntd@gateway/tor-sasl/ntd) has quit (Quit: ntd)
+2017-10-29 17:01:35	tomty89	jcelerier: shouldn't it consists only of volume(s)?
+2017-10-29 17:01:47	-->	BenderRodriguez (~Foxhoundz@unaffiliated/foxhoundz) has joined ##linux
+2017-10-29 17:02:52	jcelerier	well basically, there are a lot of volumes to control :p
+2017-10-29 17:03:12	-->	supernov1h (~matt.perr@smtp.imardainc.com) has joined ##linux
+2017-10-29 17:03:12	jcelerier	tomty89: http://www.rme-audio.de/images/downloads/skin_totalmix_logic2.jpg
+2017-10-29 17:04:02	jcelerier	the volume control is basically a matrix
+2017-10-29 17:04:10	<--	semeion (~semeion@unaffiliated/semeion) has quit (Read error: Connection reset by peer)
+2017-10-29 17:04:27	-->	melk (~melk@2600:1700:15e0:3da0:b96a:ff2a:b26e:ae2d) has joined ##linux
+2017-10-29 17:04:39	<--	p4cman (uid171740@gateway/web/irccloud.com/x-jzmczycdjrfxbulx) has quit (Quit: Connection closed for inactivity)
+2017-10-29 17:04:48	jcelerier	you have N input channels, M output channels, and the value at matrix[N][M] is the volume that goes from this input to this output
+2017-10-29 17:04:59	-->	Koyaanisqatsi` (~xyzone@unaffiliated/xyzone) has joined ##linux
+2017-10-29 17:05:11	-->	gauravgoyal (~gauravgoy@112.196.183.155) has joined ##linux
+2017-10-29 17:05:12	tomty89	jcelerier: still, shouldn't each i/o combination has its own control (numid)?
+2017-10-29 17:05:15	<--	jancoow_ (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Read error: Connection reset by peer)
+2017-10-29 17:05:35	-->	Jantz (~IceChat9@118-93-149-103.dsl.dyn.ihug.co.nz) has joined ##linux
+2017-10-29 17:05:42	-->	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has joined ##linux
+2017-10-29 17:05:43	jcelerier	don't know... I just know that the script I use works most of the time !
+2017-10-29 17:05:56	<--	dersand (~dersand@c-5015e655.027-96-73746f43.cust.bredbandsbolaget.se) has quit (Ping timeout: 240 seconds)
+2017-10-29 17:05:56	<--	supernovah (~matt.perr@smtp.imardainc.com) has quit (Ping timeout: 240 seconds)
+2017-10-29 17:06:07	-->	semeion (~semeion@unaffiliated/semeion) has joined ##linux
+2017-10-29 17:06:24	<--	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Read error: Connection reset by peer)
+2017-10-29 17:06:44	<--	StinkyFinger (~stephen@host-92-2-195-11.as43234.net) has quit (Quit: Konversation terminated!)
+2017-10-29 17:07:24	jcelerier	but something deep must be rotten because even the config ui that comes with alsa-utils does not work
+2017-10-29 17:07:38	jcelerier	and outputs "alsa error 4" like mad on stdout
+2017-10-29 17:07:55	<--	josephz (~josephz@c-73-158-189-242.hsd1.ca.comcast.net) has quit (Quit: Lost terminal)
+2017-10-29 17:07:58	-->	marlinc (~marlinc@bouncer.cvo-technologies.com) has joined ##linux
+2017-10-29 17:08:00	tomty89	alsamixer you mean?
+2017-10-29 17:08:09	jcelerier	no, it has its own mixing UI
+2017-10-29 17:08:14	tomty89	hmm
+2017-10-29 17:08:17	jcelerier	hdspmixer
+2017-10-29 17:08:23	jcelerier	alsamixer only gives access to some settings
+2017-10-29 17:08:29	tomty89	i see
+2017-10-29 17:09:14	-->	mkoskar (~mkoskar@unaffiliated/mkoskar) has joined ##linux
+2017-10-29 17:09:28	-->	naturalone_ (~naturalon@111.sub-174-255-132.myvzw.com) has joined ##linux
+2017-10-29 17:09:54	<--	gauravgoyal (~gauravgoy@112.196.183.155) has quit (Remote host closed the connection)
+2017-10-29 17:09:56	-->	josephz (~josephz@c-73-158-189-242.hsd1.ca.comcast.net) has joined ##linux
+2017-10-29 17:10:13	-->	d1z (~gt@unaffiliated/gtt) has joined ##linux
+2017-10-29 17:10:37	<--	nast (~nast@64.137.182.14) has quit (Quit: nast)
+2017-10-29 17:11:21	jcelerier	oh well, I'll just reboot :)
+2017-10-29 17:11:22	-->	grif (~root@138.68.15.239) has joined ##linux
+2017-10-29 17:13:42	-->	genericuser123 (~enter@43.225.32.90) has joined ##linux
+2017-10-29 17:13:47	<--	naturalone_ (~naturalon@111.sub-174-255-132.myvzw.com) has quit (Remote host closed the connection)
+2017-10-29 17:14:03	<--	Sven_vB (~sven@gateway/tor-sasl/svenvb/x-98888234) has quit (Remote host closed the connection)
+2017-10-29 17:14:07	<--	evgeniy (~evgeniy@213.240.209.107) has quit (Ping timeout: 248 seconds)
+2017-10-29 17:48:43	ℹ 	irc: disconnected from server
+2017-10-29 17:49:09	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-29 17:49:10	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-29 17:49:10	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-29 17:49:10	ℹ 	Channel ##linux: 1611 nicks (0 ops, 0 voices, 1611 normals)
+2017-10-29 17:49:10	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-29 17:49:10	ℹ 	URL for ##linux: http://linux.chat
+2017-10-29 17:49:10	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-29 17:49:22	astronavt	huh never used zsync before
+2017-10-29 17:49:38	astronavt	any reason to over a regular old download
+2017-10-29 17:49:49	triceratux	the website is new this year. the release is better than ever. the base iso is icewm with everything except the libreoffice stuff & is 630M
+2017-10-29 17:50:28	-->	BoggGod (~cesar@197.246.4.113) has joined ##linux
+2017-10-29 17:50:44	-->	kexmex (~kexmex@unaffiliated/kexmex) has joined ##linux
+2017-10-29 17:51:56	<--	naturalone (~naturalon@111.sub-174-255-132.myvzw.com) has quit (Remote host closed the connection)
+2017-10-29 17:52:04	-->	SwiftMatt (~Objective@2601:282:4300:3e:4056:8db1:a294:8334) has joined ##linux
+2017-10-29 17:52:21	DonJuan692006	mawk: trying that now.
+2017-10-29 17:52:59	astronavt	mawk can i do that for a live USB though?
+2017-10-29 17:53:11	astronavt	or a net install or something
+2017-10-29 17:53:35	-->	robwaz (~rob@unaffiliated/robwaz) has joined ##linux
+2017-10-29 17:54:27	<--	rindolf (~rindolf@77.125.94.44) has quit (Quit: http://www.shlomifish.org/ ; Yay! I'm a llama again.)
+2017-10-29 17:56:31	universalpackage	would it be possible to split an executable into parts like code, object files, libraries, headers, and so on
+2017-10-29 17:56:58	ayecee	sure, why not
+2017-10-29 17:56:59	<--	getsetgo (2d304cfd@gateway/web/freenode/ip.45.48.76.253) has quit (Quit: Page closed)
+2017-10-29 17:57:23	<--	FLHerne (~flh@kde/developer/flherne) has quit (Quit: ZNC - http://znc.in)
+2017-10-29 17:58:07	astronavt	universalpackage like a compiled binary?
+2017-10-29 17:58:21	-->	FLHerne (~flh@kde/developer/flherne) has joined ##linux
+2017-10-29 17:58:22	<--	SwiftMatt (~Objective@2601:282:4300:3e:4056:8db1:a294:8334) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-10-29 17:58:50	universalpackage	yes, and ... decompile it into everything that makes up that compiled binary
+2017-10-29 17:59:06	doublehp	how can I download the HTML/web part of a youtube page (without the video), via non-interactive shell ? "wget --user-agent=" still produces a file which says in short "page does not exists", while the same URL link in firefox shows a page with content
+2017-10-29 17:59:15	universalpackage	although without modifying it in any way
+2017-10-29 17:59:20	astronavt	universalpackage decompiling is pretty non-trivial as far as im aware
+2017-10-29 17:59:33	astronavt	a compiled binary isn't just the concatenation of all the libraries that went into it
+2017-10-29 17:59:36	kraftb	you can have a look at the linked libraries using ldd
+2017-10-29 17:59:46	-->	Pentode (~Pentode@mobile-166-170-32-99.mycingular.net) has joined ##linux
+2017-10-29 17:59:50	kraftb	and use strace and ltrace to have a look at the library calls
+2017-10-29 18:00:02	<--	Cabanossi (~Cabanossi@pC19F2B5C.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2017-10-29 18:00:07	<--	Kestrel-029 (~Nicmavr@unaffiliated/nicmavr) has quit (Read error: Connection reset by peer)
+2017-10-29 18:00:31	kraftb	what are you trying to achieve?
+2017-10-29 18:00:40	universalpackage	kinda like parsing a shell script and putting its functions into seperate files and such
+2017-10-29 18:00:57	universalpackage	catting*
+2017-10-29 18:01:16	kraftb	usually an executable just contains executable code and data
+2017-10-29 18:01:27	kraftb	like static variable values.
+2017-10-29 18:01:41	kraftb	but there are no libraries in an executable - except if it is linked statically
+2017-10-29 18:01:50	<--	kreest| (~kreest@176.241.27.91.pool.invitel.hu) has quit (Ping timeout: 264 seconds)
+2017-10-29 18:02:01	<--	djk (~Thunderbi@pool-108-53-218-95.nwrknj.fios.verizon.net) has quit (Quit: djk)
+2017-10-29 18:02:03	kraftb	there are no headers - those are just language constructs mostly not getting compiled to code
+2017-10-29 18:02:30	-->	Cabanossi (~Cabanossi@pC19F2B5C.dip0.t-ipconnect.de) has joined ##linux
+2017-10-29 18:02:59	-->	nast (~nast@64.137.182.14) has joined ##linux
+2017-10-29 18:03:05	<--	FLHerne (~flh@kde/developer/flherne) has quit (Client Quit)
+2017-10-29 18:03:32	-->	FLHerne (~flh@kde/developer/flherne) has joined ##linux
+2017-10-29 18:03:44	<--	TReK (~UnFaQ@unaffiliated/trek) has quit (Ping timeout: 260 seconds)
+2017-10-29 18:05:14	<--	hpotter (~intlnsde@83.172.43.62) has quit (Ping timeout: 240 seconds)
+2017-10-29 18:05:24	universalpackage	like, there compiled executable form, not there original raw unprocessed form
+2017-10-29 18:05:44	-->	thinkpad (~thinkpad@bb116-14-129-42.singnet.com.sg) has joined ##linux
+2017-10-29 18:05:47	DonJuan692006	mawk:  no dice. Even after the timeout I just kept getting an error saying soft lock. CPU 0 hung.
+2017-10-29 18:05:54	universalpackage	like the compiled version of main() { return 0 ; }
+2017-10-29 18:05:56	-->	TReK (~UnFaQ@unaffiliated/trek) has joined ##linux
+2017-10-29 18:05:59	mawk	soft lock ?
+2017-10-29 18:06:00	<--	peetaur (~peter@pD953E79A.dip0.t-ipconnect.de) has quit (Quit: Konversation terminated!)
+2017-10-29 18:06:08	mawk	it looks like a borked kernel
+2017-10-29 18:06:14	mawk	did you compile your own kernel recently ?
+2017-10-29 18:06:24	<--	gugah (~gugah@181.229.107.78) has quit (Ping timeout: 248 seconds)
+2017-10-29 18:06:24	mawk	or did it get updated
+2017-10-29 18:32:31	ℹ 	irc: disconnected from server
+2017-10-29 18:32:58	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-29 18:32:58	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-29 18:32:58	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-29 18:32:58	ℹ 	Channel ##linux: 1604 nicks (0 ops, 0 voices, 1604 normals)
+2017-10-29 18:32:58	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-29 18:32:58	ℹ 	URL for ##linux: http://linux.chat
+2017-10-29 18:32:58	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-29 18:33:03	<--	RickNo17 (~suNooBku@unaffiliated/sunoobku) has quit (Quit: Screw you guys, I'm going home. ^^)
+2017-10-29 18:33:41	mawk	the route forward mode is special
+2017-10-29 18:33:44	mawk	for special situations
+2017-10-29 18:33:49	mawk	NAT is what you want most of the time
+2017-10-29 18:35:30	mawk	if you configured your home router with the proper static routes (redirecting 192.168.80.0/24 to your computer) it's fine, but I don't see the point
+2017-10-29 18:35:39	mawk	unless you have specific needs
+2017-10-29 18:35:45	<--	doublehp (~DoubleHP@2a01:e35:8ba8:e140::52) has quit (Quit: Leaving.)
+2017-10-29 18:37:32	<--	Fysicus (~Fysicus@d51530ae4.static.telenet.be) has quit (Quit: Linkinus - http://linkinus.com)
+2017-10-29 18:38:01	<--	gagbo (~gagbo@unaffiliated/gagbo) has quit (Remote host closed the connection)
+2017-10-29 18:38:06	<--	udni (~Thunderbi@ip5f5bf088.dynamic.kabel-deutschland.de) has quit (Ping timeout: 258 seconds)
+2017-10-29 18:38:14	-->	kisahoshi (~kisahoshi@email.rumseyhall.org) has joined ##linux
+2017-10-29 18:38:32	BenderRodriguez	hmm ok
+2017-10-29 18:38:55	<--	lorenz (~lorenz@unaffiliated/lorenz) has quit (Ping timeout: 248 seconds)
+2017-10-29 18:41:08	<--	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has quit (Quit: inabit. zz.)
+2017-10-29 18:41:43	<--	JeanCarloMachado (~jean@200.18.122.31) has quit (Ping timeout: 240 seconds)
+2017-10-29 18:42:17	mawk	https://jamielinux.com/docs/libvirt-networking-handbook/routed-network.html
+2017-10-29 18:42:41	<--	peepsalot (~peepsalot@cpe-173-174-74-169.austin.res.rr.com) has quit (Ping timeout: 248 seconds)
+2017-10-29 18:43:26	-->	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has joined ##linux
+2017-10-29 18:44:17	mawk	BenderRodriguez: the system you use at the moment gives each vm a _real_ IP address on your home router
+2017-10-29 18:44:30	mawk	instead of living in a private network on your computer
+2017-10-29 18:44:40	-->	solidfox (~solidfox@unaffiliated/snake/x-2550465) has joined ##linux
+2017-10-29 18:44:41	<--	lobata (~mint@rrcs-69-75-83-51.west.biz.rr.com) has quit (Ping timeout: 252 seconds)
+2017-10-29 18:45:02	mawk	and furthermore it's a backup system for when plain bridging is not feasible, with support needed from the router
+2017-10-29 18:45:24	BenderRodriguez	it's impossible
+2017-10-29 18:45:24	kisahoshi	Hey guys, quick question. I have set PAM_Mount to mount my encfs home folder and set up my PAM system-auth, but when i log in via tty nothign happens...
+2017-10-29 18:45:42	mawk	well the VM can access the internet with that setup if you didn't setup the home router
+2017-10-29 18:45:42	BenderRodriguez	because my router does not have a 192.168.80.0/24 network set up or a corresponding DHCP for it
+2017-10-29 18:45:53	mawk	everything work as intended
+2017-10-29 18:45:59	BenderRodriguez	so the only way these VMs are getting these addresses is thru dnsmasq
+2017-10-29 18:46:02	mawk	because you don't use the features this system is for
+2017-10-29 18:46:08	mawk	yeah maybe
+2017-10-29 18:46:14	mawk	it works because of chance
+2017-10-29 18:46:16	mawk	it's not impossible
+2017-10-29 18:46:27	-->	Raed|Laptop (~Raed@70.150.131.60) has joined ##linux
+2017-10-29 18:46:29	mawk	it's even very possible
+2017-10-29 18:46:51	THE_GFR|WORK	god this sucks
+2017-10-29 18:47:04	kisahoshi	Anyone have any idea
+2017-10-29 18:47:09	THE_GFR|WORK	mawk: originally my RAID had one drive with 16 pending sectors.  Everything went downhill from there
+2017-10-29 18:47:18	mawk	and why dnsmasq would allocate addresses from this range BenderRodriguez ?
+2017-10-29 18:47:22	astronavt	wooo! i got arch to boot
+2017-10-29 18:47:22	mawk	only libvirt know of this range
+2017-10-29 18:48:01	mawk	I never did RAID THE_GFR|WORK actually
+2017-10-29 18:48:04	THE_GFR|WORK	mawk: I accidentally booted the system with a drive in the RAID enclosure partially out accidentally.  Removed the bad drive and replaced it.  It caused a bunch of issues.  I eventually took the array down and remade the array in the software.
+2017-10-29 18:48:05	mawk	I need to go
+2017-10-29 18:48:08	kisahoshi	anyone here use pam
+2017-10-29 18:48:08	THE_GFR|WORK	ok
+2017-10-29 18:48:16	mawk	good night all
+2017-10-29 18:48:20	<--	vpav (05a47e0e@gateway/web/cgi-irc/kiwiirc.com/ip.5.164.126.14) has quit (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+2017-10-29 18:48:21	THE_GFR|WORK	thanks mawk
+2017-10-29 19:34:49	ℹ 	irc: disconnected from server
+2017-10-29 19:35:15	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-29 19:35:15	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-29 19:35:15	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-29 19:35:16	ℹ 	Channel ##linux: 1595 nicks (0 ops, 0 voices, 1595 normals)
+2017-10-29 19:35:16	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-29 19:35:16	ℹ 	URL for ##linux: http://linux.chat
+2017-10-29 19:35:16	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-29 19:35:19	pnbeast	Aren't you supposed to use execdir or direxec, by default, too?  I think it guards against some kind of race condition, but I'm too lazy to look it up.
+2017-10-29 19:35:22	-->	xamindar (~quassel@172.56.7.32) has joined ##linux
+2017-10-29 19:36:02	pnbeast	Yes, the man page says -execdir is preferred.
+2017-10-29 19:36:52	NoCode	Why doesn't AppImage self-containing applications create a menu icon, etc?
+2017-10-29 19:36:57	<--	goodafternoon2 (~goodafter@ppp141237169176.access.hol.gr) has quit (Ping timeout: 252 seconds)
+2017-10-29 19:37:41	<--	manuelschneid3r (~manuelsch@p200300E243D50D00C96BE19D0577732D.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2017-10-29 19:38:26	<--	LtL (~ltl@unaffiliated/ltl) has quit (Quit: LtL)
+2017-10-29 19:39:30	matteeyah	find is one of the stranger utilities
+2017-10-29 19:39:33	matteeyah	along with ps
+2017-10-29 19:40:20	<--	nerrollus (~nerrollus@2600:8803:e600:5780:c4cc:bc14:b84c:af1e) has quit (Remote host closed the connection)
+2017-10-29 19:40:51	eb0t	find is one of the heavyweight utilities
+2017-10-29 19:40:55	<--	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has quit (Remote host closed the connection)
+2017-10-29 19:41:14	<--	xamindar (~quassel@172.56.7.32) has quit (Ping timeout: 240 seconds)
+2017-10-29 19:41:33	eb0t	you can use it with xarg rather than exec also
+2017-10-29 19:41:50	universalpackage	how do i convert hexadecimal dump of a binary executable into a binary executable
+2017-10-29 19:42:01	universalpackage	back into*
+2017-10-29 19:42:06	-->	ahrs (~quassel@gateway/vpn/privateinternetaccess/ahrs) has joined ##linux
+2017-10-29 19:42:16	eb0t	i think hexdump command can do that
+2017-10-29 19:42:22	universalpackage	without hexdump
+2017-10-29 19:42:39	matteeyah	find an alternative to hexdump?
+2017-10-29 19:43:22	<--	sasheto (~sasheto@94.26.13.180) has quit (Read error: Connection reset by peer)
+2017-10-29 19:43:27	<--	stnutt (~stnutt@unaffiliated/stnutt) has left ##linux
+2017-10-29 19:43:39	<--	SwiftMatt (~Objective@2601:282:4300:3e:d1eb:ba5b:be11:cdf5) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2017-10-29 19:43:41	eb0t	the long winded way is to write a simple hex converter and then convert it to bytes
+2017-10-29 19:43:45	eb0t	of binary
+2017-10-29 19:43:55	eb0t	each 2 characters will be 8 bits
+2017-10-29 19:44:00	<--	POJO (~quassel@unaffiliated/pojo) has quit (Ping timeout: 248 seconds)
+2017-10-29 19:44:06	<--	n35xdxb0 (~n35xdxb0@cpc130684-camd16-2-0-cust846.know.cable.virginm.net) has quit (Ping timeout: 252 seconds)
+2017-10-29 19:44:09	<--	rotah (~rotah@2a01:112f:55f:2a00:640e:c7ee:3099:2623) has quit (Quit: Ping timeout: 240 seconds)
+2017-10-29 19:44:30	-->	rotah (rotah@2a01:112f:55f:2a00:640e:c7ee:3099:2623) has joined ##linux
+2017-10-29 19:44:48	<--	mandeep (~mandeep@47.sub-174-223-13.myvzw.com) has quit (Ping timeout: 258 seconds)
+2017-10-29 19:45:21	<--	vpav (~vpav@5.164.126.14) has quit (Quit: WeeChat 1.9.1)
+2017-10-29 19:45:30	prussian	xxd, od, etc many ways and ultimately dependent on what your hexdump looks like
+2017-10-29 19:45:52	Loshki	universalpackage:  xxd - make a hexdump or do the reverse
+2017-10-29 19:45:56	-->	n35xdxb0 (~n35xdxb0@81.171.97.55) has joined ##linux
+2017-10-29 19:45:58	-->	sasheto (~sasheto@94.26.13.180) has joined ##linux
+2017-10-29 19:46:35	-->	vpav (~vpav@5.164.126.14) has joined ##linux
+2017-10-29 19:46:36	<--	kamura (~kamura@cpc76628-john5-2-0-cust324.14-1.cable.virginm.net) has quit (Quit: Leaving)
+2017-10-29 19:46:43	universalpackage	xdd and od are POSIX right?
+2017-10-29 19:47:01	<--	dc0de (~herpdader@p4FEB6982.dip0.t-ipconnect.de) has quit (Quit: Lost terminal)
+2017-10-29 19:47:40	-->	inthedryer (~user@c-69-255-99-182.hsd1.md.comcast.net) has joined ##linux
+2017-10-29 19:47:51	<--	basiclaser (uid10861@gateway/web/irccloud.com/x-mkkjuxaayqcqdjol) has quit (Quit: Connection closed for inactivity)
+2017-10-29 19:48:14	Loshki	universalpackage: why, are you planning to port them somewhere?
+2017-10-29 19:48:59	universalpackage	cus i want to make sure the commands used are garenteed to be available on a linux distro
+2017-10-29 19:49:12	jim	I guess xxd is a hex dumper and od is an octal dumper?
+2017-10-29 19:49:15	<--	nast (~nast@64.137.182.14) has quit (Ping timeout: 246 seconds)
+2017-10-29 19:49:21	prussian	uh, good luck with that universalpackage
+2017-10-29 19:49:27	<--	mehtox (~mehtox@2604:6000:b187:4c00:2d88:9fbf:6090:f782) has quit (Quit: Bye.)
+2017-10-29 19:49:30	universalpackage	eg xdd is part of vim itself however i can aquire a statically compiled version of it
+2017-10-29 19:49:35	prussian	it doesn't even matter. I haven't seen any distro that doesn't have xxd on it anyhow
+2017-10-29 19:49:42	prussian	stop caring about stupid portability
+2017-10-29 19:49:42	Loshki	od will dump other formats, not just octal, which used to be more popular in the olden days
+2017-10-29 19:49:46	prussian	it's a tarpit of bad design
+2017-10-29 19:49:53	jim	universalpackage, are you running linux now?
+2017-10-29 19:50:01	universalpackage	yes
+2017-10-29 19:50:13	universalpackage	this is what im using to convert to hex                    od -A none -t x1 -v ./return0 | tr '\n' ' ' | sed 's/ //g' | tr 'a-z' 'A-Z'
+2017-10-29 19:50:28	<--	nast_ (~nast@64.137.182.14) has quit (Ping timeout: 260 seconds)
+2017-10-29 19:50:30	-->	xamindar (~quassel@172.56.7.250) has joined ##linux
+2017-10-29 19:50:36	universalpackage	but i dont know how to turn it back into binary executable data
+2017-10-29 19:50:59	jim	ok, then you can check to see if xxd and/or od are packaged for your dist, or are available as source code so you could build them for your dist
+2017-10-29 19:51:27	<--	vpav (~vpav@5.164.126.14) has quit (Quit: WeeChat 1.9.1)
+2017-10-29 19:51:37	-->	wreed (~wreed@129.10.9.25) has joined ##linux
+2017-10-29 19:52:02	jim	hmm, maybe od isn't octal dump?
+2017-10-29 19:52:14	-->	ogres (uid159312@gateway/web/irccloud.com/x-brnvhbyzwezqhiug) has joined ##linux
+2017-10-29 19:53:01	Loshki	jim: nah, it's octal dump, but it does other formats
+2017-10-29 19:54:18	-->	nast_ (~nast@64.137.182.14) has joined ##linux
+2017-10-29 19:55:00	-->	nast (~nast@64.137.182.14) has joined ##linux
+2017-10-29 19:55:55	-->	daegontaven (uid252891@greycadet/staff/daegontaven) has joined ##linux
+2017-10-29 19:56:04	<--	cdown (~cdown@my83-216-89-173.cust.relish.net) has quit (Remote host closed the connection)
+2017-10-29 19:56:21	-->	cdown (~cdown@my83-216-89-173.cust.relish.net) has joined ##linux
+2017-10-29 19:56:26	<--	fxb (~fxb@109.134.63.210) has quit (Ping timeout: 264 seconds)
+2017-10-29 19:56:50	universalpackage	welp xdd works
+2017-10-29 19:57:01	Loshki	universalpackage: base64 might be a better choice. Reversible, and should be available on everything.
+2017-10-29 19:57:24	-->	scientes (~Shawn@unaffiliated/scientes) has joined ##linux
+2017-10-29 19:57:33	scientes	ahh i hate configuring the linux kernel
+2017-10-29 19:57:49	universalpackage	$ ./vim/bin/xxd ./return1 | ./vim/bin/xxd -r > ./return11 ; chmod +x ./return11 ; ./return11 ; echo $?
+2017-10-29 19:57:51	universalpackage	1
+2017-10-29 19:57:54	scientes	there needs to be an easier way
+2017-10-29 19:57:59	<--	frostschutz (~frostschu@55d4baab.access.ecotel.net) has quit (Remote host closed the connection)
+2017-10-29 19:58:08	Sonicdotexe	scientes: I always find that part fun before a compile :D
+2017-10-29 19:58:24	scientes	the compile takes too long
+2017-10-29 19:58:35	scientes	and I have to spend hours pairing down the config to get the build speed up
+2017-10-29 19:58:49	matteeyah	gentoo?
+2017-10-29 19:58:58	scientes	no, i just am trying to write a patch
+2017-10-29 19:59:12	Sonicdotexe	you're compiling with the -j flag, right?
+2017-10-29 19:59:17	scientes	and I will never succeed until I get the compile speed up
+2017-10-29 19:59:18	scientes	yeah
+2017-10-29 19:59:21	scientes	-j8
+2017-10-29 19:59:23	Sonicdotexe	All right
+2017-10-29 19:59:27	Sonicdotexe	A lot of people forget that
+2017-10-29 19:59:36	scientes	but I have an old laptop
+2017-10-29 19:59:40	Sonicdotexe	ah I see
+2017-10-29 19:59:40	-->	bertman (~bert@unaffiliated/bertman) has joined ##linux
+2017-10-29 19:59:41	<--	texla (~ray@h217.75.90.75.dynamic.ip.windstream.net) has quit (Quit: Leaving)
+2017-10-29 19:59:50	Sonicdotexe	Yeah, those CPUs are kind of sluggish for that stuff
+2017-10-29 19:59:54	scientes	even with a better machine it still takes forever
+2017-10-29 20:00:01	scientes	too much code
+2017-10-29 20:00:19	eb0t	maybe you can renice the process to the highest priority
+2017-10-29 20:00:26	matteeyah	it's ~10mins for me
+2017-10-29 20:00:29	pnbeast	scientes, how does it compare to compiling firefox?
+2017-10-29 20:00:35	Loshki	universalpackage: add a checksum for safety and you're good to go
+2017-10-29 20:00:37	Sonicdotexe	matteeyah: which CPU?
+2017-10-29 20:00:38	matteeyah	and it's usually <1h for everyone
+2017-10-29 20:00:38	scientes	i've done that too pnbeast
+2017-10-29 20:00:48	<--	Cabanossi (~Cabanossi@pC19F2B5C.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-10-29 20:00:48	scientes	pnbeast, what is so painful about firefox is the link
+2017-10-29 20:01:00	scientes	you have to have at least 4GB of ram or you wont even make it through
+2017-10-29 20:01:12	ℹ 	Elodin is now known as Guest1074
+2017-10-29 20:01:21	matteeyah	Sonicdotexe fx8350
+2017-10-29 20:01:22	-->	Elodin (~weechat@unaffiliated/padawan) has joined ##linux
+2017-10-29 20:01:22	<--	de-facto (~de-facto@gateway/tor-sasl/de-facto) has quit (Quit: See you around.)
+2017-10-29 20:01:38	-->	AndrewPRS (~andres@unaffiliated/andrewprs) has joined ##linux
+2017-10-29 20:01:40	Sonicdotexe	matteeyah: not bad
+2017-10-29 20:01:45	-->	de-facto (~de-facto@gateway/tor-sasl/de-facto) has joined ##linux
+2017-10-29 20:02:08	<--	inthedryer (~user@c-69-255-99-182.hsd1.md.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-10-29 20:02:30	-->	Cabanossi (~Cabanossi@pC19F2B5C.dip0.t-ipconnect.de) has joined ##linux
+2017-10-29 20:02:53	-->	AzMoo (~matt@unaffiliated/azmoo) has joined ##linux
+2017-10-29 20:03:04	<--	Guest1074 (~weechat@unaffiliated/padawan) has quit (Ping timeout: 240 seconds)
+2017-10-29 20:03:56	AzMoo	Hi, I’ve got a CentOS 7 installation on which I was running docker with devicemapper loopback mode. I filled up the disk and have been trying to fix it up, but I’m getting some strange results with regards to free space. When I run: df -h
+2017-10-29 20:04:13	-->	Cosmophile (~emerl@107.13.161.136) has joined ##linux
+2017-10-29 20:04:30	AzMoo	my root shows as 28G used, but when I run du -sch /* I get 3.5GB total
+2017-10-29 20:04:50	AzMoo	docker is stopped and I no longer have any loopback devices, but I still can’t find where that space is going.
+2017-10-29 20:05:10	<--	jancoow (~jancoow@dhcp-077-251-034-091.chello.nl) has quit (Quit: jancoow)
+2017-10-29 20:05:24	-->	subnet257 (~subnet257@2600:8805:4200:523:39cf:6257:a272:5c87) has joined ##linux
+2017-10-29 20:05:43	Bashing-om	AzMoo: 'df -h ; df -i ' shows what ?
+2017-10-29 20:06:15	matteeyah	Sonicdotexe I heard threadripper does it in 20ish seconds
+2017-10-29 20:06:28	<--	energizer (~energizer@unaffiliated/energizer) has quit (Disconnected by services)
+2017-10-29 20:06:32	Sonicdotexe	matteeyah: LOL
+2017-10-29 20:06:37	Sonicdotexe	matteeyah: That is awesome
+2017-10-29 20:06:39	<--	cdown (~cdown@my83-216-89-173.cust.relish.net) has quit (Remote host closed the connection)
+2017-10-29 20:06:42	-->	energizer (~energizer@unaffiliated/energizer) has joined ##linux
+2017-10-29 20:06:53	<--	energizer (~energizer@unaffiliated/energizer) has quit (Remote host closed the connection)
+2017-10-29 20:06:56	AzMoo	Bashing-om: https://paste.linux.community/view/ae0d7460
+2017-10-29 20:06:59	Sonicdotexe	And I assume this was 4.10 kernel or above, because Ryzen apparently needs newer versions for full compatibility
+2017-10-29 20:07:16	-->	energizer (~energizer@unaffiliated/energizer) has joined ##linux
+2017-10-29 20:07:16	-->	spare (~user@unaffiliated/spareproject) has joined ##linux
+2017-10-29 20:07:31	matteeyah	I think, with the next gen of CPUs, we could have real-time background compilation (and all the niceties that come with that)
+2017-10-29 20:08:28	<--	pk12 (~pk12@199.241.146.163) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-10-29 20:08:58	-->	nast__ (~nast@64.137.182.14) has joined ##linux
+2017-10-29 20:09:07	<--	nvanwyen (~nvanwyen@static-108-28-123-226.washdc.fios.verizon.net) has quit (Quit: Leaving)
+2017-10-29 20:09:46	-->	cdown (~cdown@my83-216-89-173.cust.relish.net) has joined ##linux
+2017-10-29 20:10:27	triceratux	http://distrowatch.com/weekly.php?issue=20171030#ubuntu
+2017-10-29 20:10:49	<--	djk (~Thunderbi@pool-108-53-218-95.nwrknj.fios.verizon.net) has quit (Quit: djk)
+2017-10-29 20:11:04	matteeyah	triceratux with a now even harder to uninstall amazon app
+2017-10-29 20:11:54	-->	zt (~zongtong9@218.22.139.208) has joined ##linux
+2017-10-29 20:11:54	Sonicdotexe	matteeyah: i thought Canonical learned their lesson with 14.04 and it was mostly gone by 16.04.
+2017-10-29 20:12:46	triceratux	he says its better than rebeccablackos, & he should know ;)
+2017-10-29 20:13:06	<--	kexmex (~kexmex@unaffiliated/kexmex) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-29 20:13:30	-->	xamindar_ (~quassel@172.56.7.32) has joined ##linux
+2017-10-29 20:14:31	-->	djk (~Thunderbi@pool-108-53-218-95.nwrknj.fios.verizon.net) has joined ##linux
+2017-10-29 20:14:39	matteeyah	wrt fast kernel compile times, I wonder if in the coming years, there's going to be a programming language that blurs the lines between compiled and interpreted languages using sheer processing power
+2017-10-29 20:15:38	<--	xamindar (~quassel@172.56.7.250) has quit (Ping timeout: 264 seconds)
+2017-10-29 20:15:47	Bashing-om	AzMoo: Think'n " 497M  304M  193M  62% /boot" . Is therte enough room "now" in boot to install an additional kernel ? what have we ' ls -al /boot ' As the kernel images have grown large .
+2017-10-29 20:16:09	-->	kexmex (~kexmex@unaffiliated/kexmex) has joined ##linux
+2017-10-29 20:16:20	AzMoo	Bashing-om: yea there’s plenty of space for the kernel
+2017-10-29 20:16:27	AzMoo	it’s the root drive that’s the problem
+2017-10-29 20:16:43	<--	ryouma (~user@unaffiliated/ryouma) has quit (Ping timeout: 260 seconds)
+2017-10-29 20:17:00	AzMoo	df is reporting 28G used, but du reports only 3.5GB used
+2017-10-29 20:17:07	AzMoo	so I can’t find where it’s all gone
+2017-10-29 20:17:14	prussian	btrfs?
+2017-10-29 20:17:24	AzMoo	xfs
+2017-10-29 20:17:36	<--	bezhermoso (~textual@108-214-100-46.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2017-10-29 20:18:22	<--	nast__ (~nast@64.137.182.14) has quit (Quit: Leaving)
+2017-10-29 20:18:22	<--	nast_ (~nast@64.137.182.14) has quit (Quit: Leaving)
+2017-10-29 20:18:42	-->	nast_ (~nast@64.137.182.14) has joined ##linux
+2017-10-29 20:18:55	<--	scientes (~Shawn@unaffiliated/scientes) has quit (Ping timeout: 258 seconds)
+2017-10-29 20:19:53	<--	wreed (~wreed@129.10.9.25) has quit (Quit: Goodbye)
+2017-10-29 20:20:04	-->	SpikeMaster (~user@dyn-170-253-149.myactv.net) has joined ##linux
+2017-10-29 20:21:07	-->	xamindar (~quassel@172.56.7.197) has joined ##linux
+2017-10-29 20:21:22	universalpackage	well this is a bit of progress   https://bpaste.net/show/f9bd6b10eef3
+2017-10-29 20:21:51	-->	ryouma (~user@unaffiliated/ryouma) has joined ##linux
+2017-10-29 20:22:13	-->	Pentode (~Pentode@mobile-166-170-32-99.mycingular.net) has joined ##linux
+2017-10-29 20:22:24	<--	xamindar_ (~quassel@172.56.7.32) has quit (Ping timeout: 248 seconds)
+2017-10-29 20:22:31	Pentode	nothing worse then a rainy day for a satellite internet user :(
+2017-10-29 20:23:21	ryouma	Pentode: what latency do you get?  is it pretty usable on clear days?
+2017-10-30 17:20:33	ℹ 	irc: disconnected from server
+2017-10-30 17:20:56	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-30 17:20:56	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-30 17:20:56	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-30 17:20:56	ℹ 	Channel ##linux: 1614 nicks (0 ops, 0 voices, 1614 normals)
+2017-10-30 17:20:56	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-30 17:20:56	ℹ 	URL for ##linux: http://linux.chat
+2017-10-30 17:20:56	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-30 17:21:02	<--	Yiota (~textual@CPE00fc8d8821e3-CM00fc8d8821e0.cpe.net.cable.rogers.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-30 17:21:09	-->	mhersson (~mhersson@gateway/vpn/privateinternetaccess/mhersson) has joined ##linux
+2017-10-30 19:18:52	ℹ 	irc: disconnected from server
+2017-10-30 19:19:18	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-30 19:19:18	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-30 19:19:18	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-30 19:19:18	ℹ 	Channel ##linux: 1592 nicks (0 ops, 0 voices, 1592 normals)
+2017-10-30 19:19:18	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-30 19:19:18	ℹ 	URL for ##linux: http://linux.chat
+2017-10-30 19:19:18	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-30 19:19:24	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-10-30 19:19:28	<--	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has quit (Read error: Connection reset by peer)
+2017-10-30 19:19:31	<--	ams__ (uid48118@gateway/web/irccloud.com/x-oqqpuokhprbknkzx) has quit (Quit: Connection closed for inactivity)
+2017-10-30 19:19:37	<--	Urchin[emacs] (~user@unaffiliated/urchin) has quit (Quit: ERC (IRC client for Emacs 24.5.1))
+2017-10-30 19:19:44	Spice_Boy	and the nvidia-settings program creates one but insists that the other card's monitors are on a separate X server
+2017-10-30 19:20:03	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##linux
+2017-10-30 19:24:06	<--	universalpackage (~universal@2405:7f00:8811:300:ba6c:e439:ca8:9e62) has quit (Read error: Connection reset by peer)
+2017-10-30 19:24:17	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Ping timeout: 248 seconds)
+2017-10-30 19:24:19	-->	Tramp (~mt_@46-126-2-15.dynamic.hispeed.ch) has joined ##linux
+2017-10-30 19:24:31	TJ-	Spice_Boy: A single X server is definitely possibly, but you can'tt have multiple GPUs on a single X screen. 1 screen per GPU
+2017-10-30 19:24:44	-->	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined ##linux
+2017-10-30 19:24:55	<--	happy-dude (uid62780@gateway/web/irccloud.com/x-pzbmudxobcvokgev) has quit (Quit: Connection closed for inactivity)
+2017-10-30 19:24:56	TJ-	Spice_Boy: so 3 outputs per X screen in your case
+2017-10-30 19:25:33	-->	chasmo77 (~chas77@158.183-62-69.ftth.swbr.surewest.net) has joined ##linux
+2017-10-30 19:26:08	Spice_Boy	TJ-: ah, then that seems to be the problem I have. Although, I had in the past used various combinations of different video devices to get multiple monitors on one desktop... and I thought it would actually be easier with identical cards but seems not the case
+2017-10-30 19:26:14	<--	raatiniemi (~raatiniem@h-142-187.A159.priv.bahnhof.se) has quit (Ping timeout: 240 seconds)
+2017-10-30 19:26:54	-->	djkoolaide (~djkoolaid@cpe-97-98-174-112.neb.res.rr.com) has joined ##linux
+2017-10-30 19:26:55	Spice_Boy	that was the only reason I was using windows on this machine, is because it can drive the 6 monitors nicely... but everything else I do is Linux, so had a million putty screens open which seemed backwards
+2017-10-30 19:27:01	TJ-	Spice_Boy: I run 6 monitors across 3 Nvidia GPUs on my laptop (internal + PCIe NVS420 external via expresscard)
+2017-10-30 19:27:13	phogg	Well
+2017-10-30 19:27:23	<--	gopar (~gopar@2603:3024:1828:b3e1:7983:acc3:19a7:56e7) has quit (Read error: Connection reset by peer)
+2017-10-30 19:27:34	phogg	I finally jotted down all the things I want in a WM... and it looks an awful lot like a web browser.
+2017-10-30 19:27:50	phogg	or rather a web page styled with modern CSS
+2017-10-30 19:28:01	-->	gopar (~gopar@2603:3024:1828:b3e1:7983:acc3:19a7:56e7) has joined ##linux
+2017-10-30 19:28:03	<--	biggator2 (~biggator@unaffiliated/biggator) has quit (Read error: Connection reset by peer)
+2017-10-30 19:28:21	<--	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has quit (Quit: WeeChat 1.9.1)
+2017-10-30 19:28:28	TJ-	Spice_Boy: there is an nvidia specific option to enable multi-GPU but, if I recall correctly, they only allow it's use for professional (expensive) Quadro cards. Also, I seem to recall about 2 years ago they reduced the number of outputs the non-quadro driver will use per GPU - arbitrary, to drive people to buy Quadro
+2017-10-30 19:29:13	<--	Cabanossi (~Cabanossi@pC19F2701.dip0.t-ipconnect.de) has quit (Ping timeout: 246 seconds)
+2017-10-30 19:29:26	<--	Rawriful (~orin@5.80.241.227) has quit (Quit: WeeChat 1.4)
+2017-10-30 19:29:31	Spice_Boy	TJ-: I had some old nvidia identical cards before that this seemed to work on so I might put them back in and see what config it creates
+2017-10-30 19:29:48	Spice_Boy	I think they were using the nouveu driver, whereas this has the nvidia one working
+2017-10-30 19:30:00	Spice_Boy	because nouveu didn't detect this chipset
+2017-10-30 19:30:06	-->	DaemonFC (~daemonfc@gateway/vpn/privateinternetaccess/daemonfc) has joined ##linux
+2017-10-30 19:30:37	-->	ntd (~ntd@gateway/tor-sasl/ntd) has joined ##linux
+2017-10-30 19:30:57	TJ-	Spice_Boy: here's mine (6 monitors over 4 X screens with 3 GPUs) http://paste.ubuntu.com/25854939/
+2017-10-30 19:31:01	-->	Cabanossi (~Cabanossi@pC19F2701.dip0.t-ipconnect.de) has joined ##linux
+2017-10-30 19:31:16	Spice_Boy	thanks!
+2017-10-30 19:31:52	-->	ertes (~ertes@haskell/developer/ertes) has joined ##linux
+2017-10-30 19:32:26	<--	mr-day (24546964@gateway/web/freenode/ip.36.84.105.100) has quit (Ping timeout: 260 seconds)
+2017-10-30 19:32:34	<--	j08nY (~j08nY@kou-street209-58.pks.muni.cz) has quit (Quit: Leaving)
+2017-10-30 19:32:36	-->	hehehe (uid219408@gateway/web/irccloud.com/x-xjgpfjitpaiyknbr) has joined ##linux
+2017-10-30 19:33:40	Spice_Boy	I'll modify and play around and see how I go
+2017-10-30 19:34:59	<--	semeion (~semeion@unaffiliated/semeion) has quit (Ping timeout: 260 seconds)
+2017-10-30 19:36:01	-->	universalpackage (~universal@cpe-172-192-12-48.qld.foxtel.net.au) has joined ##linux
+2017-10-30 19:36:27	<--	Munt (~Munt@gateway/vpn/privateinternetaccess/munt) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-10-30 19:36:31	-->	foul_owl (~foul_owl@23.82.53.58) has joined ##linux
+2017-10-30 19:37:37	<--	k_sze (~Kira@unaffiliated/kira) has quit (Ping timeout: 248 seconds)
+2017-10-30 19:37:50	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 264 seconds)
+2017-10-31 10:36:22	ℹ 	irc: disconnected from server
+2017-10-31 10:36:47	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-31 10:36:47	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-31 10:36:47	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-31 10:36:47	ℹ 	Channel ##linux: 1626 nicks (0 ops, 0 voices, 1626 normals)
+2017-10-31 10:36:47	-->	SmearedBeard (~SmearedBe@unaffiliated/smearedbeard) has joined ##linux
+2017-10-31 10:36:47	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-31 10:36:48	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-31 10:36:48	ℹ 	URL for ##linux: http://linux.chat
+2017-10-31 10:37:11	-->	luisoliv (~luisoliv@unaffiliated/luisoliv) has joined ##linux
+2017-10-31 10:37:23	-->	tsglove2 (~tsglove@12.205.72.46) has joined ##linux
+2017-10-31 10:37:47	<--	sp1r17 (~Thunderbi@66.228.118.67) has quit (Quit: sp1r17)
+2017-10-31 10:38:14	-->	dTd (~NoWay@208.103.79.252) has joined ##linux
+2017-10-31 10:38:21	<--	luisoliv (~luisoliv@unaffiliated/luisoliv) has quit (Remote host closed the connection)
+2017-10-31 10:38:28	<--	harelu (~haris@cable-77-77-246-97.dynamic.telemach.ba) has quit (Quit: WeeChat 1.9.1)
+2017-10-31 10:38:40	<--	uks (~uksio@p2003008DAC2754417423347FA2FFCE53.dip0.t-ipconnect.de) has quit (Ping timeout: 255 seconds)
+2017-10-31 10:38:41	-->	luisoliv (~luisoliv@unaffiliated/luisoliv) has joined ##linux
+2017-10-31 10:39:02	ℹ 	naffenheimer is now known as naf
+2017-10-31 10:39:03	<--	tsglove (~tsglove@12.205.72.46) has quit (Ping timeout: 264 seconds)
+2017-10-31 10:39:05	<--	giovdav (~giovdav@unaffiliated/giovdav) has quit (Remote host closed the connection)
+2017-10-31 10:39:44	<--	conall (59657959@gateway/web/freenode/ip.89.101.121.89) has quit (Quit: Page closed)
+2017-10-31 10:39:59	-->	nealshire (~nealshire@unaffiliated/nealshire) has joined ##linux
+2017-10-31 10:40:22	<--	Texou (~Texou@unaffiliated/texou) has quit (Ping timeout: 240 seconds)
+2017-10-31 10:40:29	-->	maxzor (~maxzor@LMontsouris-657-1-196-14.w90-63.abo.wanadoo.fr) has joined ##linux
+2017-10-31 10:40:44	<--	mentalita (~mentalita@unaffiliated/mentalita) has quit (Ping timeout: 240 seconds)
+2017-10-31 10:40:46	<--	luisoliv (~luisoliv@unaffiliated/luisoliv) has quit (Remote host closed the connection)
+2017-10-31 10:41:03	maxzor	Hello, any reading to learn how linux kernel handles DMA requests?
+2017-10-31 10:41:12	-->	luisoliv (~luisoliv@unaffiliated/luisoliv) has joined ##linux
+2017-10-31 10:41:40	-->	farciarz84 (~farciarz8@unaffiliated/farciarz84) has joined ##linux
+2017-10-31 10:41:44	<--	EriC^^ (~Eric@178.135.90.37) has quit (Ping timeout: 240 seconds)
+2017-10-31 10:41:49	ziongate	maxzor: well is driver specific generally
+2017-10-31 10:41:50	<--	luisoliv (~luisoliv@unaffiliated/luisoliv) has quit (Client Quit)
+2017-10-31 10:42:01	ziongate	looking inside driver code may help
+2017-10-31 10:42:04	maxzor	i am interested in imx6 arm hip
+2017-10-31 10:42:08	<--	moss (moss@fsf/member/moss) has quit (Quit: WeeChat 2.0-dev)
+2017-10-31 10:42:12	farciarz84	if I'm using a compontent in my software that's Apache 2.0, can I still have my software BSD or MIT?
+2017-10-31 10:42:14	maxzor	chip, is it in this?
+2017-10-31 10:42:18	realtime	if I manually do 'service base start' it starts normally, keep running as a service as it should. maybe I'm forgetting something else other than the .service file in /etc?
+2017-10-31 10:42:21	maxzor	https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/commit/?id=3123d78e09d2f815de4d94aa35c07b3c0469c80e
+2017-10-31 10:42:50	ziongate	maxzor: will check imx6 drivers and also devicetree to see who uses dma
+2017-10-31 10:43:11	ziongate	s/will/would
+2017-10-31 10:43:14	-->	Munsterberg (~Munsterbe@ip-45-3-18-147.user.start.ca) has joined ##linux
+2017-10-31 10:43:18	<--	latch (~latch@unaffiliated/latch) has quit (Remote host closed the connection)
+2017-10-31 10:43:23	THE_GFR|WORK	anyone know if I can get some diagnostics out of the MegaRaid card aka with MegaCLI where I can get verbose output?
+2017-10-31 10:43:40	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined ##linux
+2017-10-31 10:43:43	maxzor	ziongate, thank you
+2017-10-31 10:43:48	ziongate	maxzor: that is smart DMA for imx6
+2017-10-31 10:43:51	<--	Cabanossi (~Cabanossi@pC19F25E6.dip0.t-ipconnect.de) has quit (Ping timeout: 264 seconds)
+2017-10-31 10:43:58	ziongate	basic dma should work anyway
+2017-10-31 10:44:18	maxzor	ziongate, ah I had understood even DMA went through the smart module
+2017-10-31 10:44:22	-->	tsglove3 (~tsglove@12.205.72.46) has joined ##linux
+2017-10-31 10:44:31	ziongate	smart dma afai remember allows some customizations and scripting
+2017-10-31 10:44:35	-->	giovdav (~giovdav@unaffiliated/giovdav) has joined ##linux
+2017-10-31 10:44:50	<--	rumpel (~rumpel@101.90.255.191) has quit (Ping timeout: 248 seconds)
+2017-10-31 10:45:00	-->	latch (~latch@unaffiliated/latch) has joined ##linux
+2017-10-31 10:45:02	-->	Cabanossi (~Cabanossi@pC19F25E6.dip0.t-ipconnect.de) has joined ##linux
+2017-10-31 10:45:15	-->	pepee (~p@unaffiliated/pepee) has joined ##linux
+2017-10-31 10:45:33	<--	kaizushi (~kaizushi@gateway/tor-sasl/kaizushi) has quit (Ping timeout: 248 seconds)
+2017-10-31 10:45:33	ziongate	well i am not sure right now, but dma should work anyway. I know, that imx6 thaousand-of-pages datasheet is  not friendly, but all is explained there
+2017-10-31 10:45:50	-->	moss (moss@fsf/member/moss) has joined ##linux
+2017-10-31 10:45:53	maxzor	yes there is in it : "This section describes the assignments of interrupts from the ARM domain in Cortex A9
+2017-10-31 10:45:53	maxzor	interruptsand from the DMA events in SDMA event mapping."
+2017-10-31 10:46:28	ziongate	yopu may check dts of some baord that uses dma, and if SDMA is enablediin related board_config
+2017-10-31 10:46:37	<--	tsglove2 (~tsglove@12.205.72.46) has quit (Ping timeout: 240 seconds)
+2017-10-31 10:46:41	maxzor	ok
+2017-10-31 10:46:50	<--	LordDread (~LordDread@104.140.106.183) has quit (Ping timeout: 246 seconds)
+2017-10-31 10:46:56	<--	okra (~okra@enlightenment/developer/okra) has quit (Ping timeout: 248 seconds)
+2017-10-31 10:47:03	<--	DebianDragon (~DebianDra@2607:fea8:5b60:546:2954:165b:d7b6:fa39) has left ##linux ("Leaving")
+2017-10-31 10:47:18	<--	notemerson (emerson@freenode/staff/emerson) has quit (Quit: WeeChat 1.9.1)
+2017-10-31 10:47:21	ℹ 	DrJekyll is now known as Frankenstien
+2017-10-31 10:47:35	-->	okra (~okra@enlightenment/developer/okra) has joined ##linux
+2017-10-31 10:48:17	<--	pavlushka (~pavlushka@ubuntu/member/pavlushka) has quit (Max SendQ exceeded)
+2017-10-31 10:48:39	<--	GenteelBen (~GenteelBe@cpc111801-lutn14-2-0-cust55.9-3.cable.virginm.net) has quit (Ping timeout: 264 seconds)
+2017-10-31 10:48:45	-->	pavlushka (~pavlushka@ubuntu/member/pavlushka) has joined ##linux
+2017-10-31 10:48:58	ℹ 	Frankenstien is now known as Frankenstein
+2017-10-31 10:49:02	-->	kaizushi (~kaizushi@gateway/tor-sasl/kaizushi) has joined ##linux
+2017-10-31 10:49:04	<--	_KaszpiR_ (quasselcor@unaffiliated/kaszpir/x-3157048) has quit (Ping timeout: 248 seconds)
+2017-10-31 10:49:31	-->	tsglove2 (~tsglove@52-145-15-204-CE-016.nnpr.net) has joined ##linux
+2017-10-31 10:50:05	-->	_KaszpiR_ (quasselcor@unaffiliated/kaszpir/x-3157048) has joined ##linux
+2017-10-31 10:50:09	<--	drillbyt (~drillbyt@gateway/tor-sasl/skeetsberry) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	sklv1 (~sklv@gateway/tor-sasl/sklv) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	rawruw (~rawrew@gateway/tor-sasl/rawrew) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	kaizushi (~kaizushi@gateway/tor-sasl/kaizushi) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	d4re (~d4re@gateway/tor-sasl/d4re) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	de-facto (~de-facto@gateway/tor-sasl/de-facto) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	ghost43 (~daer@gateway/tor-sasl/daer) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:09	<--	sec^nd (~second@gateway/tor-sasl/sec0nd) has quit (Write error: Connection reset by peer)
+2017-10-31 10:50:10	<--	M3mphiZ_ (~quassel@gateway/tor-sasl/memphizzzzzz) has quit (Remote host closed the connection)
+2017-10-31 10:50:10	<--	purist (~purist@gateway/tor-sasl/purist) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:10	<--	tombusby (~tombusby@gateway/tor-sasl/tombusby) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:10	<--	Sven_vB (~sven@gateway/tor-sasl/svenvb/x-98888234) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:10	<--	\2h1s (~\21hs@gateway/tor-sasl/2h1s/x-55597069) has quit (Read error: Connection reset by peer)
+2017-10-31 10:50:10	<--	exotime (~exotime@gateway/tor-sasl/exotime) has quit (Write error: Connection reset by peer)
+2017-10-31 10:50:14	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 260 seconds)
+2017-10-31 10:50:27	-->	sec^nd (~second@gateway/tor-sasl/sec0nd) has joined ##linux
+2017-10-31 10:50:27	-->	tombusby (~tombusby@gateway/tor-sasl/tombusby) has joined ##linux
+2017-10-31 10:50:30	-->	de-facto (~de-facto@gateway/tor-sasl/de-facto) has joined ##linux
+2017-10-31 10:50:31	-->	M3mphiZ (~quassel@gateway/tor-sasl/memphizzzzzz) has joined ##linux
+2017-10-31 10:50:34	-->	purist (~purist@gateway/tor-sasl/purist) has joined ##linux
+2017-10-31 10:50:35	-->	exotime (~exotime@gateway/tor-sasl/exotime) has joined ##linux
+2017-10-31 10:50:41	<--	karklinsv (~vitakark@workstation.tele2.se) has quit (Ping timeout: 248 seconds)
+2017-10-31 10:50:57	-->	d4re (~d4re@gateway/tor-sasl/d4re) has joined ##linux
+2017-10-31 10:51:01	-->	Sven_vB (~sven@gateway/tor-sasl/svenvb/x-98888234) has joined ##linux
+2017-10-31 10:51:01	-->	sklv1 (~sklv@gateway/tor-sasl/sklv) has joined ##linux
+2017-10-31 10:51:02	-->	ghost43 (~daer@gateway/tor-sasl/daer) has joined ##linux
+2017-10-31 10:51:35	<--	tsglove3 (~tsglove@12.205.72.46) has quit (Ping timeout: 258 seconds)
+2017-10-31 10:51:45	-->	kaizushi (~kaizushi@gateway/tor-sasl/kaizushi) has joined ##linux
+2017-10-31 10:51:50	-->	dino82 (~deeno@unaffiliated/dino82) has joined ##linux
+2017-10-31 10:51:52	-->	emerson (emerson@freenode/staff/emerson) has joined ##linux
+2017-10-31 10:52:04	-->	\2h1s (~\21hs@gateway/tor-sasl/2h1s/x-55597069) has joined ##linux
+2017-10-31 10:52:11	-->	kreest| (~kreest@176.241.55.18.pool.invitel.hu) has joined ##linux
+2017-10-31 10:52:17	-->	GenteelBen (~GenteelBe@cpc111801-lutn14-2-0-cust55.9-3.cable.virginm.net) has joined ##linux
+2017-10-31 10:52:36	-->	tsglove3 (~tsglove@12.205.72.46) has joined ##linux
+2017-10-31 10:53:23	-->	lacroix (~lacroix@freenode/staff-emeritus/about.linux.lacroix) has joined ##linux
+2017-10-31 11:01:25	ℹ 	irc: disconnected from server
+2017-10-31 11:01:52	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-31 11:01:52	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-31 11:01:52	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-31 11:01:52	ℹ 	Channel ##linux: 1624 nicks (0 ops, 0 voices, 1624 normals)
+2017-10-31 11:01:52	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-31 11:01:52	ℹ 	URL for ##linux: http://linux.chat
+2017-10-31 11:01:52	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-31 11:01:57	-->	solidfox (~solidfox@unaffiliated/snake/x-2550465) has joined ##linux
+2017-10-31 11:02:08	<--	spare (~user@unaffiliated/spareproject) has quit (Remote host closed the connection)
+2017-10-31 11:02:19	<--	mikecmpb_ (~mikecmpbl@ruby/staff/mikecmpbll) has quit (Read error: Connection reset by peer)
+2017-10-31 11:02:24	-->	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has joined ##linux
+2017-10-31 11:03:10	<--	sklv1 (~sklv@gateway/tor-sasl/sklv) has quit (Remote host closed the connection)
+2017-10-31 11:16:58	ℹ 	irc: disconnected from server
+2017-10-31 11:17:26	-->	maggie (~maggie@184.90.62.99) has joined ##linux
+2017-10-31 11:17:26	ℹ 	Topic for ##linux is "Channel website: https://freenode.linux.community | Pastebin: https://paste.linux.community | Spammers or trolls? use !ops <troll's nick> <reason>". | For op assistance, join ##linux-ops | Set /umode +R if you're getting tons of nonsensical PMs | Feel at home and enjoy your stay!"
+2017-10-31 11:17:26	ℹ 	Topic set by bocaneri on Sun, 04 Dec 2016 02:21:22
+2017-10-31 11:17:27	ℹ 	Channel ##linux: 1628 nicks (0 ops, 0 voices, 1628 normals)
+2017-10-31 11:17:27	ℹ 	PvNotice(ChanServ): Please see https://freenode.linux.community/how-to-connect/ on how to register or identify your nick. By joining this channel you agree to abide by the channel rules and guidelines laid out at https://freenode.linux.community/channel-rules/. The official ##Linux bots log all channel activity and make it publicly available on https://linux.community and https://linux.chat.
+2017-10-31 11:17:27	ℹ 	URL for ##linux: http://linux.chat
+2017-10-31 11:17:27	ℹ 	Channel created on Fri, 09 Feb 2001 18:16:24
+2017-10-31 11:17:31	-->	Sonny|3oy (~Sonny|3oy@unaffiliated/sonny3oy/x-7287106) has joined ##linux
+2017-10-31 11:17:40	<--	nebelflor (~nebelflor@c-71-225-39-152.hsd1.pa.comcast.net) has quit (Quit: leaving)
+2017-10-31 11:17:43	-->	mikecmpbll (~mikecmpbl@ruby/staff/mikecmpbll) has joined ##linux
+2017-10-31 11:17:53	ayecee	say you're writing a http response. you have the response code in one buffer, you have some headers in another. you could gather them all up into one buffer before sending, or you could use writev.
+2017-10-31 11:17:57	xurxo_pasabola11	Hi, I like to have lots of data on my computer. Does it affect the efficency of my computer?How much? In case a "yes", Would improve its preformance sending the data to another partition? I'll appretiate any other advise about this topic. Thanks
+2017-10-31 11:18:17	bytefire	ayecee: ah okay..
+2017-10-31 11:18:19	bytefire	thanks
+2017-10-31 11:18:20	-->	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined ##linux
+2017-10-31 11:18:26	ananke	xurxo_pasabola11: that makes little sense. define 'efficiency'
+2017-10-31 11:18:47	ayecee	xurxo_pasabola11: no.
+2017-10-31 11:19:41	-->	ramses (~ramses@nat-35.starnet.cz) has joined ##linux
+2017-10-31 11:19:57	ananke	and splitting 'data' into separate partitions on the same drive makes little difference. it doesn't improve anything
+2017-10-31 11:20:00	<--	farciarz84 (~farciarz8@unaffiliated/farciarz84) has quit (Ping timeout: 248 seconds)
+2017-10-31 11:20:28	lacroix	ananke! always a pleasure seeing you around :)
+2017-10-31 11:20:32	-->	nebelflor (~nebelflor@c-71-225-39-152.hsd1.pa.comcast.net) has joined ##linux
+2017-10-31 11:21:03	<--	gordonschamway (~gordonsch@unaffiliated/gordonschamway) has left ##linux ("Leaving")
+2017-10-31 11:21:03	ananke	lacroix: lunch time is always the best time
+2017-10-31 11:21:26	baiguai	\
+2017-10-31 11:21:37	-->	sp1r17 (~sp1r17@66.228.118.67) has joined ##linux
+2017-10-31 11:21:48	<--	lmd (~lmd@70.45.147.149) has quit (Client Quit)
+2017-10-31 11:22:21	-->	lmd (~lmd@70.45.147.149) has joined ##linux
+2017-10-31 11:22:26	<--	Es0teric (~textual@rrcs-184-74-227-42.nyc.biz.rr.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-10-31 11:23:37	<--	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has quit (Remote host closed the connection)
+2017-10-31 11:23:41	<--	lmd (~lmd@70.45.147.149) has quit (Client Quit)
+2017-10-31 11:23:41	-->	cagomez (~cagomez@sb0-cf9a61b1.dsl.impulse.net) has joined ##linux
+2017-10-31 11:23:41	-->	kurkale6ka (~kurkale6k@62.232.85.2) has joined ##linux
+2017-10-31 11:23:41	-->	lmd (~lmd@70.45.147.149) has joined ##linux
+2017-10-31 11:23:56	bratchley	I'm having a "tip of my tongue" moment. What's the name of the software suite/tool that can mirror either yum or dpkg repos? It's like "reprepo" or something
+2017-10-31 11:23:59	<--	lmd (~lmd@70.45.147.149) has quit (Client Quit)
+2017-10-31 11:24:02	bratchley	can't remember the actual name
+2017-10-31 11:24:04	<--	kurkale61 (~kurkale6k@84.45.99.125) has quit (Ping timeout: 260 seconds)
+2017-10-31 11:24:16	<--	lnbf (~lnbf@121.200.39.223) has quit (Ping timeout: 248 seconds)
+2017-10-31 11:24:36	xurxo_pasabola11	anake: the system operational time , e.g. open a file with calc
+2017-10-31 11:24:41	gpunk	bratchley rsync ?
+2017-10-31 11:24:51	-->	lmd (~lmd@70.45.147.149) has joined ##linux
+2017-10-31 11:25:05	<--	catphish (~charlie@unaffiliated/catphish) has quit (Quit: Leaving)
+2017-10-31 11:25:10	xurxo_pasabola11	ananke: the system operational time , e.g. open a file with calc
+2017-10-31 11:25:11	-->	fujisan (uid4207@gateway/web/irccloud.com/x-gdkuaqdbfvfmouju) has joined ##linux
+2017-10-31 11:25:15	bratchley	gpunk: it might be based on rsync but I think it's supposed to be smarter than that
+2017-10-31 11:25:25	<--	thadtheman (~thadthema@99-104-67-23.lightspeed.cicril.sbcglobal.net) has quit (Ping timeout: 240 seconds)
+2017-10-31 11:25:43	-->	Kreest__ (~Kreest@176.241.55.18.pool.invitel.hu) has joined ##linux
+2017-10-31 11:25:44	gpunk	the one who uses it is supposed to be smart
+2017-10-31 11:25:49	bratchley	not super helpful
+2017-10-31 11:25:56	djph	xurxo_pasabola11: no
+2017-10-31 11:25:57	<--	Kruppt (~Kirk_Krup@50.111.62.77) has quit (Quit: ChatZilla 0.9.92-rdmsoft [XULRunner 35.0.1/20150122214805])
+2017-10-31 11:26:01	gpunk	the programm it self , is worthless , anyprogram
+2017-10-31 11:26:15	-->	lnbf (~lnbf@ip-121-200-35-20.wa.redbroadband.com.au) has joined ##linux
+2017-10-31 11:26:16	<--	bm371613 (~bartek@2a02:a317:603f:9800:391:ed9f:1c09:1285) has quit (Quit: Konversation terminated!)
+2017-10-31 11:26:17	ananke	xurxo_pasabola11: having said file on another partition won't make a difference
+2017-10-31 11:26:28	djph	bratchley: aptcache(-ng)?
+2017-10-31 11:26:30	-->	talo (~AndChat37@unaffiliated/talo) has joined ##linux
+2017-10-31 11:26:58	bratchley	djph: I think that's dpkg only, this one supports rpm as well
+2017-10-31 11:27:32	djph	meh, screw rpm
+2017-10-31 11:27:32	djph	:D
+2017-10-31 11:27:32	TJ-	bratchley: it is reprepro
+2017-10-31 11:27:41	<--	kerananw (~kerananw@unaffiliated/kerananw) has quit (Quit: ZZZzzzz...)
+2017-10-31 11:27:47	<--	v4ult (~V4ult@217.138.14.202) has quit (Read error: Connection reset by peer)
+2017-10-31 11:28:02	<--	mosulica (~textual@82.208.160.88) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-10-31 11:28:25	<--	robotroll (~robotroll@unaffiliated/robotroll) has quit (Read error: Connection reset by peer)
+2017-10-31 11:28:38	<--	jmsbnd (~jmsbnd@freya.kivisoo.ee) has quit (Quit: leaving)
+2017-10-31 11:28:43	<--	beemo_ceniza (~beemo_cen@unaffiliated/beemo-ceniza/x-9577736) has quit (Remote host closed the connection)
+2017-10-31 11:29:49	-->	POJO (~quassel@unaffiliated/pojo) has joined ##linux
+2017-10-31 11:30:28	-->	luisoliv (~luisoliv@unaffiliated/luisoliv) has joined ##linux
+2017-10-31 11:31:03	-->	masuberu (~Masber@27-32-116-21.static.tpgi.com.au) has joined ##linux
+2017-10-31 11:31:20	<--	nebelflor (~nebelflor@c-71-225-39-152.hsd1.pa.comcast.net) has quit (Quit: leaving)
+2017-10-31 11:31:34	bratchley	djph: it looks like that's dpkg-only still
+2017-10-31 11:31:38	-->	nebelflor (~nebelflor@c-71-225-39-152.hsd1.pa.comcast.net) has joined ##linux
+2017-10-31 11:31:54	djph	got the wrong guy, mate
+2017-10-31 11:32:16	bratchley	er
+2017-10-31 11:32:16	-->	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has joined ##linux
+2017-10-31 11:32:16	bratchley	TJ-: ^
+2017-10-31 11:32:16	-->	tsglove3 (~tsglove@12.205.72.46) has joined ##linux
+2017-10-31 11:32:16	djph	could always set up squid to act as a cache ... or, y'know, rsync
+2017-10-31 11:32:16	bratchley	sorry about that
+2017-10-31 11:32:23	TJ-	bratchley: did you mean a tool that works like reprepo, or *sounds* like the name?
+2017-10-31 11:32:44	bratchley	yeah I know it's just something that popped into my head and it's driving me crazy that I can't remember the name of it
+2017-10-31 11:32:44	<--	Voovode (~Alex@webaccess1.hq.purplewifi.net) has quit (Remote host closed the connection)
+2017-10-31 11:32:45	bratchley	I can even remember what their website looks like
+2017-10-31 11:32:58	bratchley	TJ-: both
+2017-10-31 11:33:09	bratchley	it's a tool that does both dpkg and rpm mirroring
+2017-10-31 11:33:09	-->	beemo_ceniza (~beemo_cen@unaffiliated/beemo-ceniza/x-9577736) has joined ##linux
+2017-10-31 11:33:23	<--	thinkpad (~thinkpad@bb116-14-129-42.singnet.com.sg) has quit (Ping timeout: 255 seconds)
+2017-10-31 11:33:23	TJ-	bratchley: there's "alien" for installing other types of packages, but it's not a mirror tool
+2017-10-31 11:33:23	bratchley	that's not rsync directly
+2017-10-31 11:33:23	<--	neko (~nyaa@kuroneko.2chan.jp) has quit (Ping timeout: 248 seconds)
+2017-10-31 11:33:31	<--	Sonny|3oy (~Sonny|3oy@unaffiliated/sonny3oy/x-7287106) has left ##linux ("Leaving")
+2017-10-31 11:34:07	luisoliv	what could go wrong if you install .rpms in a .deb based distro a viceversa? i mean, we are all linux, providing the kernel its kinda as new
+2017-10-31 11:34:08	<--	daszorz (~daszorz@188.94.18.118) has quit (Read error: Connection reset by peer)
+2017-10-31 11:34:42	bratchley	it may assume certain file paths that exist on the target platform but not the one you're installing on
+2017-10-31 11:34:55	phinxy	luisoliv: Is building from source an option?
+2017-10-31 11:35:11	luisoliv	phinxy, just asking hypotetically
+2017-10-31 11:35:12	bratchley	or other characteristics like user accounts
+2017-10-31 11:35:14	TJ-	luisoliv: different ideas for where system files should be installed; different dependencies
+2017-10-31 11:35:17	luisoliv	but yeah, let's assume you can build from sourcer
+2017-10-31 11:35:18	-->	Jonwel (~Jonwel@541971C3.cm-5-2b.dynamic.ziggo.nl) has joined ##linux
+2017-10-31 11:35:25	bratchley	I've used alien successfully both directions without much apparent issue
+2017-10-31 11:35:28	<--	POJO (~quassel@unaffiliated/pojo) has quit (Ping timeout: 248 seconds)
+2017-10-31 11:35:28	<--	tsglove2 (~tsglove@52-145-15-204-CE-016.nnpr.net) has quit (Ping timeout: 248 seconds)
+2017-10-31 11:35:40	-->	dc0de (~herpdader@p4FEB69F4.dip0.t-ipconnect.de) has joined ##linux
+2017-10-31 11:35:44	-->	AnarchyAo (~andrew@198.41.129.1) has joined ##linux
+2017-10-31 11:35:55	-->	kurkale61 (~kurkale6k@84.45.99.125) has joined ##linux
+2017-10-31 11:35:58	bratchley	plus there's the issue that the binaries are QA'd for different library versions so there's potential for undiscovered weirdness when mixing with unanticipated library versions
+2017-10-31 11:35:59	TJ-	bratchley: there's squid-deb-proxy but I'm not aware of a similar squid-rpm-proxy
+2017-10-31 11:36:52	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 258 seconds)
+2017-10-31 11:37:42	-->	POJO (~quassel@unaffiliated/pojo) has joined ##linux
+2017-10-31 11:38:04	<--	kurkale6ka (~kurkale6k@62.232.85.2) has quit (Ping timeout: 260 seconds)
+2017-10-31 11:38:25	-->	thuryn (~justinmcn@216.106.72.146.reverse.socket.net) has joined ##linux

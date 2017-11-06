@@ -1,0 +1,2022 @@
+2017-10-06 14:45:16	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-06 14:45:16	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-06 14:45:16	ℹ 	gnutls: receiving 2 certificates
+2017-10-06 14:45:16	ℹ 	 - certificate[1] info:
+2017-10-06 14:45:16	ℹ 	   - subject `CN=verne.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03a3a21b3c7cd33e50bc1241d7acacda07d8, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:03:42 UTC', expires `2017-12-31 05:03:42 UTC', pin-sha256="Q74oEM0HkeuTqhvZPuyEQ+2xyRHmNYaGjGAJlp+EZcc="
+2017-10-06 14:45:16	ℹ 	 - certificate[2] info:
+2017-10-06 14:45:16	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-06 14:45:16	ℹ 	gnutls: peer's certificate is trusted
+2017-10-06 14:45:16	ℹ 	irc: connected to chat.freenode.net/7000 (185.30.166.37)
+2017-10-06 14:45:16	ℹ 	verne.freenode.net: *** Looking up your hostname...
+2017-10-06 14:45:16	ℹ 	verne.freenode.net: *** Checking Ident
+2017-10-06 14:45:16	ℹ 	verne.freenode.net: *** No Ident response
+2017-10-06 14:45:16	ℹ 	verne.freenode.net: *** Couldn't look up your hostname
+2017-10-06 14:45:16	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-06 14:45:16	ℹ 	irc: client capability, requesting: sasl
+2017-10-06 14:45:17	ℹ 	irc: client capability, enabled: sasl
+2017-10-06 14:45:17	ℹ 	You are now logged in as Maggie. (maggie!maggie@108.188.209.199)
+2017-10-06 14:45:17	ℹ 	SASL authentication successful
+2017-10-06 14:45:18	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-06 14:45:18	ℹ 	Your host is verne.freenode.net[185.30.166.37/7000], running version ircd-seven-1.1.4
+2017-10-06 14:45:18	ℹ 	This server was created Sat Jan 7 2017 at 11:53:54 EST
+2017-10-06 14:45:18	ℹ 	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-06 14:45:18	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-06 14:45:18	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2017-10-06 14:45:18	ℹ 	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-10-06 14:45:18	ℹ 	There are 136 users and 89780 invisible on 31 servers
+2017-10-06 14:45:18	ℹ 	33 :IRC Operators online
+2017-10-06 14:45:18	ℹ 	43 :unknown connection(s)
+2017-10-06 14:45:18	ℹ 	54762 :channels formed
+2017-10-06 14:45:18	ℹ 	I have 6180 clients and 2 servers
+2017-10-06 14:45:18	ℹ 	6180 7978 :Current local users 6180, max 7978
+2017-10-06 14:45:18	ℹ 	89916 97718 :Current global users 89916, max 97718
+2017-10-06 14:45:18	ℹ 	Highest connection count: 7980 (7978 clients) (3118236 connections received)
+2017-10-06 14:45:18	ℹ 	- verne.freenode.net Message of the Day -
+2017-10-06 14:45:18	ℹ 	- Welcome to verne.freenode.net in Amsterdam, NL.
+2017-10-06 14:45:18	ℹ 	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2017-10-06 14:45:18	ℹ 	- this server!
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2017-10-06 14:45:18	ℹ 	- a pioneering french author known for novels such as Twenty
+2017-10-06 14:45:18	ℹ 	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2017-10-06 14:45:18	ℹ 	- Earth, and Around the World in Eighty Days. Often lauded as the
+2017-10-06 14:45:18	ℹ 	- Father of science fiction, Verne wrote about concepts such as
+2017-10-06 14:45:18	ℹ 	- space travel, skyscrapers, and worldwide communications
+2017-10-06 14:45:18	ℹ 	- networks long before these ideas became popularised or realised.
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-06 14:45:18	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-06 14:45:18	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-06 14:45:18	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-06 14:45:18	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-06 14:45:18	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-06 14:45:18	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-06 14:45:18	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-06 14:45:18	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-06 14:45:18	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-06 14:45:18	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-06 14:45:18	ℹ 	- innovation.
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-06 14:45:18	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-06 14:45:18	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-06 14:45:18	ℹ 	- your tickets!
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-06 14:45:18	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	-
+2017-10-06 14:45:18	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-06 14:45:18	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-06 14:45:18	ℹ 	End of /MOTD command.
+2017-10-06 14:45:18	ℹ 	User mode [+Zi] by maggie
+2017-10-06 14:49:04	ℹ 	MSG(nickserv): IDENTIFY *********
+2017-10-06 14:49:04	ℹ 	NickServ (NickServ@services.): You are already logged in as Maggie.
+2017-10-06 15:06:06	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-06 15:06:06	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-06 15:06:06	ℹ 	gnutls: receiving 2 certificates
+2017-10-06 15:06:06	ℹ 	 - certificate[1] info:
+2017-10-06 15:06:06	ℹ 	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03bd41f8499a4276c13b31758e013f5c2171, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-07 05:03:00 UTC', expires `2017-11-05 05:03:00 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2017-10-06 15:06:06	ℹ 	 - certificate[2] info:
+2017-10-06 15:06:06	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-06 15:06:06	ℹ 	gnutls: peer's certificate is trusted
+2017-10-06 15:06:06	ℹ 	irc: connected to chat.freenode.net/7000 (71.11.84.232)
+2017-10-06 15:06:06	ℹ 	tolkien.freenode.net: *** Looking up your hostname...
+2017-10-06 15:06:06	ℹ 	tolkien.freenode.net: *** Checking Ident
+2017-10-06 15:06:06	ℹ 	tolkien.freenode.net: *** No Ident response
+2017-10-06 15:06:06	ℹ 	tolkien.freenode.net: *** Couldn't look up your hostname
+2017-10-06 15:06:06	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-06 15:06:06	ℹ 	irc: client capability, requesting: sasl
+2017-10-06 15:06:06	ℹ 	irc: client capability, enabled: sasl
+2017-10-06 15:06:07	ℹ 	You are now logged in as Maggie. (maggie!maggie@108.188.209.199)
+2017-10-06 15:06:07	ℹ 	SASL authentication successful
+2017-10-06 15:06:07	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-06 15:06:07	ℹ 	Your host is tolkien.freenode.net[71.11.84.232/7000], running version ircd-seven-1.1.4
+2017-10-06 15:06:07	ℹ 	This server was created Thu May 18 2017 at 17:43:36 UTC
+2017-10-06 15:06:07	ℹ 	tolkien.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-06 15:06:07	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-06 15:06:07	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-06 15:06:07	ℹ 	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2017-10-06 15:06:07	ℹ 	There are 137 users and 89445 invisible on 31 servers
+2017-10-06 15:06:07	ℹ 	33 :IRC Operators online
+2017-10-06 15:06:07	ℹ 	29 :unknown connection(s)
+2017-10-06 15:06:07	ℹ 	54744 :channels formed
+2017-10-06 15:06:07	ℹ 	I have 6178 clients and 1 servers
+2017-10-06 15:06:07	ℹ 	6178 7644 :Current local users 6178, max 7644
+2017-10-06 15:06:07	ℹ 	89582 97718 :Current global users 89582, max 97718
+2017-10-06 15:06:07	ℹ 	Highest connection count: 7645 (7644 clients) (1572699 connections received)
+2017-10-06 15:06:07	ℹ 	- tolkien.freenode.net Message of the Day -
+2017-10-06 15:06:07	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-06 15:06:07	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-06 15:06:07	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-06 15:06:07	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-06 15:06:07	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-06 15:06:07	ℹ 	-
+2017-10-06 15:06:07	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-06 15:06:07	ℹ 	-
+2017-10-06 15:06:07	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-06 15:06:07	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-06 15:06:07	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-06 15:06:07	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-06 15:06:07	ℹ 	-
+2017-10-06 15:06:07	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-06 15:06:07	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-06 15:06:07	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-06 15:06:07	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-06 15:06:07	ℹ 	- innovation.
+2017-10-06 15:06:07	ℹ 	-
+2017-10-06 15:06:08	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-06 15:06:08	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-06 15:06:08	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-06 15:06:08	ℹ 	- your tickets!
+2017-10-06 15:06:08	ℹ 	-
+2017-10-06 15:06:08	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-06 15:06:08	ℹ 	-
+2017-10-06 15:06:08	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-06 15:06:08	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-06 15:06:08	ℹ 	-
+2017-10-06 15:06:08	ℹ 	-
+2017-10-06 15:06:08	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-06 15:06:08	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-06 15:06:08	ℹ 	End of /MOTD command.
+2017-10-06 15:06:08	ℹ 	User mode [+Zi] by maggie
+2017-10-15 16:29:19	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-15 16:29:20	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-15 16:29:20	ℹ 	gnutls: receiving 2 certificates
+2017-10-15 16:29:20	ℹ 	 - certificate[1] info:
+2017-10-15 16:29:20	ℹ 	   - subject `CN=orwell.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03a62c272f1a5e89d0718ecf0ca800c21976, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-09-22 13:03:00 UTC', expires `2017-12-21 13:03:00 UTC', pin-sha256="cS0p93N/8xISMq5B6ujzOx6NrEYoG16JE7vUJwyBwZo="
+2017-10-15 16:29:20	ℹ 	 - certificate[2] info:
+2017-10-15 16:29:20	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-15 16:29:20	ℹ 	gnutls: peer's certificate is trusted
+2017-10-15 16:29:20	ℹ 	irc: connected to chat.freenode.net/7000 (185.30.166.38)
+2017-10-15 16:29:20	ℹ 	orwell.freenode.net: *** Looking up your hostname...
+2017-10-15 16:29:20	ℹ 	orwell.freenode.net: *** Checking Ident
+2017-10-15 16:29:20	ℹ 	orwell.freenode.net: *** Found your hostname
+2017-10-15 16:29:29	ℹ 	orwell.freenode.net: *** No Ident response
+2017-10-15 16:29:29	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-15 16:29:29	ℹ 	irc: client capability, requesting: sasl
+2017-10-15 16:29:30	ℹ 	irc: client capability, enabled: sasl
+2017-10-15 16:29:30	ℹ 	You are now logged in as Maggie. (maggie!maggie@184-90-62-99.res.bhn.net)
+2017-10-15 16:29:30	ℹ 	SASL authentication successful
+2017-10-15 16:29:31	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-15 16:29:31	ℹ 	Your host is orwell.freenode.net[185.30.166.38/7000], running version ircd-seven-1.1.4
+2017-10-15 16:29:31	ℹ 	This server was created Sat Jan 7 2017 at 12:04:42 EST
+2017-10-15 16:29:31	ℹ 	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-15 16:29:31	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-15 16:29:31	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-15 16:29:31	ℹ 	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+2017-10-15 16:29:31	ℹ 	There are 130 users and 85321 invisible on 31 servers
+2017-10-15 16:29:31	ℹ 	32 :IRC Operators online
+2017-10-15 16:29:31	ℹ 	53 :unknown connection(s)
+2017-10-15 16:29:31	ℹ 	54735 :channels formed
+2017-10-15 16:29:31	ℹ 	I have 5676 clients and 1 servers
+2017-10-15 16:29:31	ℹ 	5676 6943 :Current local users 5676, max 6943
+2017-10-15 16:29:31	ℹ 	85451 97718 :Current global users 85451, max 97718
+2017-10-15 16:29:31	ℹ 	Highest connection count: 6944 (6943 clients) (3445972 connections received)
+2017-10-15 16:29:31	ℹ 	- orwell.freenode.net Message of the Day -
+2017-10-15 16:29:31	ℹ 	- Welcome to orwell.freenode.net in Amsterdam, NL.
+2017-10-15 16:29:31	ℹ 	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2017-10-15 16:29:31	ℹ 	- this server!
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+2017-10-15 16:29:31	ℹ 	- moved him to England when he was one year old, and it
+2017-10-15 16:29:31	ℹ 	- was in England where he was educated and spent most of
+2017-10-15 16:29:31	ℹ 	- his life.  Orwell is perhaps best known for his novels
+2017-10-15 16:29:31	ℹ 	- Nineteen Eighty-Four and Animal Farm.
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-15 16:29:31	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-15 16:29:31	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-15 16:29:31	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-15 16:29:31	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-15 16:29:31	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-15 16:29:31	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-15 16:29:31	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-15 16:29:31	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-15 16:29:31	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-15 16:29:31	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-15 16:29:31	ℹ 	- innovation.
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-15 16:29:31	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-15 16:29:31	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-15 16:29:31	ℹ 	- your tickets!
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-15 16:29:31	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:31	ℹ 	-
+2017-10-15 16:29:32	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-15 16:29:32	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-15 16:29:32	ℹ 	End of /MOTD command.
+2017-10-15 16:29:32	ℹ 	User mode [+Zi] by maggie
+2017-10-15 19:42:06	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-15 19:42:06	ℹ 	irc: disconnecting from server...
+2017-10-15 19:42:06	ℹ 	irc: disconnected from server
+2017-10-15 19:42:06	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-15 19:42:16	ℹ 	irc: reconnecting to server...
+2017-10-15 19:42:16	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-15 19:42:16	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-15 19:42:16	ℹ 	gnutls: receiving 2 certificates
+2017-10-15 19:42:16	ℹ 	 - certificate[1] info:
+2017-10-15 19:42:16	ℹ 	   - subject `CN=hobana.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03714e5e065fb5d0973cec10fed859aa4a0f, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:06:16 UTC', expires `2017-12-31 05:06:16 UTC', pin-sha256="qGjybhoWpEOWQDIpxkHErogwzV3U0S8Dv7XmZdbkC6E="
+2017-10-15 19:42:16	ℹ 	 - certificate[2] info:
+2017-10-15 19:42:16	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-15 19:42:16	ℹ 	gnutls: peer's certificate is trusted
+2017-10-15 19:42:17	ℹ 	irc: connected to chat.freenode.net/7000 (81.18.73.123)
+2017-10-15 19:42:17	ℹ 	hobana.freenode.net: *** Looking up your hostname...
+2017-10-15 19:42:17	ℹ 	hobana.freenode.net: *** Checking Ident
+2017-10-15 19:42:17	ℹ 	hobana.freenode.net: *** Found your hostname
+2017-10-15 19:42:26	ℹ 	hobana.freenode.net: *** No Ident response
+2017-10-15 19:42:26	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-15 19:42:26	ℹ 	irc: client capability, requesting: sasl
+2017-10-15 19:42:27	ℹ 	irc: client capability, enabled: sasl
+2017-10-15 19:42:27	ℹ 	You are now logged in as Maggie. (maggie!maggie@184-90-62-99.res.bhn.net)
+2017-10-15 19:42:27	ℹ 	SASL authentication successful
+2017-10-15 19:42:28	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-15 19:42:28	ℹ 	Your host is hobana.freenode.net[81.18.73.123/7000], running version ircd-seven-1.1.4
+2017-10-15 19:42:28	ℹ 	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+2017-10-15 19:42:28	ℹ 	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-15 19:42:28	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-15 19:42:28	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+2017-10-15 19:42:28	ℹ 	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-15 19:42:28	ℹ 	There are 130 users and 83720 invisible on 31 servers
+2017-10-15 19:42:28	ℹ 	31 :IRC Operators online
+2017-10-15 19:42:28	ℹ 	48 :unknown connection(s)
+2017-10-15 19:42:28	ℹ 	54587 :channels formed
+2017-10-15 19:42:28	ℹ 	I have 5504 clients and 1 servers
+2017-10-15 19:42:28	ℹ 	5504 12000 :Current local users 5504, max 12000
+2017-10-15 19:42:28	ℹ 	83850 97718 :Current global users 83850, max 97718
+2017-10-15 19:42:28	ℹ 	Highest connection count: 12001 (12000 clients) (2113625 connections received)
+2017-10-15 19:42:28	ℹ 	- hobana.freenode.net Message of the Day -
+2017-10-15 19:42:28	ℹ 	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+2017-10-15 19:42:28	ℹ 	- you to RCS-RDS for sponsoring this server!
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+2017-10-15 19:42:28	ℹ 	- literary critic and ufologist. Ion Hobana is a literary
+2017-10-15 19:42:28	ℹ 	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-15 19:42:28	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-15 19:42:28	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-15 19:42:28	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-15 19:42:28	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-15 19:42:28	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-15 19:42:28	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-15 19:42:28	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-15 19:42:28	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-15 19:42:28	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-15 19:42:28	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-15 19:42:28	ℹ 	- innovation.
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-15 19:42:28	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-15 19:42:28	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-15 19:42:28	ℹ 	- your tickets!
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-15 19:42:28	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	-
+2017-10-15 19:42:28	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-15 19:42:28	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-15 19:42:28	ℹ 	End of /MOTD command.
+2017-10-15 19:42:28	ℹ 	User mode [+Zi] by maggie
+2017-10-15 20:13:36	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-15 20:13:36	ℹ 	irc: disconnecting from server...
+2017-10-15 20:13:36	ℹ 	irc: disconnected from server
+2017-10-15 20:13:36	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-15 20:13:46	ℹ 	irc: reconnecting to server...
+2017-10-15 20:13:46	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-15 20:13:46	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-15 20:13:46	ℹ 	gnutls: receiving 2 certificates
+2017-10-15 20:13:46	ℹ 	 - certificate[1] info:
+2017-10-15 20:13:46	ℹ 	   - subject `CN=moon.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x033d5136813fef3a3ee970a9e0e072d6cbb1, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-28 05:01:00 UTC', expires `2017-11-26 05:01:00 UTC', pin-sha256="CqI0jeD7wEejQQ0BFjZhYP/VIEgy7fhy8rKRxMp8YAY="
+2017-10-15 20:13:46	ℹ 	 - certificate[2] info:
+2017-10-15 20:13:46	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-15 20:13:46	ℹ 	gnutls: peer's certificate is trusted
+2017-10-15 20:13:46	ℹ 	irc: connected to chat.freenode.net/7000 (173.230.128.213)
+2017-10-15 20:13:46	ℹ 	moon.freenode.net: *** Looking up your hostname...
+2017-10-15 20:13:46	ℹ 	moon.freenode.net: *** Checking Ident
+2017-10-15 20:13:46	ℹ 	moon.freenode.net: *** Found your hostname
+2017-10-15 20:13:55	ℹ 	moon.freenode.net: *** No Ident response
+2017-10-15 20:13:55	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-15 20:13:55	ℹ 	irc: client capability, requesting: sasl
+2017-10-15 20:13:55	ℹ 	irc: client capability, enabled: sasl
+2017-10-15 20:13:56	ℹ 	You are now logged in as Maggie. (maggie!maggie@184-90-62-99.res.bhn.net)
+2017-10-15 20:13:56	ℹ 	SASL authentication successful
+2017-10-15 20:13:57	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-15 20:13:57	ℹ 	Your host is moon.freenode.net[173.230.128.213/7000], running version ircd-seven-1.1.4
+2017-10-15 20:13:57	ℹ 	This server was created Wed Jan 4 2017 at 21:44:53 UTC
+2017-10-15 20:13:57	ℹ 	moon.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-15 20:13:57	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-15 20:13:57	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+2017-10-15 20:13:57	ℹ 	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+2017-10-15 20:13:57	ℹ 	There are 127 users and 83670 invisible on 31 servers
+2017-10-15 20:13:57	ℹ 	32 :IRC Operators online
+2017-10-15 20:13:57	ℹ 	48 :unknown connection(s)
+2017-10-15 20:13:57	ℹ 	54579 :channels formed
+2017-10-15 20:13:57	ℹ 	I have 2691 clients and 1 servers
+2017-10-15 20:13:57	ℹ 	2691 2693 :Current local users 2691, max 2693
+2017-10-15 20:13:57	ℹ 	83797 92307 :Current global users 83797, max 92307
+2017-10-15 20:13:57	ℹ 	Highest connection count: 2694 (2693 clients) (23966 connections received)
+2017-10-15 20:13:57	ℹ 	- moon.freenode.net Message of the Day -
+2017-10-15 20:13:57	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-15 20:13:57	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-15 20:13:57	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-15 20:13:57	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-15 20:13:57	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-15 20:13:57	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-15 20:13:57	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-15 20:13:57	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-15 20:13:57	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-15 20:13:57	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-15 20:13:57	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-15 20:13:57	ℹ 	- innovation.
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-15 20:13:57	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-15 20:13:57	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-15 20:13:57	ℹ 	- your tickets!
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-15 20:13:57	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	-
+2017-10-15 20:13:57	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-15 20:13:57	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-15 20:13:57	ℹ 	End of /MOTD command.
+2017-10-15 20:13:57	ℹ 	User mode [+Zi] by maggie
+2017-10-16 16:40:14	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-16 16:40:14	ℹ 	irc: disconnecting from server...
+2017-10-16 16:40:14	ℹ 	irc: disconnected from server
+2017-10-16 16:40:14	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-16 16:40:24	ℹ 	irc: reconnecting to server...
+2017-10-16 16:40:24	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-16 16:40:24	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-16 16:40:24	ℹ 	gnutls: receiving 2 certificates
+2017-10-16 16:40:24	ℹ 	 - certificate[1] info:
+2017-10-16 16:40:24	ℹ 	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03b7c2461ba729320d8b91d48d5b274ae6a4, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:03:32 UTC', expires `2018-01-07 05:03:32 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2017-10-16 16:40:24	ℹ 	 - certificate[2] info:
+2017-10-16 16:40:24	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-16 16:40:24	ℹ 	gnutls: peer's certificate is trusted
+2017-10-16 16:40:24	ℹ 	irc: connected to chat.freenode.net/7000 (71.11.84.232)
+2017-10-16 16:40:24	ℹ 	tolkien.freenode.net: *** Looking up your hostname...
+2017-10-16 16:40:24	ℹ 	tolkien.freenode.net: *** Checking Ident
+2017-10-16 16:40:24	ℹ 	tolkien.freenode.net: *** Found your hostname
+2017-10-16 16:40:32	ℹ 	tolkien.freenode.net: *** No Ident response
+2017-10-16 16:40:32	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-16 16:40:32	ℹ 	irc: client capability, requesting: sasl
+2017-10-16 16:40:32	ℹ 	irc: client capability, enabled: sasl
+2017-10-16 16:40:33	ℹ 	You are now logged in as Maggie. (maggie!maggie@184-90-62-99.res.bhn.net)
+2017-10-16 16:40:33	ℹ 	SASL authentication successful
+2017-10-16 16:40:34	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-16 16:40:34	ℹ 	Your host is tolkien.freenode.net[71.11.84.232/7000], running version ircd-seven-1.1.4
+2017-10-16 16:40:34	ℹ 	This server was created Thu May 18 2017 at 17:43:36 UTC
+2017-10-16 16:40:34	ℹ 	tolkien.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-16 16:40:34	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-16 16:40:34	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-16 16:40:34	ℹ 	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2017-10-16 16:40:34	ℹ 	There are 128 users and 88643 invisible on 31 servers
+2017-10-16 16:40:34	ℹ 	33 :IRC Operators online
+2017-10-16 16:40:34	ℹ 	45 :unknown connection(s)
+2017-10-16 16:40:34	ℹ 	54935 :channels formed
+2017-10-16 16:40:34	ℹ 	I have 5650 clients and 1 servers
+2017-10-16 16:40:34	ℹ 	5650 7644 :Current local users 5650, max 7644
+2017-10-16 16:40:34	ℹ 	88771 97718 :Current global users 88771, max 97718
+2017-10-16 16:40:34	ℹ 	Highest connection count: 7645 (7644 clients) (1777145 connections received)
+2017-10-16 16:40:34	ℹ 	- tolkien.freenode.net Message of the Day -
+2017-10-16 16:40:34	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-16 16:40:34	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-16 16:40:34	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-16 16:40:34	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-16 16:40:34	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-16 16:40:34	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-16 16:40:34	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-16 16:40:34	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-16 16:40:34	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-16 16:40:34	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-16 16:40:34	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-16 16:40:34	ℹ 	- innovation.
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-16 16:40:34	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-16 16:40:34	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-16 16:40:34	ℹ 	- your tickets!
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-16 16:40:34	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	-
+2017-10-16 16:40:34	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-16 16:40:34	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-16 16:40:34	ℹ 	End of /MOTD command.
+2017-10-16 16:40:34	ℹ 	User mode [+Zi] by maggie
+2017-10-19 16:34:12	ℹ 	irc: lag is high, reconnecting to server freenode
+2017-10-19 16:34:12	ℹ 	irc: disconnected from server
+2017-10-19 16:34:12	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-24 16:36:13	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-24 16:36:13	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-24 16:36:13	ℹ 	gnutls: receiving 2 certificates
+2017-10-24 16:36:13	ℹ 	 - certificate[1] info:
+2017-10-24 16:36:13	ℹ 	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03b7c2461ba729320d8b91d48d5b274ae6a4, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:03:32 UTC', expires `2018-01-07 05:03:32 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2017-10-24 16:36:13	ℹ 	 - certificate[2] info:
+2017-10-24 16:36:13	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-24 16:36:13	ℹ 	gnutls: peer's certificate is trusted
+2017-10-24 16:36:13	ℹ 	irc: connected to chat.freenode.net/7000 (71.11.84.232)
+2017-10-24 16:36:13	ℹ 	tolkien.freenode.net: *** Looking up your hostname...
+2017-10-24 16:36:13	ℹ 	tolkien.freenode.net: *** Checking Ident
+2017-10-24 16:36:13	ℹ 	tolkien.freenode.net: *** Couldn't look up your hostname
+2017-10-24 16:36:13	ℹ 	tolkien.freenode.net: *** No Ident response
+2017-10-24 16:36:14	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-24 16:36:14	ℹ 	irc: client capability, requesting: sasl
+2017-10-24 16:36:14	ℹ 	irc: client capability, enabled: sasl
+2017-10-24 16:36:15	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.103)
+2017-10-24 16:36:15	ℹ 	SASL authentication successful
+2017-10-24 16:36:15	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-24 16:36:15	ℹ 	Your host is tolkien.freenode.net[71.11.84.232/7000], running version ircd-seven-1.1.4
+2017-10-24 16:36:15	ℹ 	This server was created Thu May 18 2017 at 17:43:36 UTC
+2017-10-24 16:36:15	ℹ 	tolkien.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-24 16:36:15	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-24 16:36:15	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-24 16:36:15	ℹ 	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2017-10-24 16:36:15	ℹ 	There are 119 users and 88178 invisible on 31 servers
+2017-10-24 16:36:15	ℹ 	34 :IRC Operators online
+2017-10-24 16:36:15	ℹ 	54 :unknown connection(s)
+2017-10-24 16:36:15	ℹ 	55288 :channels formed
+2017-10-24 16:36:15	ℹ 	I have 5662 clients and 1 servers
+2017-10-24 16:36:15	ℹ 	5662 7644 :Current local users 5662, max 7644
+2017-10-24 16:36:15	ℹ 	88297 97718 :Current global users 88297, max 97718
+2017-10-24 16:36:15	ℹ 	Highest connection count: 7645 (7644 clients) (1943506 connections received)
+2017-10-24 16:36:15	ℹ 	- tolkien.freenode.net Message of the Day -
+2017-10-24 16:36:15	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-24 16:36:15	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-24 16:36:15	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-24 16:36:15	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-24 16:36:15	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-24 16:36:15	ℹ 	-
+2017-10-24 16:36:15	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-24 16:36:15	ℹ 	-
+2017-10-24 16:36:15	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-24 16:36:15	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-24 16:36:15	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-24 16:36:15	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-24 16:36:15	ℹ 	-
+2017-10-24 16:36:15	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-24 16:36:15	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-24 16:36:15	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-24 16:36:15	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-24 16:36:15	ℹ 	- innovation.
+2017-10-24 16:36:15	ℹ 	-
+2017-10-24 16:36:15	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-24 16:36:15	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-24 16:36:16	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-24 16:36:16	ℹ 	- your tickets!
+2017-10-24 16:36:16	ℹ 	-
+2017-10-24 16:36:16	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-24 16:36:16	ℹ 	-
+2017-10-24 16:36:16	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-24 16:36:16	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-24 16:36:16	ℹ 	-
+2017-10-24 16:36:16	ℹ 	-
+2017-10-24 16:36:16	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-24 16:36:16	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-24 16:36:16	ℹ 	End of /MOTD command.
+2017-10-24 16:36:16	ℹ 	User mode [+Zi] by maggie
+2017-10-24 16:36:16	ℹ 	SaslServ (SaslServ@services.): 4 failed logins since last login.
+2017-10-24 16:36:16	ℹ 	SaslServ (SaslServ@services.): Last failed attempt from: maggie!~Thunderbi@d24-150-20-1.home.cgocable.net on Oct 23 16:30:15 2017.
+2017-10-24 16:37:41	ℹ 	MSG(alist): LIST pagan
+2017-10-24 16:37:42	ℹ 	alist: No such nick/channel
+2017-10-24 16:47:16	ℹ 	irc: lag is high, reconnecting to server freenode
+2017-10-24 16:47:16	ℹ 	irc: disconnected from server
+2017-10-24 16:47:16	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-24 16:47:26	ℹ 	irc: reconnecting to server...
+2017-10-24 16:47:26	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-24 16:47:30	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-24 16:47:30	ℹ 	gnutls: receiving 2 certificates
+2017-10-24 16:47:30	ℹ 	 - certificate[1] info:
+2017-10-24 16:47:30	ℹ 	   - subject `CN=weber.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0326fe7c8b2b00779e7b2c07ea81df3f2e7d, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:01:23 UTC', expires `2018-01-07 05:01:23 UTC', pin-sha256="aB8n4a9u10zW+UfXS+6aqpJzVNPFIA6rOjwP1CDaRQU="
+2017-10-24 16:47:30	ℹ 	 - certificate[2] info:
+2017-10-24 16:47:30	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-24 16:47:30	ℹ 	gnutls: peer's certificate is trusted
+2017-10-24 16:47:30	ℹ 	irc: connected to chat.freenode.net/7000 (162.213.39.42)
+2017-10-24 16:47:30	ℹ 	weber.freenode.net: *** Looking up your hostname...
+2017-10-24 16:47:30	ℹ 	weber.freenode.net: *** Checking Ident
+2017-10-24 16:47:30	ℹ 	weber.freenode.net: *** Couldn't look up your hostname
+2017-10-24 16:47:30	ℹ 	weber.freenode.net: *** No Ident response
+2017-10-24 16:47:30	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-24 16:47:30	ℹ 	irc: client capability, requesting: sasl
+2017-10-24 16:47:31	ℹ 	irc: client capability, enabled: sasl
+2017-10-24 16:47:32	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-24 16:47:32	ℹ 	SASL authentication successful
+2017-10-24 16:47:32	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-24 16:47:32	ℹ 	Your host is weber.freenode.net[162.213.39.42/7000], running version ircd-seven-1.1.4
+2017-10-24 16:47:32	ℹ 	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+2017-10-24 16:47:32	ℹ 	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-24 16:47:32	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-24 16:47:32	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-24 16:47:32	ℹ 	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2017-10-24 16:47:32	ℹ 	There are 118 users and 87876 invisible on 31 servers
+2017-10-24 16:47:32	ℹ 	34 :IRC Operators online
+2017-10-24 16:47:32	ℹ 	44 :unknown connection(s)
+2017-10-24 16:47:32	ℹ 	55268 :channels formed
+2017-10-24 16:47:32	ℹ 	I have 5765 clients and 1 servers
+2017-10-24 16:47:32	ℹ 	5765 6820 :Current local users 5765, max 6820
+2017-10-24 16:47:32	ℹ 	87994 93012 :Current global users 87994, max 93012
+2017-10-24 16:47:32	ℹ 	Highest connection count: 6821 (6820 clients) (946653 connections received)
+2017-10-24 16:47:32	ℹ 	- weber.freenode.net Message of the Day -
+2017-10-24 16:47:32	ℹ 	- Welcome to weber.freenode.net in California, USA.
+2017-10-24 16:47:32	ℹ 	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2017-10-24 16:47:32	ℹ 	- this server!
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2017-10-24 16:47:32	ℹ 	- author. Best known for his 'Honor Harrington' series, his
+2017-10-24 16:47:32	ℹ 	- works span several genres, including alternate history,
+2017-10-24 16:47:32	ℹ 	- epic fantasy, military scifi and space opera. He's also
+2017-10-24 16:47:32	ℹ 	- done wargame design mainly for the StarFire tabletop
+2017-10-24 16:47:32	ℹ 	- boardgame series, a job which later evolved into the novel,
+2017-10-24 16:47:32	ℹ 	- 'Insurrection' (collaboration with Steve White, published
+2017-10-24 16:47:32	ℹ 	- in 1990).
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-24 16:47:32	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-24 16:47:32	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-24 16:47:32	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-24 16:47:32	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-24 16:47:32	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-24 16:47:32	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-24 16:47:32	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-24 16:47:32	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-24 16:47:32	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-24 16:47:32	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-24 16:47:32	ℹ 	- innovation.
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-24 16:47:32	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-24 16:47:32	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-24 16:47:32	ℹ 	- your tickets!
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-24 16:47:32	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	-
+2017-10-24 16:47:32	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-24 16:47:32	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-24 16:47:32	ℹ 	End of /MOTD command.
+2017-10-24 16:47:32	ℹ 	User mode [+Zi] by maggie
+2017-10-24 16:55:42	ℹ 	3: No such channel
+2017-10-24 17:12:22	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-24 17:12:23	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-24 17:12:23	ℹ 	gnutls: receiving 2 certificates
+2017-10-24 17:12:23	ℹ 	 - certificate[1] info:
+2017-10-24 17:12:23	ℹ 	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x040aa737d44df360582a8130713a9aac053a, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-21 14:01:00 UTC', expires `2017-11-19 14:01:00 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2017-10-24 17:12:23	ℹ 	 - certificate[2] info:
+2017-10-24 17:12:23	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-24 17:12:23	ℹ 	gnutls: peer's certificate is trusted
+2017-10-24 17:12:23	ℹ 	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2017-10-24 17:12:23	ℹ 	card.freenode.net: *** Looking up your hostname...
+2017-10-24 17:12:23	ℹ 	card.freenode.net: *** Checking Ident
+2017-10-24 17:12:23	ℹ 	card.freenode.net: *** Couldn't look up your hostname
+2017-10-24 17:12:23	ℹ 	card.freenode.net: *** No Ident response
+2017-10-24 17:12:23	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-24 17:12:23	ℹ 	irc: client capability, requesting: sasl
+2017-10-24 17:12:23	ℹ 	irc: client capability, enabled: sasl
+2017-10-24 17:12:25	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-24 17:12:25	ℹ 	SASL authentication successful
+2017-10-24 17:12:25	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-24 17:12:25	ℹ 	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.4
+2017-10-24 17:12:25	ℹ 	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+2017-10-24 17:12:25	ℹ 	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-24 17:12:25	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-24 17:12:25	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-24 17:12:25	ℹ 	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2017-10-24 17:12:25	ℹ 	There are 118 users and 87210 invisible on 31 servers
+2017-10-24 17:12:25	ℹ 	34 :IRC Operators online
+2017-10-24 17:12:25	ℹ 	37 :unknown connection(s)
+2017-10-24 17:12:25	ℹ 	55225 :channels formed
+2017-10-24 17:12:25	ℹ 	I have 5640 clients and 1 servers
+2017-10-24 17:12:25	ℹ 	5640 6813 :Current local users 5640, max 6813
+2017-10-24 17:12:25	ℹ 	87328 93012 :Current global users 87328, max 93012
+2017-10-24 17:12:25	ℹ 	Highest connection count: 6814 (6813 clients) (930114 connections received)
+2017-10-24 17:12:25	ℹ 	- card.freenode.net Message of the Day -
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2017-10-24 17:12:25	ℹ 	- Team Cymru (http://www.team-cymru.org).
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2017-10-24 17:12:25	ℹ 	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2017-10-24 17:12:25	ℹ 	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2017-10-24 17:12:25	ℹ 	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2017-10-24 17:12:25	ℹ 	- cultural background. The first author to win the Hugo and Nebula novel awards
+2017-10-24 17:12:25	ℹ 	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-24 17:12:25	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-24 17:12:25	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-24 17:12:25	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-24 17:12:25	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-24 17:12:25	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-24 17:12:25	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-24 17:12:25	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-24 17:12:25	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-24 17:12:25	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-24 17:12:25	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-24 17:12:25	ℹ 	- innovation.
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-24 17:12:25	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-24 17:12:25	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-24 17:12:25	ℹ 	- your tickets!
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-24 17:12:25	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	-
+2017-10-24 17:12:25	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-24 17:12:25	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-24 17:12:25	ℹ 	End of /MOTD command.
+2017-10-24 17:12:25	ℹ 	User mode [+Zi] by maggie
+2017-10-24 17:14:31	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-24 17:14:32	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-24 17:14:32	ℹ 	gnutls: receiving 2 certificates
+2017-10-24 17:14:32	ℹ 	 - certificate[1] info:
+2017-10-24 17:14:32	ℹ 	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x040aa737d44df360582a8130713a9aac053a, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-21 14:01:00 UTC', expires `2017-11-19 14:01:00 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2017-10-24 17:14:32	ℹ 	 - certificate[2] info:
+2017-10-24 17:14:32	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-24 17:14:32	ℹ 	gnutls: peer's certificate is trusted
+2017-10-24 17:14:32	ℹ 	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2017-10-24 17:14:32	ℹ 	card.freenode.net: *** Looking up your hostname...
+2017-10-24 17:14:32	ℹ 	card.freenode.net: *** Checking Ident
+2017-10-24 17:14:32	ℹ 	card.freenode.net: *** Couldn't look up your hostname
+2017-10-24 17:14:32	ℹ 	card.freenode.net: *** No Ident response
+2017-10-24 17:14:32	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-24 17:14:32	ℹ 	irc: client capability, requesting: sasl
+2017-10-24 17:14:32	ℹ 	irc: client capability, enabled: sasl
+2017-10-24 17:14:33	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.103)
+2017-10-24 17:14:33	ℹ 	SASL authentication successful
+2017-10-24 17:14:33	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-24 17:14:33	ℹ 	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.4
+2017-10-24 17:14:33	ℹ 	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+2017-10-24 17:14:33	ℹ 	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-24 17:14:33	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-24 17:14:33	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-24 17:14:33	ℹ 	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2017-10-24 17:14:33	ℹ 	There are 118 users and 87148 invisible on 31 servers
+2017-10-24 17:14:33	ℹ 	34 :IRC Operators online
+2017-10-24 17:14:33	ℹ 	50 :unknown connection(s)
+2017-10-24 17:14:33	ℹ 	55240 :channels formed
+2017-10-24 17:14:33	ℹ 	I have 5649 clients and 1 servers
+2017-10-24 17:14:33	ℹ 	5649 6813 :Current local users 5649, max 6813
+2017-10-24 17:14:33	ℹ 	87266 93012 :Current global users 87266, max 93012
+2017-10-24 17:14:33	ℹ 	Highest connection count: 6814 (6813 clients) (930136 connections received)
+2017-10-24 17:14:33	ℹ 	- card.freenode.net Message of the Day -
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2017-10-24 17:14:33	ℹ 	- Team Cymru (http://www.team-cymru.org).
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2017-10-24 17:14:33	ℹ 	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2017-10-24 17:14:33	ℹ 	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2017-10-24 17:14:33	ℹ 	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2017-10-24 17:14:33	ℹ 	- cultural background. The first author to win the Hugo and Nebula novel awards
+2017-10-24 17:14:33	ℹ 	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-24 17:14:33	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-24 17:14:33	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-24 17:14:33	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-24 17:14:33	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-24 17:14:33	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-24 17:14:33	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-24 17:14:33	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-24 17:14:33	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-24 17:14:33	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-24 17:14:33	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-24 17:14:33	ℹ 	- innovation.
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-24 17:14:33	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-24 17:14:33	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-24 17:14:33	ℹ 	- your tickets!
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-24 17:14:33	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	-
+2017-10-24 17:14:33	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-24 17:14:33	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-24 17:14:33	ℹ 	End of /MOTD command.
+2017-10-24 17:14:33	ℹ 	User mode [+Zi] by maggie
+2017-10-26 16:22:32	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 16:22:33	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-26 16:22:33	ℹ 	gnutls: receiving 2 certificates
+2017-10-26 16:22:33	ℹ 	 - certificate[1] info:
+2017-10-26 16:22:33	ℹ 	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x040aa737d44df360582a8130713a9aac053a, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-21 14:01:00 UTC', expires `2017-11-19 14:01:00 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2017-10-26 16:22:33	ℹ 	 - certificate[2] info:
+2017-10-26 16:22:33	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-26 16:22:33	ℹ 	gnutls: peer's certificate is trusted
+2017-10-26 16:22:33	ℹ 	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2017-10-26 16:22:33	ℹ 	card.freenode.net: *** Looking up your hostname...
+2017-10-26 16:22:33	ℹ 	card.freenode.net: *** Checking Ident
+2017-10-26 16:22:33	ℹ 	card.freenode.net: *** Couldn't look up your hostname
+2017-10-26 16:22:33	ℹ 	card.freenode.net: *** No Ident response
+2017-10-26 16:22:33	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-26 16:22:33	ℹ 	irc: client capability, requesting: sasl
+2017-10-26 16:22:33	ℹ 	irc: client capability, enabled: sasl
+2017-10-26 16:22:34	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-26 16:22:34	ℹ 	SASL authentication successful
+2017-10-26 16:22:35	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-26 16:22:35	ℹ 	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.4
+2017-10-26 16:22:35	ℹ 	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+2017-10-26 16:22:35	ℹ 	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-26 16:22:35	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-26 16:22:35	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-26 16:22:35	ℹ 	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2017-10-26 16:22:35	ℹ 	There are 116 users and 88663 invisible on 31 servers
+2017-10-26 16:22:35	ℹ 	35 :IRC Operators online
+2017-10-26 16:22:35	ℹ 	48 :unknown connection(s)
+2017-10-26 16:22:35	ℹ 	55476 :channels formed
+2017-10-26 16:22:35	ℹ 	I have 5820 clients and 1 servers
+2017-10-26 16:22:35	ℹ 	5820 6813 :Current local users 5820, max 6813
+2017-10-26 16:22:35	ℹ 	88779 93012 :Current global users 88779, max 93012
+2017-10-26 16:22:35	ℹ 	Highest connection count: 6814 (6813 clients) (952096 connections received)
+2017-10-26 16:22:35	ℹ 	- card.freenode.net Message of the Day -
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2017-10-26 16:22:35	ℹ 	- Team Cymru (http://www.team-cymru.org).
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2017-10-26 16:22:35	ℹ 	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2017-10-26 16:22:35	ℹ 	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2017-10-26 16:22:35	ℹ 	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2017-10-26 16:22:35	ℹ 	- cultural background. The first author to win the Hugo and Nebula novel awards
+2017-10-26 16:22:35	ℹ 	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-26 16:22:35	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-26 16:22:35	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-26 16:22:35	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-26 16:22:35	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-26 16:22:35	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-26 16:22:35	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-26 16:22:35	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-26 16:22:35	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-26 16:22:35	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-26 16:22:35	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-26 16:22:35	ℹ 	- innovation.
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-26 16:22:35	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-26 16:22:35	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-26 16:22:35	ℹ 	- your tickets!
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-26 16:22:35	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	-
+2017-10-26 16:22:35	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-26 16:22:35	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-26 16:22:35	ℹ 	End of /MOTD command.
+2017-10-26 16:22:35	ℹ 	User mode [+Zi] by maggie
+2017-10-26 16:22:35	ℹ 	SaslServ (SaslServ@services.): 24 failed logins since last login.
+2017-10-26 16:22:35	ℹ 	SaslServ (SaslServ@services.): Last failed attempt from: maggie!~Thunderbi@d24-150-20-1.home.cgocable.net on Oct 26 18:42:33 2017.
+2017-10-26 16:27:45	ℹ 	MSG(alis): list anime
+2017-10-26 16:28:20	ℹ 	MSG(ALIS): list anime
+2017-10-26 16:28:24	⚠	irc: this buffer is not a channel!
+2017-10-26 16:30:36	ℹ 	irc: lag is high, reconnecting to server freenode
+2017-10-26 16:30:36	ℹ 	irc: disconnected from server
+2017-10-26 16:30:36	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-26 16:30:46	ℹ 	irc: reconnecting to server...
+2017-10-26 16:30:46	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 16:30:47	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-26 16:30:47	ℹ 	gnutls: receiving 2 certificates
+2017-10-26 16:30:47	ℹ 	 - certificate[1] info:
+2017-10-26 16:30:47	ℹ 	   - subject `CN=rajaniemi.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03bb845f9f62aba775b24a8f4fa7cb958d15, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:05:23 UTC', expires `2017-12-31 05:05:23 UTC', pin-sha256="ENCUobfCbhPJ6mt1kVY4pT+43PJu/6lwcgZrsBRFwuc="
+2017-10-26 16:30:47	ℹ 	 - certificate[2] info:
+2017-10-26 16:30:47	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-26 16:30:47	ℹ 	gnutls: peer's certificate is trusted
+2017-10-26 16:30:47	ℹ 	irc: connected to chat.freenode.net/7000 (195.148.124.79)
+2017-10-26 16:30:47	ℹ 	rajaniemi.freenode.net: *** Looking up your hostname...
+2017-10-26 16:30:47	ℹ 	rajaniemi.freenode.net: *** Checking Ident
+2017-10-26 16:30:47	ℹ 	rajaniemi.freenode.net: *** Couldn't look up your hostname
+2017-10-26 16:30:47	ℹ 	rajaniemi.freenode.net: *** No Ident response
+2017-10-26 16:30:47	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-26 16:30:47	ℹ 	irc: client capability, requesting: sasl
+2017-10-26 16:30:47	ℹ 	irc: client capability, enabled: sasl
+2017-10-26 16:30:48	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-26 16:30:48	ℹ 	SASL authentication successful
+2017-10-26 16:30:48	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-26 16:30:48	ℹ 	Your host is rajaniemi.freenode.net[195.148.124.79/7000], running version ircd-seven-1.1.4
+2017-10-26 16:30:48	ℹ 	This server was created Wed Jan 4 2017 at 23:45:00 EET
+2017-10-26 16:30:48	ℹ 	rajaniemi.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-26 16:30:48	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-26 16:30:48	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX SAFELIST ELIST=CTU :are supported by this server
+2017-10-26 16:30:48	ℹ 	KNOCK CPRIVMSG CNOTICE ETRACE :are supported by this server
+2017-10-26 16:30:48	ℹ 	There are 116 users and 88483 invisible on 31 servers
+2017-10-26 16:30:48	ℹ 	35 :IRC Operators online
+2017-10-26 16:30:48	ℹ 	36 :unknown connection(s)
+2017-10-26 16:30:48	ℹ 	55442 :channels formed
+2017-10-26 16:30:48	ℹ 	I have 5762 clients and 1 servers
+2017-10-26 16:30:48	ℹ 	5762 6912 :Current local users 5762, max 6912
+2017-10-26 16:30:48	ℹ 	88599 93013 :Current global users 88599, max 93013
+2017-10-26 16:30:48	ℹ 	Highest connection count: 6913 (6912 clients) (579890 connections received)
+2017-10-26 16:30:48	ℹ 	- rajaniemi.freenode.net Message of the Day -
+2017-10-26 16:30:48	ℹ 	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2017-10-26 16:30:48	ℹ 	- Aalto University for sponsoring this server!
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2017-10-26 16:30:48	ℹ 	- author of two novels and several short stories, and his debut novel 'The
+2017-10-26 16:30:48	ℹ 	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2017-10-26 16:30:48	ℹ 	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2017-10-26 16:30:48	ℹ 	- director of ThinkTank Maths, a commercial research organisation.
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-26 16:30:48	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-26 16:30:48	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-26 16:30:48	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-26 16:30:48	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-26 16:30:48	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-26 16:30:48	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-26 16:30:48	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-26 16:30:48	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-26 16:30:48	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-26 16:30:48	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-26 16:30:48	ℹ 	- innovation.
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-26 16:30:48	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-26 16:30:48	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-26 16:30:48	ℹ 	- your tickets!
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-26 16:30:48	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	-
+2017-10-26 16:30:48	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-26 16:30:48	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-26 16:30:48	ℹ 	End of /MOTD command.
+2017-10-26 16:30:48	ℹ 	User mode [+Zi] by maggie
+2017-10-26 16:42:17	⚠	Closing Link: 162.254.92.102 (Ping timeout: 246 seconds)
+2017-10-26 16:42:17	ℹ 	irc: disconnected from server
+2017-10-26 16:42:17	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-26 16:42:27	ℹ 	irc: reconnecting to server...
+2017-10-26 16:42:27	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 16:42:29	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-26 16:42:29	ℹ 	gnutls: receiving 2 certificates
+2017-10-26 16:42:29	ℹ 	 - certificate[1] info:
+2017-10-26 16:42:29	ℹ 	   - subject `CN=sinisalo.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03d18f803be3bfe3f22d4b3d6555522bf38b, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:07:08 UTC', expires `2017-12-31 05:07:08 UTC', pin-sha256="nM7Ei/iV1oNERfssS6jOLmikH05AS1ROC4Ivf4VO0BI="
+2017-10-26 16:42:29	ℹ 	 - certificate[2] info:
+2017-10-26 16:42:29	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-26 16:42:29	ℹ 	gnutls: peer's certificate is trusted
+2017-10-26 16:42:29	ℹ 	irc: connected to chat.freenode.net/7000 (91.217.189.42)
+2017-10-26 16:42:29	ℹ 	sinisalo.freenode.net: *** Looking up your hostname...
+2017-10-26 16:42:29	ℹ 	sinisalo.freenode.net: *** Checking Ident
+2017-10-26 16:42:29	ℹ 	sinisalo.freenode.net: *** Couldn't look up your hostname
+2017-10-26 16:42:29	ℹ 	sinisalo.freenode.net: *** No Ident response
+2017-10-26 16:42:29	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-26 16:42:29	ℹ 	irc: client capability, requesting: sasl
+2017-10-26 16:42:29	ℹ 	irc: client capability, enabled: sasl
+2017-10-26 16:42:30	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-26 16:42:30	ℹ 	SASL authentication successful
+2017-10-26 16:42:30	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-26 16:42:30	ℹ 	Your host is sinisalo.freenode.net[91.217.189.42/7000], running version ircd-seven-1.1.4
+2017-10-26 16:42:30	ℹ 	This server was created Wed Jan 18 2017 at 02:26:19 CET
+2017-10-26 16:42:30	ℹ 	sinisalo.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-26 16:42:30	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-26 16:42:30	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX KNOCK ETRACE :are supported by this server
+2017-10-26 16:42:30	ℹ 	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-10-26 16:42:30	ℹ 	There are 116 users and 88171 invisible on 31 servers
+2017-10-26 16:42:30	ℹ 	35 :IRC Operators online
+2017-10-26 16:42:30	ℹ 	44 :unknown connection(s)
+2017-10-26 16:42:30	ℹ 	55414 :channels formed
+2017-10-26 16:42:30	ℹ 	I have 5824 clients and 1 servers
+2017-10-26 16:42:30	ℹ 	5824 10759 :Current local users 5824, max 10759
+2017-10-26 16:42:30	ℹ 	88287 97718 :Current global users 88287, max 97718
+2017-10-26 16:42:30	ℹ 	Highest connection count: 10760 (10759 clients) (1372990 connections received)
+2017-10-26 16:42:30	ℹ 	- sinisalo.freenode.net Message of the Day -
+2017-10-26 16:42:30	ℹ 	- Welcome to sinisalo.freenode.net in Stockholm, SE.
+2017-10-26 16:42:30	ℹ 	- Thanks to http://www.portlane.com/ for sponsoring
+2017-10-26 16:42:30	ℹ 	- this server!
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- SINISALO, (ANNA) JOHANNA (1958-), a Finnish science fiction
+2017-10-26 16:42:30	ℹ 	- and fantasy novelist and a script writer. Her novel 'Not
+2017-10-26 16:42:30	ℹ 	- Before Sundown' (orig. 'Ennen päivänlaskua ei voi'
+2017-10-26 16:42:30	ℹ 	- published in Finnish in 2000, when it also won the biggest
+2017-10-26 16:42:30	ℹ 	- literature award of Finland) was awarded The James Tiptree
+2017-10-26 16:42:30	ℹ 	- Jr. award in 2004.  She was nominated for a Nebula award in
+2017-10-26 16:42:30	ℹ 	- 2009 for her short story Baby Doll.  Their most recent work
+2017-10-26 16:42:30	ℹ 	- includes screenwriting for the film 'Iron Sky'.
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-26 16:42:30	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-26 16:42:30	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-26 16:42:30	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-26 16:42:30	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-26 16:42:30	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-26 16:42:30	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-26 16:42:30	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-26 16:42:30	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-26 16:42:30	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-26 16:42:30	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-26 16:42:30	ℹ 	- innovation.
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-26 16:42:30	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-26 16:42:30	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-26 16:42:30	ℹ 	- your tickets!
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-26 16:42:30	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	-
+2017-10-26 16:42:30	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-26 16:42:30	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-26 16:42:30	ℹ 	End of /MOTD command.
+2017-10-26 16:42:30	ℹ 	User mode [+Zi] by maggie
+2017-10-26 16:54:34	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 16:55:17	⚠	irc: address "chat.freenode.net" not found
+2017-10-26 16:55:17	⚠	irc: error: Name or service not known
+2017-10-26 16:55:17	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-26 16:55:27	ℹ 	irc: reconnecting to server...
+2017-10-26 16:55:27	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 16:55:29	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-26 16:55:29	ℹ 	gnutls: receiving 2 certificates
+2017-10-26 16:55:29	ℹ 	 - certificate[1] info:
+2017-10-26 16:55:29	ℹ 	   - subject `CN=verne.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03a3a21b3c7cd33e50bc1241d7acacda07d8, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:03:42 UTC', expires `2017-12-31 05:03:42 UTC', pin-sha256="Q74oEM0HkeuTqhvZPuyEQ+2xyRHmNYaGjGAJlp+EZcc="
+2017-10-26 16:55:29	ℹ 	 - certificate[2] info:
+2017-10-26 16:55:29	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-26 16:55:29	ℹ 	gnutls: peer's certificate is trusted
+2017-10-26 16:55:29	ℹ 	irc: connected to chat.freenode.net/7000 (185.30.166.37)
+2017-10-26 16:55:29	ℹ 	verne.freenode.net: *** Looking up your hostname...
+2017-10-26 16:55:29	ℹ 	verne.freenode.net: *** Checking Ident
+2017-10-26 16:55:29	ℹ 	verne.freenode.net: *** Couldn't look up your hostname
+2017-10-26 16:55:37	ℹ 	verne.freenode.net: *** No Ident response
+2017-10-26 16:55:37	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-26 16:55:37	ℹ 	irc: client capability, requesting: sasl
+2017-10-26 16:55:37	ℹ 	irc: client capability, enabled: sasl
+2017-10-26 16:55:38	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-26 16:55:38	ℹ 	SASL authentication successful
+2017-10-26 16:55:38	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-26 16:55:38	ℹ 	Your host is verne.freenode.net[185.30.166.37/7000], running version ircd-seven-1.1.4
+2017-10-26 16:55:38	ℹ 	This server was created Sat Jan 7 2017 at 11:53:54 EST
+2017-10-26 16:55:38	ℹ 	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-26 16:55:38	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-26 16:55:38	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2017-10-26 16:55:38	ℹ 	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-10-26 16:55:38	ℹ 	There are 116 users and 87873 invisible on 31 servers
+2017-10-26 16:55:38	ℹ 	35 :IRC Operators online
+2017-10-26 16:55:38	ℹ 	39 :unknown connection(s)
+2017-10-26 16:55:38	ℹ 	55386 :channels formed
+2017-10-26 16:55:38	ℹ 	I have 5719 clients and 2 servers
+2017-10-26 16:55:38	ℹ 	5719 7978 :Current local users 5719, max 7978
+2017-10-26 16:55:38	ℹ 	87989 97718 :Current global users 87989, max 97718
+2017-10-26 16:55:38	ℹ 	Highest connection count: 7980 (7978 clients) (3371850 connections received)
+2017-10-26 16:55:38	ℹ 	- verne.freenode.net Message of the Day -
+2017-10-26 16:55:38	ℹ 	- Welcome to verne.freenode.net in Amsterdam, NL.
+2017-10-26 16:55:38	ℹ 	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2017-10-26 16:55:38	ℹ 	- this server!
+2017-10-26 16:55:38	ℹ 	-
+2017-10-26 16:55:38	ℹ 	-
+2017-10-26 16:55:38	ℹ 	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2017-10-26 16:55:38	ℹ 	- a pioneering french author known for novels such as Twenty
+2017-10-26 16:55:38	ℹ 	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2017-10-26 16:55:38	ℹ 	- Earth, and Around the World in Eighty Days. Often lauded as the
+2017-10-26 16:55:38	ℹ 	- Father of science fiction, Verne wrote about concepts such as
+2017-10-26 16:55:38	ℹ 	- space travel, skyscrapers, and worldwide communications
+2017-10-26 16:55:38	ℹ 	- networks long before these ideas became popularised or realised.
+2017-10-26 16:55:38	ℹ 	-
+2017-10-26 16:55:38	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-26 16:55:38	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-26 16:55:38	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-26 16:55:39	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-26 16:55:39	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-26 16:55:39	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-26 16:55:39	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-26 16:55:39	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-26 16:55:39	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-26 16:55:39	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-26 16:55:39	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-26 16:55:39	ℹ 	- innovation.
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-26 16:55:39	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-26 16:55:39	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-26 16:55:39	ℹ 	- your tickets!
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-26 16:55:39	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	-
+2017-10-26 16:55:39	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-26 16:55:39	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-26 16:55:39	ℹ 	End of /MOTD command.
+2017-10-26 16:55:39	ℹ 	User mode [+Zi] by maggie
+2017-10-26 17:23:39	ℹ 	irc: lag is high, reconnecting to server freenode
+2017-10-26 17:23:39	ℹ 	irc: disconnected from server
+2017-10-26 17:23:39	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-26 17:23:49	ℹ 	irc: reconnecting to server...
+2017-10-26 17:23:49	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-26 17:24:03	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-26 17:24:03	ℹ 	gnutls: receiving 2 certificates
+2017-10-26 17:24:03	ℹ 	 - certificate[1] info:
+2017-10-26 17:24:03	ℹ 	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03b7c2461ba729320d8b91d48d5b274ae6a4, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:03:32 UTC', expires `2018-01-07 05:03:32 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2017-10-26 17:24:03	ℹ 	 - certificate[2] info:
+2017-10-26 17:24:03	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-26 17:24:03	ℹ 	gnutls: peer's certificate is trusted
+2017-10-26 17:24:03	ℹ 	irc: connected to chat.freenode.net/7000 (71.11.84.232)
+2017-10-26 17:24:03	ℹ 	tolkien.freenode.net: *** Looking up your hostname...
+2017-10-26 17:24:03	ℹ 	tolkien.freenode.net: *** Checking Ident
+2017-10-26 17:24:03	ℹ 	tolkien.freenode.net: *** Couldn't look up your hostname
+2017-10-26 17:24:03	ℹ 	tolkien.freenode.net: *** No Ident response
+2017-10-26 17:24:03	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-26 17:24:03	ℹ 	irc: client capability, requesting: sasl
+2017-10-26 17:24:04	ℹ 	irc: client capability, enabled: sasl
+2017-10-26 17:24:04	ℹ 	You are now logged in as Maggie. (maggie!maggie@162.254.92.102)
+2017-10-26 17:24:04	ℹ 	SASL authentication successful
+2017-10-26 17:24:05	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-26 17:24:05	ℹ 	Your host is tolkien.freenode.net[71.11.84.232/7000], running version ircd-seven-1.1.4
+2017-10-26 17:24:05	ℹ 	This server was created Thu May 18 2017 at 17:43:36 UTC
+2017-10-26 17:24:05	ℹ 	tolkien.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-26 17:24:05	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-26 17:24:05	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-26 17:24:05	ℹ 	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2017-10-26 17:24:05	ℹ 	There are 115 users and 87121 invisible on 31 servers
+2017-10-26 17:24:05	ℹ 	35 :IRC Operators online
+2017-10-26 17:24:05	ℹ 	52 :unknown connection(s)
+2017-10-26 17:24:05	ℹ 	55314 :channels formed
+2017-10-26 17:24:05	ℹ 	I have 5638 clients and 1 servers
+2017-10-26 17:24:05	ℹ 	5638 7644 :Current local users 5638, max 7644
+2017-10-26 17:24:05	ℹ 	87236 97718 :Current global users 87236, max 97718
+2017-10-26 17:24:05	ℹ 	Highest connection count: 7645 (7644 clients) (1981173 connections received)
+2017-10-26 17:24:05	ℹ 	- tolkien.freenode.net Message of the Day -
+2017-10-26 17:24:05	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-26 17:24:05	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-26 17:24:05	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-26 17:24:05	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-26 17:24:05	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-26 17:24:05	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-26 17:24:05	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-26 17:24:05	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-26 17:24:05	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-26 17:24:05	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-26 17:24:05	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-26 17:24:05	ℹ 	- innovation.
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-26 17:24:05	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-26 17:24:05	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-26 17:24:05	ℹ 	- your tickets!
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-26 17:24:05	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	-
+2017-10-26 17:24:05	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-26 17:24:05	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-26 17:24:05	ℹ 	End of /MOTD command.
+2017-10-26 17:24:05	ℹ 	User mode [+Zi] by maggie
+2017-10-28 14:15:52	ℹ 	irc: lag is high, reconnecting to server freenode
+2017-10-28 14:15:52	ℹ 	irc: disconnected from server
+2017-10-28 14:15:52	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-28 14:16:02	ℹ 	irc: reconnecting to server...
+2017-10-28 14:16:02	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-28 14:16:02	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-28 14:16:02	ℹ 	gnutls: receiving 2 certificates
+2017-10-28 14:16:02	ℹ 	 - certificate[1] info:
+2017-10-28 14:16:02	ℹ 	   - subject `CN=barjavel.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03b702b6f65c48e019744dfdef59d3b46741, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-09-23 11:12:00 UTC', expires `2017-12-22 11:12:00 UTC', pin-sha256="bFnj58vIMRePUHKVVm66438zdgYX5r9/Y4qVLKLiLbI="
+2017-10-28 14:16:02	ℹ 	 - certificate[2] info:
+2017-10-28 14:16:02	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-28 14:16:02	ℹ 	gnutls: peer's certificate is trusted
+2017-10-28 14:16:02	ℹ 	irc: connected to chat.freenode.net/7000 (195.154.200.232)
+2017-10-28 14:16:02	ℹ 	barjavel.freenode.net: *** Looking up your hostname...
+2017-10-28 14:16:02	ℹ 	barjavel.freenode.net: *** Checking Ident
+2017-10-28 14:16:02	ℹ 	barjavel.freenode.net: *** Couldn't look up your hostname
+2017-10-28 14:16:12	ℹ 	barjavel.freenode.net: *** No Ident response
+2017-10-28 14:16:12	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-28 14:16:12	ℹ 	irc: client capability, requesting: sasl
+2017-10-28 14:16:12	ℹ 	irc: client capability, enabled: sasl
+2017-10-28 14:16:12	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-28 14:16:12	ℹ 	SASL authentication successful
+2017-10-28 14:16:13	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-28 14:16:13	ℹ 	Your host is barjavel.freenode.net[195.154.200.232/7000], running version ircd-seven-1.1.4
+2017-10-28 14:16:13	ℹ 	This server was created Sat Jan 7 2017 at 03:00:47 CET
+2017-10-28 14:16:13	ℹ 	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-28 14:16:13	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-28 14:16:13	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU WHOX :are supported by this server
+2017-10-28 14:16:13	ℹ 	ETRACE CPRIVMSG CNOTICE KNOCK :are supported by this server
+2017-10-28 14:16:13	ℹ 	There are 124 users and 86157 invisible on 31 servers
+2017-10-28 14:16:13	ℹ 	35 :IRC Operators online
+2017-10-28 14:16:13	ℹ 	75 :unknown connection(s)
+2017-10-28 14:16:13	ℹ 	55281 :channels formed
+2017-10-28 14:16:13	ℹ 	I have 5659 clients and 1 servers
+2017-10-28 14:16:13	ℹ 	5659 7620 :Current local users 5659, max 7620
+2017-10-28 14:16:13	ℹ 	86281 97718 :Current global users 86281, max 97718
+2017-10-28 14:16:13	ℹ 	Highest connection count: 7621 (7620 clients) (2994048 connections received)
+2017-10-28 14:16:13	ℹ 	- barjavel.freenode.net Message of the Day -
+2017-10-28 14:16:13	ℹ 	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2017-10-28 14:16:13	ℹ 	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2017-10-28 14:16:13	ℹ 	- this server!
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2017-10-28 14:16:13	ℹ 	- science-fiction author, a journalist and a critic. He is
+2017-10-28 14:16:13	ℹ 	- credited with having written the first novel to introduce
+2017-10-28 14:16:13	ℹ 	- the Grandfather Paradox in time travel, in his 1943 work
+2017-10-28 14:16:13	ℹ 	- 'Le Voyageur imprudent'.
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-28 14:16:13	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-28 14:16:13	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-28 14:16:13	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-28 14:16:13	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-28 14:16:13	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-28 14:16:13	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-28 14:16:13	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-28 14:16:13	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-28 14:16:13	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-28 14:16:13	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-28 14:16:13	ℹ 	- innovation.
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-28 14:16:13	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-28 14:16:13	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-28 14:16:13	ℹ 	- your tickets!
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-28 14:16:13	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	-
+2017-10-28 14:16:13	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-28 14:16:13	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-28 14:16:13	ℹ 	End of /MOTD command.
+2017-10-28 14:16:13	ℹ 	User mode [+Zi] by maggie
+2017-10-28 14:16:13	ℹ 	SaslServ (SaslServ@services.): 4 failed logins since last login.
+2017-10-28 14:16:13	ℹ 	SaslServ (SaslServ@services.): Last failed attempt from: maggie!~Thunderbi@d24-150-20-1.home.cgocable.net on Oct 27 21:13:42 2017.
+2017-10-29 17:00:15	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-29 17:00:15	ℹ 	irc: disconnecting from server...
+2017-10-29 17:00:15	ℹ 	irc: disconnected from server
+2017-10-29 17:00:15	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-29 17:00:25	ℹ 	irc: reconnecting to server...
+2017-10-29 17:00:25	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-29 17:00:25	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 17:00:25	ℹ 	gnutls: receiving 2 certificates
+2017-10-29 17:00:25	ℹ 	 - certificate[1] info:
+2017-10-29 17:00:25	ℹ 	   - subject `CN=card.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x040aa737d44df360582a8130713a9aac053a, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-08-21 14:01:00 UTC', expires `2017-11-19 14:01:00 UTC', pin-sha256="kK+ut4A5qoGqyxfORm/2KPeU2VoCvz5WGDdesWNtNVY="
+2017-10-29 17:00:25	ℹ 	 - certificate[2] info:
+2017-10-29 17:00:25	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-29 17:00:25	ℹ 	gnutls: peer's certificate is trusted
+2017-10-29 17:00:25	ℹ 	irc: connected to chat.freenode.net/7000 (38.229.70.22)
+2017-10-29 17:00:25	ℹ 	card.freenode.net: *** Looking up your hostname...
+2017-10-29 17:00:25	ℹ 	card.freenode.net: *** Checking Ident
+2017-10-29 17:00:25	ℹ 	card.freenode.net: *** Couldn't look up your hostname
+2017-10-29 17:00:31	ℹ 	card.freenode.net: *** No Ident response
+2017-10-29 17:00:31	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-29 17:00:31	ℹ 	irc: client capability, requesting: sasl
+2017-10-29 17:00:31	ℹ 	irc: client capability, enabled: sasl
+2017-10-29 17:00:33	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-29 17:00:33	ℹ 	SASL authentication successful
+2017-10-29 17:00:33	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-29 17:00:33	ℹ 	Your host is card.freenode.net[38.229.70.22/7000], running version ircd-seven-1.1.4
+2017-10-29 17:00:33	ℹ 	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+2017-10-29 17:00:33	ℹ 	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-29 17:00:33	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-29 17:00:33	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-29 17:00:33	ℹ 	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+2017-10-29 17:00:33	ℹ 	There are 116 users and 85569 invisible on 31 servers
+2017-10-29 17:00:33	ℹ 	35 :IRC Operators online
+2017-10-29 17:00:33	ℹ 	50 :unknown connection(s)
+2017-10-29 17:00:33	ℹ 	55227 :channels formed
+2017-10-29 17:00:33	ℹ 	I have 5551 clients and 1 servers
+2017-10-29 17:00:33	ℹ 	5551 6813 :Current local users 5551, max 6813
+2017-10-29 17:00:33	ℹ 	85685 93012 :Current global users 85685, max 93012
+2017-10-29 17:00:33	ℹ 	Highest connection count: 6814 (6813 clients) (983689 connections received)
+2017-10-29 17:00:33	ℹ 	- card.freenode.net Message of the Day -
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+2017-10-29 17:00:33	ℹ 	- Team Cymru (http://www.team-cymru.org).
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+2017-10-29 17:00:33	ℹ 	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+2017-10-29 17:00:33	ℹ 	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+2017-10-29 17:00:33	ℹ 	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+2017-10-29 17:00:33	ℹ 	- cultural background. The first author to win the Hugo and Nebula novel awards
+2017-10-29 17:00:33	ℹ 	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-29 17:00:33	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-29 17:00:33	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-29 17:00:33	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-29 17:00:33	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-29 17:00:33	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-29 17:00:33	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-29 17:00:33	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-29 17:00:33	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-29 17:00:33	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-29 17:00:33	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-29 17:00:33	ℹ 	- innovation.
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-29 17:00:33	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-29 17:00:33	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-29 17:00:33	ℹ 	- your tickets!
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-29 17:00:33	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	-
+2017-10-29 17:00:33	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-29 17:00:33	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-29 17:00:33	ℹ 	End of /MOTD command.
+2017-10-29 17:00:33	ℹ 	User mode [+Zi] by maggie
+2017-10-29 17:48:43	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-29 17:48:43	ℹ 	irc: disconnecting from server...
+2017-10-29 17:48:43	ℹ 	irc: disconnected from server
+2017-10-29 17:48:43	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-29 17:48:53	ℹ 	irc: reconnecting to server...
+2017-10-29 17:48:53	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-29 17:48:53	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 17:48:53	ℹ 	gnutls: receiving 2 certificates
+2017-10-29 17:48:53	ℹ 	 - certificate[1] info:
+2017-10-29 17:48:53	ℹ 	   - subject `CN=weber.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0326fe7c8b2b00779e7b2c07ea81df3f2e7d, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:01:23 UTC', expires `2018-01-07 05:01:23 UTC', pin-sha256="aB8n4a9u10zW+UfXS+6aqpJzVNPFIA6rOjwP1CDaRQU="
+2017-10-29 17:48:53	ℹ 	 - certificate[2] info:
+2017-10-29 17:48:53	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-29 17:48:53	ℹ 	gnutls: peer's certificate is trusted
+2017-10-29 17:48:53	ℹ 	irc: connected to chat.freenode.net/7000 (162.213.39.42)
+2017-10-29 17:48:53	ℹ 	weber.freenode.net: *** Looking up your hostname...
+2017-10-29 17:48:53	ℹ 	weber.freenode.net: *** Checking Ident
+2017-10-29 17:48:53	ℹ 	weber.freenode.net: *** Couldn't look up your hostname
+2017-10-29 17:49:02	ℹ 	weber.freenode.net: *** No Ident response
+2017-10-29 17:49:02	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-29 17:49:02	ℹ 	irc: client capability, requesting: sasl
+2017-10-29 17:49:02	ℹ 	irc: client capability, enabled: sasl
+2017-10-29 17:49:03	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-29 17:49:03	ℹ 	SASL authentication successful
+2017-10-29 17:49:04	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-29 17:49:04	ℹ 	Your host is weber.freenode.net[162.213.39.42/7000], running version ircd-seven-1.1.4
+2017-10-29 17:49:04	ℹ 	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+2017-10-29 17:49:04	ℹ 	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-29 17:49:04	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-29 17:49:04	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-29 17:49:04	ℹ 	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2017-10-29 17:49:04	ℹ 	There are 116 users and 84921 invisible on 31 servers
+2017-10-29 17:49:04	ℹ 	35 :IRC Operators online
+2017-10-29 17:49:04	ℹ 	42 :unknown connection(s)
+2017-10-29 17:49:04	ℹ 	55177 :channels formed
+2017-10-29 17:49:04	ℹ 	I have 5527 clients and 1 servers
+2017-10-29 17:49:04	ℹ 	5527 6820 :Current local users 5527, max 6820
+2017-10-29 17:49:04	ℹ 	85037 93012 :Current global users 85037, max 93012
+2017-10-29 17:49:04	ℹ 	Highest connection count: 6821 (6820 clients) (1007175 connections received)
+2017-10-29 17:49:04	ℹ 	- weber.freenode.net Message of the Day -
+2017-10-29 17:49:04	ℹ 	- Welcome to weber.freenode.net in California, USA.
+2017-10-29 17:49:04	ℹ 	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2017-10-29 17:49:04	ℹ 	- this server!
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2017-10-29 17:49:04	ℹ 	- author. Best known for his 'Honor Harrington' series, his
+2017-10-29 17:49:04	ℹ 	- works span several genres, including alternate history,
+2017-10-29 17:49:04	ℹ 	- epic fantasy, military scifi and space opera. He's also
+2017-10-29 17:49:04	ℹ 	- done wargame design mainly for the StarFire tabletop
+2017-10-29 17:49:04	ℹ 	- boardgame series, a job which later evolved into the novel,
+2017-10-29 17:49:04	ℹ 	- 'Insurrection' (collaboration with Steve White, published
+2017-10-29 17:49:04	ℹ 	- in 1990).
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-29 17:49:04	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-29 17:49:04	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-29 17:49:04	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-29 17:49:04	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-29 17:49:04	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-29 17:49:04	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-29 17:49:04	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-29 17:49:04	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-29 17:49:04	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-29 17:49:04	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-29 17:49:04	ℹ 	- innovation.
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-29 17:49:04	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-29 17:49:04	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-29 17:49:04	ℹ 	- your tickets!
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-29 17:49:04	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	-
+2017-10-29 17:49:04	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-29 17:49:04	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-29 17:49:04	ℹ 	End of /MOTD command.
+2017-10-29 17:49:04	ℹ 	User mode [+Zi] by maggie
+2017-10-29 18:32:31	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-29 18:32:31	ℹ 	irc: disconnecting from server...
+2017-10-29 18:32:31	ℹ 	irc: disconnected from server
+2017-10-29 18:32:31	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-29 18:32:41	ℹ 	irc: reconnecting to server...
+2017-10-29 18:32:41	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-29 18:32:41	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 18:32:41	ℹ 	gnutls: receiving 2 certificates
+2017-10-29 18:32:41	ℹ 	 - certificate[1] info:
+2017-10-29 18:32:41	ℹ 	   - subject `CN=verne.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03a3a21b3c7cd33e50bc1241d7acacda07d8, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:03:42 UTC', expires `2017-12-31 05:03:42 UTC', pin-sha256="Q74oEM0HkeuTqhvZPuyEQ+2xyRHmNYaGjGAJlp+EZcc="
+2017-10-29 18:32:41	ℹ 	 - certificate[2] info:
+2017-10-29 18:32:41	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-29 18:32:41	ℹ 	gnutls: peer's certificate is trusted
+2017-10-29 18:32:41	ℹ 	irc: connected to chat.freenode.net/7000 (185.30.166.37)
+2017-10-29 18:32:41	ℹ 	verne.freenode.net: *** Looking up your hostname...
+2017-10-29 18:32:41	ℹ 	verne.freenode.net: *** Checking Ident
+2017-10-29 18:32:41	ℹ 	verne.freenode.net: *** Couldn't look up your hostname
+2017-10-29 18:32:50	ℹ 	verne.freenode.net: *** No Ident response
+2017-10-29 18:32:50	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-29 18:32:50	ℹ 	irc: client capability, requesting: sasl
+2017-10-29 18:32:50	ℹ 	irc: client capability, enabled: sasl
+2017-10-29 18:32:51	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-29 18:32:51	ℹ 	SASL authentication successful
+2017-10-29 18:32:52	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-29 18:32:52	ℹ 	Your host is verne.freenode.net[185.30.166.37/7000], running version ircd-seven-1.1.4
+2017-10-29 18:32:52	ℹ 	This server was created Sat Jan 7 2017 at 11:53:54 EST
+2017-10-29 18:32:52	ℹ 	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-29 18:32:52	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-29 18:32:52	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2017-10-29 18:32:52	ℹ 	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-10-29 18:32:52	ℹ 	There are 115 users and 84352 invisible on 31 servers
+2017-10-29 18:32:52	ℹ 	35 :IRC Operators online
+2017-10-29 18:32:52	ℹ 	51 :unknown connection(s)
+2017-10-29 18:32:52	ℹ 	55086 :channels formed
+2017-10-29 18:32:52	ℹ 	I have 5446 clients and 2 servers
+2017-10-29 18:32:52	ℹ 	5446 7978 :Current local users 5446, max 7978
+2017-10-29 18:32:52	ℹ 	84467 97718 :Current global users 84467, max 97718
+2017-10-29 18:32:52	ℹ 	Highest connection count: 7980 (7978 clients) (3410139 connections received)
+2017-10-29 18:32:52	ℹ 	- verne.freenode.net Message of the Day -
+2017-10-29 18:32:52	ℹ 	- Welcome to verne.freenode.net in Amsterdam, NL.
+2017-10-29 18:32:52	ℹ 	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2017-10-29 18:32:52	ℹ 	- this server!
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2017-10-29 18:32:52	ℹ 	- a pioneering french author known for novels such as Twenty
+2017-10-29 18:32:52	ℹ 	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2017-10-29 18:32:52	ℹ 	- Earth, and Around the World in Eighty Days. Often lauded as the
+2017-10-29 18:32:52	ℹ 	- Father of science fiction, Verne wrote about concepts such as
+2017-10-29 18:32:52	ℹ 	- space travel, skyscrapers, and worldwide communications
+2017-10-29 18:32:52	ℹ 	- networks long before these ideas became popularised or realised.
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-29 18:32:52	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-29 18:32:52	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-29 18:32:52	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-29 18:32:52	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-29 18:32:52	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-29 18:32:52	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-29 18:32:52	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-29 18:32:52	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-29 18:32:52	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-29 18:32:52	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-29 18:32:52	ℹ 	- innovation.
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-29 18:32:52	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-29 18:32:52	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-29 18:32:52	ℹ 	- your tickets!
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-29 18:32:52	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	-
+2017-10-29 18:32:52	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-29 18:32:52	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-29 18:32:52	ℹ 	End of /MOTD command.
+2017-10-29 18:32:52	ℹ 	User mode [+Zi] by maggie
+2017-10-29 19:34:49	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-29 19:34:49	ℹ 	irc: disconnecting from server...
+2017-10-29 19:34:49	ℹ 	irc: disconnected from server
+2017-10-29 19:34:49	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-29 19:34:59	ℹ 	irc: reconnecting to server...
+2017-10-29 19:34:59	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-29 19:34:59	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-29 19:34:59	ℹ 	gnutls: receiving 2 certificates
+2017-10-29 19:34:59	ℹ 	 - certificate[1] info:
+2017-10-29 19:34:59	ℹ 	   - subject `CN=verne.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03a3a21b3c7cd33e50bc1241d7acacda07d8, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:03:42 UTC', expires `2017-12-31 05:03:42 UTC', pin-sha256="Q74oEM0HkeuTqhvZPuyEQ+2xyRHmNYaGjGAJlp+EZcc="
+2017-10-29 19:34:59	ℹ 	 - certificate[2] info:
+2017-10-29 19:34:59	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-29 19:34:59	ℹ 	gnutls: peer's certificate is trusted
+2017-10-29 19:34:59	ℹ 	irc: connected to chat.freenode.net/7000 (185.30.166.37)
+2017-10-29 19:34:59	ℹ 	verne.freenode.net: *** Looking up your hostname...
+2017-10-29 19:34:59	ℹ 	verne.freenode.net: *** Checking Ident
+2017-10-29 19:34:59	ℹ 	verne.freenode.net: *** Couldn't look up your hostname
+2017-10-29 19:35:08	ℹ 	verne.freenode.net: *** No Ident response
+2017-10-29 19:35:08	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-29 19:35:08	ℹ 	irc: client capability, requesting: sasl
+2017-10-29 19:35:08	ℹ 	irc: client capability, enabled: sasl
+2017-10-29 19:35:08	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-29 19:35:09	ℹ 	SASL authentication successful
+2017-10-29 19:35:09	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-29 19:35:09	ℹ 	Your host is verne.freenode.net[185.30.166.37/7000], running version ircd-seven-1.1.4
+2017-10-29 19:35:09	ℹ 	This server was created Sat Jan 7 2017 at 11:53:54 EST
+2017-10-29 19:35:09	ℹ 	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-29 19:35:09	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-29 19:35:09	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+2017-10-29 19:35:09	ℹ 	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+2017-10-29 19:35:09	ℹ 	There are 115 users and 83765 invisible on 31 servers
+2017-10-29 19:35:09	ℹ 	35 :IRC Operators online
+2017-10-29 19:35:09	ℹ 	32 :unknown connection(s)
+2017-10-29 19:35:09	ℹ 	55035 :channels formed
+2017-10-29 19:35:09	ℹ 	I have 5440 clients and 2 servers
+2017-10-29 19:35:09	ℹ 	5440 7978 :Current local users 5440, max 7978
+2017-10-29 19:35:09	ℹ 	83880 97718 :Current global users 83880, max 97718
+2017-10-29 19:35:09	ℹ 	Highest connection count: 7980 (7978 clients) (3410722 connections received)
+2017-10-29 19:35:09	ℹ 	- verne.freenode.net Message of the Day -
+2017-10-29 19:35:09	ℹ 	- Welcome to verne.freenode.net in Amsterdam, NL.
+2017-10-29 19:35:09	ℹ 	- Thanks to http://www.hyperfilter.com/ for sponsoring
+2017-10-29 19:35:09	ℹ 	- this server!
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+2017-10-29 19:35:09	ℹ 	- a pioneering french author known for novels such as Twenty
+2017-10-29 19:35:09	ℹ 	- Thousand Leagues Under the Sea, A Journey to the Center of the
+2017-10-29 19:35:09	ℹ 	- Earth, and Around the World in Eighty Days. Often lauded as the
+2017-10-29 19:35:09	ℹ 	- Father of science fiction, Verne wrote about concepts such as
+2017-10-29 19:35:09	ℹ 	- space travel, skyscrapers, and worldwide communications
+2017-10-29 19:35:09	ℹ 	- networks long before these ideas became popularised or realised.
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-29 19:35:09	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-29 19:35:09	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-29 19:35:09	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-29 19:35:09	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-29 19:35:09	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-29 19:35:09	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-29 19:35:09	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-29 19:35:09	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-29 19:35:09	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-29 19:35:09	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-29 19:35:09	ℹ 	- innovation.
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-29 19:35:09	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-29 19:35:09	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-29 19:35:09	ℹ 	- your tickets!
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-29 19:35:09	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	-
+2017-10-29 19:35:09	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-29 19:35:09	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-29 19:35:09	ℹ 	End of /MOTD command.
+2017-10-29 19:35:09	ℹ 	User mode [+Zi] by maggie
+2017-10-29 19:36:28	ℹ 	SaslServ (SaslServ@services.): <Unknown user (via SASL):d24-150-20-1.home.cgocable.net> failed to login to Maggie.  There has been 1 failed login attempt since your last successful login.
+2017-10-30 17:20:33	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-30 17:20:33	ℹ 	irc: disconnecting from server...
+2017-10-30 17:20:33	ℹ 	irc: disconnected from server
+2017-10-30 17:20:33	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-30 17:20:43	ℹ 	irc: reconnecting to server...
+2017-10-30 17:20:43	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-30 17:20:43	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 17:20:43	ℹ 	gnutls: receiving 2 certificates
+2017-10-30 17:20:43	ℹ 	 - certificate[1] info:
+2017-10-30 17:20:43	ℹ 	   - subject `CN=hobana.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03714e5e065fb5d0973cec10fed859aa4a0f, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:06:16 UTC', expires `2017-12-31 05:06:16 UTC', pin-sha256="qGjybhoWpEOWQDIpxkHErogwzV3U0S8Dv7XmZdbkC6E="
+2017-10-30 17:20:43	ℹ 	 - certificate[2] info:
+2017-10-30 17:20:43	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-30 17:20:43	ℹ 	gnutls: peer's certificate is trusted
+2017-10-30 17:20:43	ℹ 	irc: connected to chat.freenode.net/7000 (81.18.73.123)
+2017-10-30 17:20:44	ℹ 	hobana.freenode.net: *** Looking up your hostname...
+2017-10-30 17:20:44	ℹ 	hobana.freenode.net: *** Checking Ident
+2017-10-30 17:20:44	ℹ 	hobana.freenode.net: *** Couldn't look up your hostname
+2017-10-30 17:20:49	ℹ 	hobana.freenode.net: *** No Ident response
+2017-10-30 17:20:49	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-30 17:20:49	ℹ 	irc: client capability, requesting: sasl
+2017-10-30 17:20:49	ℹ 	irc: client capability, enabled: sasl
+2017-10-30 17:20:50	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-30 17:20:50	ℹ 	SASL authentication successful
+2017-10-30 17:20:50	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-30 17:20:50	ℹ 	Your host is hobana.freenode.net[81.18.73.123/7000], running version ircd-seven-1.1.4
+2017-10-30 17:20:50	ℹ 	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+2017-10-30 17:20:50	ℹ 	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-30 17:20:50	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-30 17:20:50	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+2017-10-30 17:20:50	ℹ 	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-30 17:20:50	ℹ 	There are 117 users and 88211 invisible on 31 servers
+2017-10-30 17:20:50	ℹ 	35 :IRC Operators online
+2017-10-30 17:20:50	ℹ 	53 :unknown connection(s)
+2017-10-30 17:20:50	ℹ 	55449 :channels formed
+2017-10-30 17:20:50	ℹ 	I have 5808 clients and 1 servers
+2017-10-30 17:20:50	ℹ 	5808 12000 :Current local users 5808, max 12000
+2017-10-30 17:20:50	ℹ 	88328 97718 :Current global users 88328, max 97718
+2017-10-30 17:20:50	ℹ 	Highest connection count: 12001 (12000 clients) (2231634 connections received)
+2017-10-30 17:20:50	ℹ 	- hobana.freenode.net Message of the Day -
+2017-10-30 17:20:50	ℹ 	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+2017-10-30 17:20:50	ℹ 	- you to RCS-RDS for sponsoring this server!
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+2017-10-30 17:20:50	ℹ 	- literary critic and ufologist. Ion Hobana is a literary
+2017-10-30 17:20:50	ℹ 	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-30 17:20:50	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-30 17:20:50	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-30 17:20:50	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-30 17:20:50	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-30 17:20:50	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-30 17:20:50	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-30 17:20:50	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-30 17:20:50	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-30 17:20:50	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-30 17:20:50	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-30 17:20:50	ℹ 	- innovation.
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-30 17:20:50	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-30 17:20:50	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-30 17:20:50	ℹ 	- your tickets!
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-30 17:20:50	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	-
+2017-10-30 17:20:50	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-30 17:20:50	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-30 17:20:50	ℹ 	End of /MOTD command.
+2017-10-30 17:20:50	ℹ 	User mode [+Zi] by maggie
+2017-10-30 17:20:50	ℹ 	SaslServ (SaslServ@services.): 3 failed logins since last login.
+2017-10-30 17:20:50	ℹ 	SaslServ (SaslServ@services.): Last failed attempt from: maggie!~Thunderbi@d24-150-20-1.home.cgocable.net on Oct 30 10:25:45 2017.
+2017-10-30 19:18:52	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-30 19:18:52	ℹ 	irc: disconnecting from server...
+2017-10-30 19:18:52	ℹ 	irc: disconnected from server
+2017-10-30 19:18:52	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-30 19:19:02	ℹ 	irc: reconnecting to server...
+2017-10-30 19:19:02	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-30 19:19:02	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-30 19:19:02	ℹ 	gnutls: receiving 2 certificates
+2017-10-30 19:19:02	ℹ 	 - certificate[1] info:
+2017-10-30 19:19:02	ℹ 	   - subject `CN=tolkien.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03b7c2461ba729320d8b91d48d5b274ae6a4, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:03:32 UTC', expires `2018-01-07 05:03:32 UTC', pin-sha256="+5rXjZdm8wd9rWzwV0Gp2cTuCNNz1G3Vvg2i1KZDWDc="
+2017-10-30 19:19:02	ℹ 	 - certificate[2] info:
+2017-10-30 19:19:02	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-30 19:19:02	ℹ 	gnutls: peer's certificate is trusted
+2017-10-30 19:19:02	ℹ 	irc: connected to chat.freenode.net/7000 (71.11.84.232)
+2017-10-30 19:19:02	ℹ 	tolkien.freenode.net: *** Looking up your hostname...
+2017-10-30 19:19:02	ℹ 	tolkien.freenode.net: *** Checking Ident
+2017-10-30 19:19:02	ℹ 	tolkien.freenode.net: *** Couldn't look up your hostname
+2017-10-30 19:19:11	ℹ 	tolkien.freenode.net: *** No Ident response
+2017-10-30 19:19:11	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-30 19:19:11	ℹ 	irc: client capability, requesting: sasl
+2017-10-30 19:19:11	ℹ 	irc: client capability, enabled: sasl
+2017-10-30 19:19:12	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-30 19:19:12	ℹ 	SASL authentication successful
+2017-10-30 19:19:12	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-30 19:19:12	ℹ 	Your host is tolkien.freenode.net[71.11.84.232/7000], running version ircd-seven-1.1.4
+2017-10-30 19:19:12	ℹ 	This server was created Thu May 18 2017 at 17:43:36 UTC
+2017-10-30 19:19:12	ℹ 	tolkien.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-30 19:19:12	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-30 19:19:12	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-30 19:19:12	ℹ 	WHOX ETRACE CPRIVMSG CNOTICE :are supported by this server
+2017-10-30 19:19:12	ℹ 	There are 115 users and 86013 invisible on 31 servers
+2017-10-30 19:19:12	ℹ 	35 :IRC Operators online
+2017-10-30 19:19:12	ℹ 	38 :unknown connection(s)
+2017-10-30 19:19:12	ℹ 	55274 :channels formed
+2017-10-30 19:19:12	ℹ 	I have 5607 clients and 1 servers
+2017-10-30 19:19:12	ℹ 	5607 7644 :Current local users 5607, max 7644
+2017-10-30 19:19:12	ℹ 	86128 97718 :Current global users 86128, max 97718
+2017-10-30 19:19:12	ℹ 	Highest connection count: 7645 (7644 clients) (2054266 connections received)
+2017-10-30 19:19:12	ℹ 	- tolkien.freenode.net Message of the Day -
+2017-10-30 19:19:12	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-30 19:19:12	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-30 19:19:12	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-30 19:19:12	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-30 19:19:12	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-30 19:19:12	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-30 19:19:12	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-30 19:19:12	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-30 19:19:12	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-30 19:19:12	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-30 19:19:12	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-30 19:19:12	ℹ 	- innovation.
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-30 19:19:12	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-30 19:19:12	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-30 19:19:12	ℹ 	- your tickets!
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-30 19:19:12	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	-
+2017-10-30 19:19:12	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-30 19:19:12	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-30 19:19:12	ℹ 	End of /MOTD command.
+2017-10-30 19:19:12	ℹ 	User mode [+Zi] by maggie
+2017-10-31 10:36:22	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-31 10:36:22	ℹ 	irc: disconnecting from server...
+2017-10-31 10:36:22	ℹ 	irc: disconnected from server
+2017-10-31 10:36:22	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-31 10:36:32	ℹ 	irc: reconnecting to server...
+2017-10-31 10:36:32	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-31 10:36:32	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 10:36:32	ℹ 	gnutls: receiving 2 certificates
+2017-10-31 10:36:32	ℹ 	 - certificate[1] info:
+2017-10-31 10:36:32	ℹ 	   - subject `CN=weber.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0326fe7c8b2b00779e7b2c07ea81df3f2e7d, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-09 05:01:23 UTC', expires `2018-01-07 05:01:23 UTC', pin-sha256="aB8n4a9u10zW+UfXS+6aqpJzVNPFIA6rOjwP1CDaRQU="
+2017-10-31 10:36:32	ℹ 	 - certificate[2] info:
+2017-10-31 10:36:32	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-31 10:36:32	ℹ 	gnutls: peer's certificate is trusted
+2017-10-31 10:36:32	ℹ 	irc: connected to chat.freenode.net/7000 (162.213.39.42)
+2017-10-31 10:36:32	ℹ 	weber.freenode.net: *** Looking up your hostname...
+2017-10-31 10:36:32	ℹ 	weber.freenode.net: *** Checking Ident
+2017-10-31 10:36:32	ℹ 	weber.freenode.net: *** Couldn't look up your hostname
+2017-10-31 10:36:39	ℹ 	weber.freenode.net: *** No Ident response
+2017-10-31 10:36:39	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-31 10:36:39	ℹ 	irc: client capability, requesting: sasl
+2017-10-31 10:36:39	ℹ 	irc: client capability, enabled: sasl
+2017-10-31 10:36:40	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-31 10:36:40	ℹ 	SASL authentication successful
+2017-10-31 10:36:41	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-31 10:36:41	ℹ 	Your host is weber.freenode.net[162.213.39.42/7000], running version ircd-seven-1.1.4
+2017-10-31 10:36:41	ℹ 	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+2017-10-31 10:36:41	ℹ 	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-31 10:36:41	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-31 10:36:41	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-10-31 10:36:41	ℹ 	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2017-10-31 10:36:41	ℹ 	There are 117 users and 91595 invisible on 31 servers
+2017-10-31 10:36:41	ℹ 	34 :IRC Operators online
+2017-10-31 10:36:41	ℹ 	35 :unknown connection(s)
+2017-10-31 10:36:41	ℹ 	55784 :channels formed
+2017-10-31 10:36:41	ℹ 	I have 4748 clients and 1 servers
+2017-10-31 10:36:41	ℹ 	4748 6820 :Current local users 4748, max 6820
+2017-10-31 10:36:41	ℹ 	91712 93012 :Current global users 91712, max 93012
+2017-10-31 10:36:41	ℹ 	Highest connection count: 6821 (6820 clients) (1035755 connections received)
+2017-10-31 10:36:41	ℹ 	- weber.freenode.net Message of the Day -
+2017-10-31 10:36:41	ℹ 	- Welcome to weber.freenode.net in California, USA.
+2017-10-31 10:36:41	ℹ 	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2017-10-31 10:36:41	ℹ 	- this server!
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2017-10-31 10:36:41	ℹ 	- author. Best known for his 'Honor Harrington' series, his
+2017-10-31 10:36:41	ℹ 	- works span several genres, including alternate history,
+2017-10-31 10:36:41	ℹ 	- epic fantasy, military scifi and space opera. He's also
+2017-10-31 10:36:41	ℹ 	- done wargame design mainly for the StarFire tabletop
+2017-10-31 10:36:41	ℹ 	- boardgame series, a job which later evolved into the novel,
+2017-10-31 10:36:41	ℹ 	- 'Insurrection' (collaboration with Steve White, published
+2017-10-31 10:36:41	ℹ 	- in 1990).
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-31 10:36:41	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-31 10:36:41	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-31 10:36:41	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-31 10:36:41	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-31 10:36:41	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-31 10:36:41	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-31 10:36:41	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-31 10:36:41	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-31 10:36:41	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-31 10:36:41	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-31 10:36:41	ℹ 	- innovation.
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-31 10:36:41	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-31 10:36:41	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-31 10:36:41	ℹ 	- your tickets!
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-31 10:36:41	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	-
+2017-10-31 10:36:41	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-31 10:36:41	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-31 10:36:41	ℹ 	End of /MOTD command.
+2017-10-31 10:36:41	ℹ 	User mode [+Zi] by maggie
+2017-10-31 10:36:41	ℹ 	SaslServ (SaslServ@services.): 2 failed logins since last login.
+2017-10-31 10:36:41	ℹ 	SaslServ (SaslServ@services.): Last failed attempt from: maggie!~Thunderbi@d24-150-20-1.home.cgocable.net on Oct 31 13:28:07 2017.
+2017-10-31 11:01:25	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-31 11:01:25	ℹ 	irc: disconnecting from server...
+2017-10-31 11:01:25	ℹ 	irc: disconnected from server
+2017-10-31 11:01:25	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-31 11:01:35	ℹ 	irc: reconnecting to server...
+2017-10-31 11:01:35	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-31 11:01:35	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 11:01:35	ℹ 	gnutls: receiving 2 certificates
+2017-10-31 11:01:35	ℹ 	 - certificate[1] info:
+2017-10-31 11:01:35	ℹ 	   - subject `CN=hobana.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03714e5e065fb5d0973cec10fed859aa4a0f, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:06:16 UTC', expires `2017-12-31 05:06:16 UTC', pin-sha256="qGjybhoWpEOWQDIpxkHErogwzV3U0S8Dv7XmZdbkC6E="
+2017-10-31 11:01:35	ℹ 	 - certificate[2] info:
+2017-10-31 11:01:35	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-31 11:01:35	ℹ 	gnutls: peer's certificate is trusted
+2017-10-31 11:01:35	ℹ 	irc: connected to chat.freenode.net/7000 (81.18.73.123)
+2017-10-31 11:01:36	ℹ 	hobana.freenode.net: *** Looking up your hostname...
+2017-10-31 11:01:36	ℹ 	hobana.freenode.net: *** Checking Ident
+2017-10-31 11:01:36	ℹ 	hobana.freenode.net: *** Couldn't look up your hostname
+2017-10-31 11:01:44	ℹ 	hobana.freenode.net: *** No Ident response
+2017-10-31 11:01:44	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-31 11:01:44	ℹ 	irc: client capability, requesting: sasl
+2017-10-31 11:01:44	ℹ 	irc: client capability, enabled: sasl
+2017-10-31 11:01:45	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-31 11:01:45	ℹ 	SASL authentication successful
+2017-10-31 11:01:46	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-31 11:01:46	ℹ 	Your host is hobana.freenode.net[81.18.73.123/7000], running version ircd-seven-1.1.4
+2017-10-31 11:01:46	ℹ 	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+2017-10-31 11:01:46	ℹ 	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-31 11:01:46	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-31 11:01:46	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+2017-10-31 11:01:46	ℹ 	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+2017-10-31 11:01:46	ℹ 	There are 117 users and 91550 invisible on 31 servers
+2017-10-31 11:01:46	ℹ 	34 :IRC Operators online
+2017-10-31 11:01:46	ℹ 	37 :unknown connection(s)
+2017-10-31 11:01:46	ℹ 	55763 :channels formed
+2017-10-31 11:01:46	ℹ 	I have 6242 clients and 1 servers
+2017-10-31 11:01:46	ℹ 	6242 12000 :Current local users 6242, max 12000
+2017-10-31 11:01:46	ℹ 	91667 97718 :Current global users 91667, max 97718
+2017-10-31 11:01:46	ℹ 	Highest connection count: 12001 (12000 clients) (2238520 connections received)
+2017-10-31 11:01:46	ℹ 	- hobana.freenode.net Message of the Day -
+2017-10-31 11:01:46	ℹ 	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+2017-10-31 11:01:46	ℹ 	- you to RCS-RDS for sponsoring this server!
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+2017-10-31 11:01:46	ℹ 	- literary critic and ufologist. Ion Hobana is a literary
+2017-10-31 11:01:46	ℹ 	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-31 11:01:46	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-31 11:01:46	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-31 11:01:46	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-31 11:01:46	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-31 11:01:46	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-31 11:01:46	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-31 11:01:46	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-31 11:01:46	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-31 11:01:46	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-31 11:01:46	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-31 11:01:46	ℹ 	- innovation.
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-31 11:01:46	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-31 11:01:46	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-31 11:01:46	ℹ 	- your tickets!
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-31 11:01:46	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	-
+2017-10-31 11:01:46	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-31 11:01:46	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-31 11:01:46	ℹ 	End of /MOTD command.
+2017-10-31 11:01:46	ℹ 	User mode [+Zi] by maggie
+2017-10-31 11:16:57	⚠	irc: reading data on socket: error -54 Error in the pull function.
+2017-10-31 11:16:57	ℹ 	irc: disconnecting from server...
+2017-10-31 11:16:58	ℹ 	irc: disconnected from server
+2017-10-31 11:16:58	ℹ 	irc: reconnecting to server in 10 seconds
+2017-10-31 11:17:08	ℹ 	irc: reconnecting to server...
+2017-10-31 11:17:08	ℹ 	irc: connecting to server chat.freenode.net/7000 (SSL)...
+2017-10-31 11:17:08	ℹ 	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2017-10-31 11:17:08	ℹ 	gnutls: receiving 2 certificates
+2017-10-31 11:17:08	ℹ 	 - certificate[1] info:
+2017-10-31 11:17:08	ℹ 	   - subject `CN=rajaniemi.freenode.net', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x03bb845f9f62aba775b24a8f4fa7cb958d15, RSA key 4096 bits, signed using RSA-SHA256, activated `2017-10-02 05:05:23 UTC', expires `2017-12-31 05:05:23 UTC', pin-sha256="ENCUobfCbhPJ6mt1kVY4pT+43PJu/6lwcgZrsBRFwuc="
+2017-10-31 11:17:08	ℹ 	 - certificate[2] info:
+2017-10-31 11:17:08	ℹ 	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2017-10-31 11:17:08	ℹ 	gnutls: peer's certificate is trusted
+2017-10-31 11:17:08	ℹ 	irc: connected to chat.freenode.net/7000 (195.148.124.79)
+2017-10-31 11:17:08	ℹ 	rajaniemi.freenode.net: *** Looking up your hostname...
+2017-10-31 11:17:08	ℹ 	rajaniemi.freenode.net: *** Checking Ident
+2017-10-31 11:17:08	ℹ 	rajaniemi.freenode.net: *** Couldn't look up your hostname
+2017-10-31 11:17:19	ℹ 	rajaniemi.freenode.net: *** No Ident response
+2017-10-31 11:17:19	ℹ 	irc: client capability, server supports: account-notify extended-join identify-msg multi-prefix sasl
+2017-10-31 11:17:19	ℹ 	irc: client capability, requesting: sasl
+2017-10-31 11:17:19	ℹ 	irc: client capability, enabled: sasl
+2017-10-31 11:17:19	ℹ 	You are now logged in as Maggie. (maggie!maggie@184.90.62.99)
+2017-10-31 11:17:19	ℹ 	SASL authentication successful
+2017-10-31 11:17:20	ℹ 	Welcome to the freenode Internet Relay Chat Network maggie
+2017-10-31 11:17:20	ℹ 	Your host is rajaniemi.freenode.net[195.148.124.79/7000], running version ircd-seven-1.1.4
+2017-10-31 11:17:20	ℹ 	This server was created Wed Jan 4 2017 at 23:45:00 EET
+2017-10-31 11:17:20	ℹ 	rajaniemi.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-10-31 11:17:20	ℹ 	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-10-31 11:17:20	ℹ 	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 WHOX SAFELIST ELIST=CTU :are supported by this server
+2017-10-31 11:17:20	ℹ 	KNOCK CPRIVMSG CNOTICE ETRACE :are supported by this server
+2017-10-31 11:17:20	ℹ 	There are 117 users and 91532 invisible on 31 servers
+2017-10-31 11:17:20	ℹ 	34 :IRC Operators online
+2017-10-31 11:17:20	ℹ 	47 :unknown connection(s)
+2017-10-31 11:17:20	ℹ 	55751 :channels formed
+2017-10-31 11:17:20	ℹ 	I have 6237 clients and 1 servers
+2017-10-31 11:17:20	ℹ 	6237 6912 :Current local users 6237, max 6912
+2017-10-31 11:17:20	ℹ 	91649 93013 :Current global users 91649, max 93013
+2017-10-31 11:17:20	ℹ 	Highest connection count: 6913 (6912 clients) (609763 connections received)
+2017-10-31 11:17:20	ℹ 	- rajaniemi.freenode.net Message of the Day -
+2017-10-31 11:17:20	ℹ 	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2017-10-31 11:17:20	ℹ 	- Aalto University for sponsoring this server!
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2017-10-31 11:17:20	ℹ 	- author of two novels and several short stories, and his debut novel 'The
+2017-10-31 11:17:20	ℹ 	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2017-10-31 11:17:20	ℹ 	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2017-10-31 11:17:20	ℹ 	- director of ThinkTank Maths, a commercial research organisation.
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	-   __                               _          _  _   _     _____     _______
+2017-10-31 11:17:20	ℹ 	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+2017-10-31 11:17:20	ℹ 	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|
+2017-10-31 11:17:20	ℹ 	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___
+2017-10-31 11:17:20	ℹ 	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- freenode #live is a community-focused live event designed to build and
+2017-10-31 11:17:20	ℹ 	- strengthen relationships between Free and Open Source Software (FOSS)
+2017-10-31 11:17:20	ℹ 	- developers and users. freenode live seeks to raise awareness of and
+2017-10-31 11:17:20	ℹ 	- promote FOSS alternatives to proprietary software.
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- Facilitating face-to-face interaction, creative workshops, talks and think
+2017-10-31 11:17:20	ℹ 	- tanks, freenode #live will bring developers and users together in a nurturing
+2017-10-31 11:17:20	ℹ 	- and dynamic environment stimulating the free exchange of ideas and
+2017-10-31 11:17:20	ℹ 	- information while fostering cross-project collaboration and dialogue for
+2017-10-31 11:17:20	ℹ 	- innovation.
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- Please join us in the #live channel on the freenode network, or send us an
+2017-10-31 11:17:20	ℹ 	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+2017-10-31 11:17:20	ℹ 	- get involved, and see https://freenode.live/ for more information and to get
+2017-10-31 11:17:20	ℹ 	- your tickets!
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- A massive thank you to our sponsors and exhibitors:
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+2017-10-31 11:17:20	ℹ 	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	-
+2017-10-31 11:17:20	ℹ 	- By connecting to freenode you indicate that you have read and agree with
+2017-10-31 11:17:21	ℹ 	- our policies and guidelines as published on https://freenode.net
+2017-10-31 11:17:21	ℹ 	End of /MOTD command.
+2017-10-31 11:17:21	ℹ 	User mode [+Zi] by maggie
