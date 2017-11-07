@@ -13,4 +13,7 @@ My polybar config.
 ## Weechat
 My simplistic weechat config
 
+## compton
+My compton config. Mostly for the tranparency in urxvt.
+
 
