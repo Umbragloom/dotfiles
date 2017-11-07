@@ -4,13 +4,13 @@ My dotfiles on my arch system. Includes the following:
 ## i3
 Uses the Vim keybindings, and a few other things from users on here. (will link to them later)
 
-##.bashrc
+## .bashrc
 My .bashrc file.
 
-##polybar
+## polybar
 My polybar config.
 
-##Weechat
+## Weechat
 My simplistic weechat config
 
 
