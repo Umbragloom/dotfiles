@@ -1,0 +1,11 @@
+dd
+dd /MUSIC
+01-tank-.mp3
+cd 
+open_with 
+
+rename Clock_work.html
+shell 
+mkdir HTML
+mkdir Book
+delete

@@ -51,19 +51,19 @@ modules-right = temperature memory cpu wlan eth battery powermenu
 
 tray-position = right
 tray-padding = 2
-;tray-transparent = true
+tray-transparent = true
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
-;wm-restack = i3
+wm-restack = i3
 
 ;override-redirect = true
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
 
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
 
 [module/xwindow]
 type = internal/xwindow
@@ -115,75 +115,47 @@ label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
 [module/i3]
-type = internal/i3
+type			= internal/i3
+format			= <label-state>
+index-sort		= true
+strip-wsnumbers 	= true
+fuzzy-match		= true
 
-; Only show workspaces defined on the same output as the bar
-;
-; Useful if you want to show monitor specific workspaces
-; on different bars
-;
-; Default: false
-;pin-workspaces = true
+label-visible		 = %icon%
+label-visible-foreground = #aaaaaa
+label-visible-padding	= 1
+label-visible-underline = #FFFFFF
 
-; This will split the workspace name on ':'
-; Default: false
-strip-wsnumbers = true
+label-focused		= %icon%
+label-focused-foreground = #ff4500
+label-focused-padding	= 1
+label-focused-underline = #FFFFFF
 
-; Sort the workspaces by index instead of the default
-; sorting that groups the workspaces by output
-; Default: false
-index-sort = true
+label-unfocused		= %icon%
+label-unfocused-foreground = #444444
+label-unfocused-padding	= 1
+
+label-urgent		= %icon%
+label-urgent-foreground	= #FF5F5F
+label-urgent-padding	= 1
+
+
+ws-icon-0		= 1;
+ws-icon-1		= 2;
+ws-icon-2		= 3;
+ws-icon-3		= 4;
+ws-icon-4		= 5;
+ws-icon-5		= 6;
+ws-icon-6		= 7;
+ws-icon-7		= 8;
+ws-icon-8		= 9;
+ws-icon-9		= 10;
+ws-icon-default		= 
 
 ; Create click handler used to focus workspace
 ; Default: true
 enable-click = true
 
-; Create scroll handlers used to cycle workspaces
-; Default: true
-enable-scroll = false
-
-; Wrap around when reaching the first/last workspace
-; Default: true
-wrapping-scroll = false
-
-; Set the scroll cycle direction 
-; Default: true
-reverse-scroll = false
-
-; Use fuzzy (partial) matching on labels when assigning 
-; icons to workspaces
-; Example: code;♚ will apply the icon to all workspaces 
-; containing 'code' in the label
-; Default: false
-fuzzy-match = true
-
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
-
-label-mode-padding = 2
-label-mode-foreground = #000
-label-mode-background = ${colors.primary}
-
-; focused = Active workspace on focused monitor
-label-focused = %index%
-label-focused-background = ${module/bspwm.label-focused-background}
-label-focused-underline = ${module/bspwm.label-focused-underline}
-label-focused-padding = ${module/bspwm.label-focused-padding}
-
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = ${module/bspwm.label-occupied-padding}
-
-; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
-
-; urgent = Workspace with urgency hint set
-label-urgent = %index%
-label-urgent-background = ${module/bspwm.label-urgent-background}
-label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 [module/mpd]
 type = internal/mpd
@@ -281,7 +253,7 @@ interval = 5
 date = %Y-%m-%d
 date-alt = " %Y-%m-%d"
 
-time = %H:%M
+time = %I:%M %p
 time-alt = %H:%M:%S
 
 format-prefix = : 
@@ -386,12 +358,12 @@ menu-0-1-exec = menu-open-2
 menu-1-0 = 
 menu-1-0-exec = menu-open-0
 menu-1-1 = 
-menu-1-1-exec = sudo reboot
+menu-1-1-exec = reboot
 
 menu-2-0 = 
 menu-2-0-exec = menu-open-0
 menu-2-1 = 
-menu-2-1-exec = sudo poweroff
+menu-2-1-exec = poweroff
 
 [settings]
 screenchange-reload = true
@@ -406,4 +378,3 @@ margin-bottom = 5
 
 ; vim:ft=dosini
 
-######i3 options####

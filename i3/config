@@ -45,7 +45,7 @@ bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -109,16 +109,16 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 #set the terminal names
-set $ws1 "1:Term"
-set $ws2 "2:Web"
-set $ws3 "3:Atom"
-set $ws4 "4:Manipulation"
-set $ws5 "5:Libre Office" 
-set $ws6 "6:3D/2D Design"
-set $ws7 "7:"
-set $ws8 "8:"
-set $ws9 "9:"
-set $ws10 "10:"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5" 
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -207,6 +207,7 @@ for_window [class="^.*"] border pixel 0
 #gaps set up
 gaps inner 6
 gaps outer 1
+smart_gaps on
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -227,23 +228,31 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 #set i3 lock screen
-bindsym $mod+Shift+x exec /home/maggie/lock.sh
+bindsym $mod+x exec /home/maggie/lock.sh
 
-# assing prograims to  open on certain workstations
+# assigning programs to  open on certain workstations
 assign [class="^URxvt$"] → $ws1
 assign [class="Chromium"] → $ws2
 assign [class="Atom"] → $ws3
 assign [class="Gimp-2.8"] → $ws4
 assign [class="Inkscape"] → $ws4
+assign [class="krita"] → $ws4
 assign [class="libreoffice"] → $ws5
 assign [class="libreoffice-writer"]→ $ws5
 assign [class="libreoffice-calc"]→ $ws5
 assign [class="libreoffice-impress"]→ $ws5
 assign [class="libreoffice-draw"]→ $ws5
 assign [class="Blender"] → $ws6
+assign [class="Scribus"]→ $ws9
+assign [class="Godot_Engine"]→ $ws8
+assign [class="cockatrice"]→ $ws10
 
-#set wallpaper randomly
+#set wallpaper randomly on startup
 exec --no-startup-id feh --randomize --recursive --bg-fill ~/Pictures/*
 
 # run polybar instead of i3 bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+#usinf Rofi instead of dmenu 
+bindsym $mod+d exec rofi -show run
+
