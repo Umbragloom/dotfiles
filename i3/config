@@ -1,3 +1,4 @@
+
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -246,13 +247,15 @@ assign [class="Blender"] → $ws6
 assign [class="Scribus"]→ $ws9
 assign [class="Godot_Engine"]→ $ws8
 assign [class="cockatrice"]→ $ws10
+assign [class="Kicad"]→ $ws7
+assign [class="Gummi"]→ $ws9
 
 #set wallpaper randomly on startup
 exec --no-startup-id feh --randomize --recursive --bg-fill ~/Pictures/*
 
-# run polybar instead of i3 bar
+#run polybar instead of i3 bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-#usinf Rofi instead of dmenu 
+#use Rofi instead of dmenu 
 bindsym $mod+d exec rofi -show run
 

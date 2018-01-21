@@ -14,6 +14,9 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
+format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-underline = ${self.format-charging-underline}
+
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -37,13 +40,15 @@ border-size = 1
 border-color = #00000000
 
 padding-left = 0
-padding-right = 4
+padding-right = 2
 
 module-margin-left = 2
 module-margin-right = 2
 
-font-0 = "FontAwesome:pixelsize=10.0"
-font-1 = "DevaVu Sans Mono:pixelsize=8.0"
+font-1 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
+font-0 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
+font-2 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-3 = DevaVu Sans Mono:pixelsize=8;1
 
 modules-left = i3
 modules-center = date mpd volume xbacklight
@@ -52,7 +57,7 @@ modules-right = temperature memory cpu wlan eth battery powermenu
 tray-position = right
 tray-padding = 2
 tray-transparent = true
-;tray-background = #0063ff
+;5tray-background = #0063ff
 
 ;wm-restack = bspwm
 wm-restack = i3
@@ -98,19 +103,19 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/bspwm]
 type = internal/bspwm
 
-label-focused = %index%
+label-focused = %icon%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
 label-focused-padding = 2
 
-label-occupied = %index%
+label-occupied = %icon%
 label-occupied-padding = 2
 
-label-urgent = %index%!
+label-urgent = %icon%
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
-label-empty = %index%
+label-empty = %icon%
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
@@ -123,34 +128,34 @@ fuzzy-match		= true
 
 label-visible		 = %icon%
 label-visible-foreground = #aaaaaa
-label-visible-padding	= 1
+label-visible-padding	= 2
 label-visible-underline = #FFFFFF
 
 label-focused		= %icon%
 label-focused-foreground = #ff4500
-label-focused-padding	= 1
+label-focused-padding	= 2
 label-focused-underline = #FFFFFF
 
 label-unfocused		= %icon%
 label-unfocused-foreground = #444444
-label-unfocused-padding	= 1
+label-unfocused-padding	= 2
 
 label-urgent		= %icon%
 label-urgent-foreground	= #FF5F5F
-label-urgent-padding	= 1
+label-urgent-padding	= 2
 
 
 ws-icon-0		= 1;
 ws-icon-1		= 2;
-ws-icon-2		= 3;
+ws-icon-2		= 3;
 ws-icon-3		= 4;
-ws-icon-4		= 5;
-ws-icon-5		= 6;
-ws-icon-6		= 7;
-ws-icon-7		= 8;
+ws-icon-4		= 5;
+ws-icon-5		= 6;
+ws-icon-6		= 7;
+ws-icon-7		= 8;
 ws-icon-8		= 9;
-ws-icon-9		= 10;
-ws-icon-default		= 
+ws-icon-9		= 10;
+ws-icon-default		= 
 
 ; Create click handler used to focus workspace
 ; Default: true
@@ -302,16 +307,18 @@ format-charging-underline = #ffb52a
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = ""
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 =  
-ramp-capacity-2 = 
-ramp-capacity-3 = 
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-foreground =${colors.foreground-alt}
+ramp-capacity-fill =${colors.foreground-alt}
 
 animation-charging-0 = 
 animation-charging-1 = 
@@ -343,7 +350,7 @@ type = custom/menu
 
 format-spacing = 1
 
-label-open = 
+label-open = 
 label-open-foreground = ${colors.secondary}
 label-close =  
 label-close-foreground = ${colors.secondary}
